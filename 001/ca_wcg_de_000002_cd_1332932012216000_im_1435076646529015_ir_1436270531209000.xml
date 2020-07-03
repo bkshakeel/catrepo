@@ -4,7 +4,7 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1593770825252"/>
+  <last-update time="1593790645530"/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change/>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1593770825252"/>
+    <last-update time="1593790645530"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1593770825252"/>
+    <last-update time="1593790645530"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1593770825252"/>
+          <last-update time="1593790645530"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1593770825252"/>
+    <last-update time="1593790645530"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -108,6 +108,29 @@
         <bend-points/>
       </link>
     </links>
+  </component>
+  <component type="is" id="1593790637848001" title="Credi Informacoes" version="001" sub-type="" reference="crediInformacoes" x-coordinate="559" y-coordinate="264" width="185" height="183" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1436270531209000_is_1593790637848001" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1593790645530"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <crediinformacoes-plugin/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
   </component>
   <properties/>
 </report>
