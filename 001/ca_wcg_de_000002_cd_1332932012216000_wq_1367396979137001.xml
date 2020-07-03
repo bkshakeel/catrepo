@@ -1,0 +1,31 @@
+
+<wq id="1367396979137001" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1367396979137001" access-code="" type="wq" title="Admin" version="001" sub-type="" reference="workqueue"> 
+  <last-update time="1367397117240"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>LTV score added</reason-for-change>  
+  <config-class>com.wcg.catalyst.wq.config.WorkQueueConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <tracking-points/>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <escalations/>  
+    <user-fields/>  
+    <tracking-points/>  
+    <working-day-calendar> 
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1367396979137001_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+        <last-update time="1367397117240"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </working-day-calendar>  
+    <manual-activities> 
+      <manual-activity activity-name="Admin follow-up" process-name="Submit" title="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_122406742540605_ac_122406758479613"/> 
+    </manual-activities>  
+    <max-work-items>10</max-work-items>  
+    <sort-order-list/> 
+  </config>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</wq>

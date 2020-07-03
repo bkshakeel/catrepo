@@ -1,0 +1,406 @@
+
+<sheet catalyst-version="5.0" id="1436273816409001" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1436273816409001" access-code="" type="ws" title="Max Term By Bookvalue" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1436274822418"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Imported worksheet at 2015/07/07 14:13</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Effective Date"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Expiry Date"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Channel Code"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Branch Assigned Code"/>  
+        <col id="0005" seq="0005" marked="false" shrunk="false" mark-on-off="false" header="Pricing Code"/>  
+        <col id="0006" seq="0006" marked="false" shrunk="false" mark-on-off="false" header="Partner Code"/>  
+        <col id="0007" seq="0007" marked="false" shrunk="false" mark-on-off="false" header="Book Value Min"/>  
+        <col id="0008" seq="0008" marked="false" shrunk="false" mark-on-off="false" header="Book Value Max"/>  
+        <col id="0009" seq="0009" marked="false" shrunk="false" mark-on-off="false" header="Max Term"/>  
+        <col id="0010" seq="0010" marked="false" shrunk="false" mark-on-off="false" header="Min Term"/>  
+        <col id="0011" seq="0011" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0012" seq="0012" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0013" seq="0013" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0014" seq="0014" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0015" seq="0015" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0016" seq="0016" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0017" seq="0017" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0018" seq="0018" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0019" seq="0019" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0020" seq="0020" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0021" seq="0021" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0022" seq="0022" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0023" seq="0023" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0024" seq="0024" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0025" seq="0025" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0026" seq="0026" marked="false" shrunk="false" mark-on-off="false" header=""/>  
+        <col id="0027" seq="0027" marked="false" shrunk="false" mark-on-off="false" header=""/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1436274582708000" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1436274582708001" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1436274582708002" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1436274582708003" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1436274582708004" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1436274582708005" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1436274582708006" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1436274582708007" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1436274582708008" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1436274582709009" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1436274582709010" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1436274582709027" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0016"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0017"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0018"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0019"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0020"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0021"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0022"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0023"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0024"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0025"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0026"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0027"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="1" marked="false"> 
+          <col id="0000"> 
+            <value id="1436274582709028" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1436274582709029" name="" value="01/07/2015" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1436274582709030" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1436274582709031" name="" value="TOYOTA_1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1436274582709032" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1436274582709033" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1436274582709034" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1436274582709035" name="" value="0" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1436274582709036" name="" value="10000" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1436274582710037" name="" value="60" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1436274582710038" name="" value="36" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1436274582711055" name="" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0016"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0017"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0018"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0019"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0020"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0021"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0022"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0023"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0024"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0025"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0026"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0027"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1436274582711056" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1436274582711057" name="" value="01/07/2015" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1436274582711058" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1436274582711059" name="" value="TOYOTA_1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1436274582711060" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1436274582711061" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1436274582711062" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1436274582711063" name="" value="10000" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1436274582711064" name="" value="999999" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1436274582712065" name="" value="72" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1436274582712066" name="" value="36" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1436274582713083" name="" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0016"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0017"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0018"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0019"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0020"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0021"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0022"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0023"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0024"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0025"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0026"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0027"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0011" seq="11" title="" marked="false"> 
+          <col id="0000"> 
+            <value id="1436274582728280" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1436274582728281" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1436274582728282" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1436274582728283" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1436274582728284" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1436274582728285" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1436274582728286" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1436274582728287" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1436274582728288" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1436274582728289" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1436274582728290" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1436274582730307" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0016"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0017"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0018"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0019"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0020"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0021"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0022"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0023"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0024"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0025"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0026"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0027"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

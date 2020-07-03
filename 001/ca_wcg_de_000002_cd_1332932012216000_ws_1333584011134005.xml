@@ -1,0 +1,124 @@
+
+<sheet catalyst-version="5.0" id="1333584011134005" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1333584011134005" access-code="a1" type="ws" title="Policy values" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1470152165188"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Value"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Minimum age" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584040388006" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="22" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="Maximum age" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584092648007" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="70" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="Min term (months)" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584142684008" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="12" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="Maximum term" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584174319010" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="60" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="Minimum deposit" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584209105011" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="12" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="Max age at term end" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584250589012" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="75" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="Min time at address" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584285821013" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="3" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="Min time with employer" marked="false"> 
+          <col id="0000"> 
+            <value id="1333584316060014" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="2" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0009" seq="9" title="Max Loan to value" marked="false"> 
+          <col id="0000"> 
+            <value id="1357740487572000" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="90" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0010" seq="10" title="Min Decline Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1400665097689020" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="108" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0011" seq="11" title="Min Refer Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1428920860476000" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1428920911562001" name="Number" value="114" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

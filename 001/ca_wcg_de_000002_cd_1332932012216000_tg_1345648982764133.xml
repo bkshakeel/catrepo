@@ -1,0 +1,14 @@
+
+<templates catalyst-version="5.0" id="1345648982764133" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1345648982764133" access-code="a1" type="tg" title="XSL Transforms" version="001" sub-type="" reference=""> 
+  <last-update time="1357723681381"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Tidy</reason-for-change>  
+  <config-class/>  
+  <last-update-by>mgb</last-update-by>  
+  <component type="tp" id="1345648999295134" title="CarmaxProposal" version="001" sub-type="" reference="" x-coordinate="60" y-coordinate="36" width="100" height="100"/>  
+  <component type="tp" id="1346261930895030" title="DealerTrackProposal" version="001" sub-type="" reference="" x-coordinate="180" y-coordinate="36" width="100" height="100"/>  
+  <component type="tp" id="1346261946235031" title="RouteOneProposal" version="001" sub-type="" reference="" x-coordinate="300" y-coordinate="36" width="100" height="100"/>  
+  <component type="tp" id="1346261960410032" title="BranchProposal" version="001" sub-type="" reference="" x-coordinate="420" y-coordinate="36" width="100" height="100"/>  
+  <component type="tp" id="1357721957385001" title="XSL Transform template" version="001" sub-type="" reference="" x-coordinate="64" y-coordinate="354" width="100" height="100"/>  
+  <properties/> 
+</templates>

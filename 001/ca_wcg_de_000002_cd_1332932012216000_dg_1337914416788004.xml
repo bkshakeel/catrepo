@@ -1,0 +1,97 @@
+
+<dictionary-group catalyst-version="5.0" id="1337914416788004" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004" access-code="a1" type="dg" title="CALMS Financial" version="001" sub-type="" reference="dictionary"> 
+  <last-update time="1352721238775"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <component type="di" id="Downpayment Percent" title="Downpayment Percent" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Downpayment Percent" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Downpayment Percent" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="a-downpayment-percent" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Product Code" title="Product Code" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Product Code" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Product Code" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-product-code" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Selling Price" title="Selling Price" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Selling Price" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Selling Price" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="a-selling-price" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Special Campaign" title="Special Campaign" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Special Campaign" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Special Campaign" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-special-campaign" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Term in Months" title="Term in Months" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Term in Months" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Term in Months" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="a-term-months" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Total Deposit Amount" title="Total Deposit Amount" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914416788004_di_Total Deposit Amount" access-code=""> 
+    <last-update time="1352721238775"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Total Deposit Amount" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="a-total-deposit" get-address="" set-address=""> 
+      <last-update time="1352721238775"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <properties/> 
+</dictionary-group>

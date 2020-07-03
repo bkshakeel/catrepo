@@ -1,0 +1,15 @@
+
+<templates catalyst-version="5.0" id="1332943502421205" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1332943502421205" access-code="a1" type="tg" title="Emails" version="001" sub-type="" reference=""> 
+  <last-update time="1389037268709"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change/>  
+  <config-class/>  
+  <last-update-by>mgb</last-update-by>  
+  <component type="tp" id="1332943516797206" title="Failed activation" version="001" sub-type="" reference="" x-coordinate="288" y-coordinate="276" width="193" height="100"/>  
+  <component type="tp" id="1334765184017009" title="Welcome" version="001" sub-type="" reference="" x-coordinate="48" y-coordinate="276" width="193" height="100"/>  
+  <component type="tp" id="1339978452970215" title="Remind dealer documents" version="001" sub-type="" reference="" x-coordinate="48" y-coordinate="156" width="193" height="100"/>  
+  <component type="tp" id="1345644031648050" title="Warn payout supervisor" version="001" sub-type="" reference="" x-coordinate="288" y-coordinate="156" width="193" height="100"/>  
+  <component type="tp" id="1345651334410000" title="New Lead" version="001" sub-type="" reference="" x-coordinate="288" y-coordinate="36" width="193" height="100"/>  
+  <component type="tp" id="1388939644010008" title="Warn u/w supervisor" version="001" sub-type="" reference="" x-coordinate="48" y-coordinate="36" width="193" height="100"/>  
+  <properties/> 
+</templates>

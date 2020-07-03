@@ -1,0 +1,229 @@
+
+<ruleset catalyst-version="5.0" id="122415400045306" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306" access-code="a1" type="rs" title="Sign off level" version="001" sub-type="" reference="ruleset" cumulative="false" active="" active-address=""> 
+  <last-update time="1352721237252"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.re.config.RulesetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <last-update-by>catalyst</last-update-by>  
+  <component type="ru" id="122415400048407" title="End" version="001" sub-type="end" reference="endruleset" x-coordinate="804" y-coordinate="180" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_122415400048407" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1352721237252"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_122415400048407_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="wf-result" get-address="" set-address=""> 
+          <last-update time="1352721237252"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type>end</rule-type> 
+  </component>  
+  <component type="ru" id="122415400048408" title="Start" version="001" sub-type="start" reference="startruleset" x-coordinate="156" y-coordinate="24" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_122415400048408" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1352721237252"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type>start</rule-type>  
+    <next-rule target-id="1268067452828074" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1268067452828074" title="Up to 10,000" version="001" sub-type="" reference="rule" x-coordinate="348" y-coordinate="24" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1352721237252"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1268067479125075" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067479125075" access-code="" title="1268067479125075" version="001" sub-type="" reference="" seq="1" concatenator="" operator="ltequal"> 
+      <last-update time="1352721237252"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067479125075_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="1" pipe-name="dataitem" pipe-item-name="a-loan-amount" get-address="" set-address=""> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067479125075_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="2"> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>10000
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1268067498906076" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067498906076" access-code="" title="1268067498906076" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1352721237252"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067498906076_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="wf-result" get-address="" set-address=""> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067452828074_null_1268067498906076_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>1
+      </operand> 
+    </action>  
+    <next-rule target-id="1268067518718077" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="122415400048407" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1268067518718077" title="Up to 50,000" version="001" sub-type="" reference="rule" x-coordinate="348" y-coordinate="180" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1352721237252"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1268067648109079" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067648109079" access-code="" title="1268067648109079" version="001" sub-type="" reference="" seq="1" concatenator="" operator="ltequal"> 
+      <last-update time="1352721237252"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067648109079_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="1" pipe-name="dataitem" pipe-item-name="a-loan-amount" get-address="" set-address=""> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067648109079_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="2"> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>50000
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1268067670640080" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067670640080" access-code="" title="1268067670640080" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1352721237252"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067670640080_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="wf-result" get-address="" set-address=""> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067518718077_null_1268067670640080_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>2
+      </operand> 
+    </action>  
+    <next-rule target-id="1268067539234078" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="122415400048407" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1268067539234078" title="Over 50,000" version="001" sub-type="" reference="rule" x-coordinate="348" y-coordinate="348" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067539234078" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1352721237252"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <action catalyst-version="5.0" id="1268067688531081" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067539234078_null_1268067688531081" access-code="" title="1268067688531081" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1352721237252"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067539234078_null_1268067688531081_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="wf-result" get-address="" set-address=""> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_122415400045306_ru_1268067539234078_null_1268067688531081_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1352721237252"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>3
+      </operand> 
+    </action>  
+    <next-rule target-id="122415400048407" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <properties/> 
+</ruleset>

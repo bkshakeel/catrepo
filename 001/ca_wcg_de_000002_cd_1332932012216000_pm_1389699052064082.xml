@@ -1,0 +1,269 @@
+
+<process id="1389699052064082" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082" access-code="" type="pm" title="Load balance" version="001" sub-type="" reference="process" time-out=""> 
+  <last-update time="1389703459511"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Work Queue examples added</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>mgb</last-update-by>  
+  <component type="ac" id="1389699052065084" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="288" y-coordinate="24" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699052065084" access-code=""> 
+    <last-update time="1389703459511"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1389699248367085" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1389699248367085" title="Set Queues" version="001" sub-type="" reference="calculator" x-coordinate="288" y-coordinate="144" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699248367085" access-code=""> 
+    <last-update time="1389703459511"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="string-set" seq="1"> 
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699248367085_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="target" pipe-name="dataitem" pipe-item-name="d-bal-q" get-address="" set-address=""> 
+          <last-update time="1389703459511"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699248367085_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="opt1"> 
+          <last-update time="1389703459511"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Team A,Tema B,Team C,Team D
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1389699261933086" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1389699261933086" title="Choose Queue" version="001" sub-type="" reference="beanshell" x-coordinate="288" y-coordinate="276" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699261933086" access-code=""> 
+    <last-update time="1389703459516"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.BeanShellActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.BeanShellActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <source><![CDATA[ArrayList inQueues = new ArrayList();
+StringTokenizer st = new StringTokenizer(queues, ",");
+while (st.hasMoreTokens()) {
+  inQueues.add(st.nextToken);
+}
+HashMap sizes = WorkQueueAccessService.getWorkListSize(inQueues.toArry());
+intshortestQueue = "1";
+int shortestQueueSize = 99999;
+int q = 0;
+for (String wq: inQueues) {
+  q += 1;
+  if (sizes.get(wq).intValue() < shortestQueueSize) {
+    shortestQueue = q;
+    shortestQueueSize = sizes.get(wq).intValue();
+  }
+}
+char result = \u096A + shortestQueue;
+catalystPipe.getPipe("dataitem").setText("wfresult", result.toString());]]></source>  
+      <data-items> 
+        <item variable-name="queues" type="java.lang.String"> 
+          <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699261933086_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-bal-q" get-address="" set-address=""> 
+            <last-update time="1389703459516"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </item> 
+      </data-items> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1389699296927087" value1="a" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389699299515088" value1="b" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389699301226089" value1="c" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389699303197090" value1="d" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1389699296927087" title="Team A" version="001" sub-type="" reference="manual" x-coordinate="108" y-coordinate="420" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699296927087" access-code=""> 
+    <last-update time="1389703459516"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699296927087_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389703459516"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389699299515088" title="Team B" version="001" sub-type="" reference="manual" x-coordinate="252" y-coordinate="420" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699299515088" access-code=""> 
+    <last-update time="1389703459516"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699299515088_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389703459516"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389699301226089" title="Team C" version="001" sub-type="" reference="manual" x-coordinate="396" y-coordinate="420" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699301226089" access-code=""> 
+    <last-update time="1389703459516"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699301226089_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389703459516"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389699303197090" title="Team D" version="001" sub-type="" reference="manual" x-coordinate="528" y-coordinate="420" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699303197090" access-code=""> 
+    <last-update time="1389703459516"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389699052064082_ac_1389699303197090_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389703459516"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <properties/> 
+</process>

@@ -1,0 +1,96 @@
+
+<sheet catalyst-version="5.0" id="1372141329361011" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1372141329361011" access-code="" type="ws" title="Scorecard select" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1473872172331"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Cust type"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Brand"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Scorecard"/>  
+        <col id="0005" seq="0005" marked="false" shrunk="false" mark-on-off="false" header="SC Row"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1372141470960012" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1372141475933013" name="Text" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1372141481079014" name="Text" value="= " type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372141493885016" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1372141496869017" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="001" marked="false"> 
+          <col id="0000"> 
+            <value id="1372141574336018" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1372141579204019" name="Number" value="PI" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1372141581315020" name="Number" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372141586868022" name="Number" value="Consumer" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1372141589246023" name="Number" value="0001" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="002" marked="false"> 
+          <col id="0000"> 
+            <value id="1372141607341024" name="Number" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1372141612634025" name="Number" value="CO" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1372141615083026" name="Number" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372141620445028" name="Number" value="Commercial" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1372141623220029" name="Number" value="0002" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

@@ -1,0 +1,584 @@
+
+<process catalyst-version="5.0" id="1504628791127006" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006" access-code="a1" type="pm" title="Check If Process Exists" version="001" sub-type="" reference="process" time-out=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509428132"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="ac" id="1504628791674007" title="Exists" version="001" sub-type="end" reference="endproc" x-coordinate="678" y-coordinate="541" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628791674007" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628791674007_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Y
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>endproc</activity-type>  
+    <next-activity/>  
+    <links/> 
+  </component>  
+  <component type="ac" id="1504628791674008" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="100" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628791674008" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1504628890853009" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1504628890853009" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1504628890853009" title="Load" version="001" sub-type="" reference="calculator" x-coordinate="340" y-coordinate="190" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <preprocessor catalyst-version="5.0" id="1504628909582010" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628909582010" access-code="" title="clear" version="001" sub-type="" reference="" seq="0" notes=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509428132"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.RemoveObjectProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.RemoveObjectProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <remove> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628909582010_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="1" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628909582010_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="2" pipe-name="dataitem" pipe-item-name="d-catalyst-proc-exists" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628909582010_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="3" pipe-name="object" pipe-item-name="d-proc-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </remove> 
+      </config> 
+    </preprocessor>  
+    <preprocessor catalyst-version="5.0" id="1504628965309011" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628965309011" access-code="" title="get factory" version="001" sub-type="" reference="" seq="1" notes=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509428132"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CallMethodProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CallMethodProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <class> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628965309011_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="name"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>com.wcg.catalyst.environment.EnvironmentSingletonFactory
+          </operand> 
+        </class>  
+        <constructor/>  
+        <method> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628965309011_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method-name"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>getInstance
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504628965309011_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="return-value-key" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </method> 
+      </config> 
+    </preprocessor>  
+    <preprocessor catalyst-version="5.0" id="1504629048404012" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012" access-code="" title="get manager" version="001" sub-type="" reference="" seq="2" notes=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509428132"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CallMethodProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CallMethodProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <class> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="call-object" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </class>  
+        <constructor/>  
+        <method> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method-name"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>getSingleton
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="return-value-key" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <argument seq="1" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="arg-name"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1506509428132"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </argument>  
+          <argument seq="2" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629048404012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="arg-name"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1506509428132"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>EnvironmentModelManager
+            </operand> 
+          </argument> 
+        </method> 
+      </config> 
+    </preprocessor>  
+    <preprocessor catalyst-version="5.0" id="1504629167619013" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629167619013" access-code="" title="get process" version="001" sub-type="" reference="" seq="3" notes=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509428132"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CallMethodProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CallMethodProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <class> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629167619013_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="call-object" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </class>  
+        <constructor/>  
+        <method> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629167619013_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method-name"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>getProcessByName
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629167619013_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="return-value-key" pipe-name="object" pipe-item-name="d-proc-obj" get-address="" set-address="" return-type=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509428132"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <argument seq="1" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504628890853009_null_1504629167619013_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="arg-name" pipe-name="dataitem" pipe-item-name="CatalystProcess" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1506509428132"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </argument> 
+        </method> 
+      </config> 
+    </preprocessor>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1504629467803022" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1504629467803022" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ru" id="1504629257375014" title="New Rule" version="001" sub-type="" reference="rule" x-coordinate="531" y-coordinate="377" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ru_1504629257375014" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1504629553852026" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ru_1504629257375014_null_1504629553852026" access-code="" title="1504629553852026" version="001" sub-type="" reference="" seq="1" concatenator="" operator="isnull"> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509428132"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ru_1504629257375014_null_1504629553852026_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="1" pipe-name="object" pipe-item-name="d-proc-obj" get-address="" set-address="" return-type=""> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1506509428132"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ru_1504629257375014_null_1504629553852026_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="2"> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1506509428132"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </condition>  
+    <next-rule target-id="1504628791674007" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1504629304069016" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <links> 
+      <link target-id="1504628791674007" value1="false" restart-point="false"> 
+        <bend-points/> 
+      </link>  
+      <link target-id="1504629304069016" value1="true" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1504629304069016" title="Does not exist" version="001" sub-type="" reference="endproc" x-coordinate="441" y-coordinate="542" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504629304069016" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504629304069016_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>N
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/>  
+    <links/> 
+  </component>  
+  <component type="in" id="1504629342244017" title="New Injector" version="001" sub-type="" reference="injector" x-coordinate="507" y-coordinate="64" width="80" height="80" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_in_1504629342244017" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.autotest.config.TestItemInjectorConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.designer.trialrun.Injector</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <item seq="1"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_in_1504629342244017_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="name" pipe-name="dataitem" pipe-item-name="CatalystProcess" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_in_1504629342244017_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="value"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>BSProcessChecks
+        </operand> 
+      </item> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <links/> 
+  </component>  
+  <component type="ac" id="1504629467803022" title="Show Pipe" version="001" sub-type="" reference="show-pipe" x-coordinate="652" y-coordinate="210" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504629467803022" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509428132"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.PipeShowActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.PipeShowActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <output type="log"/>  
+      <show all-data-items="false"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504629467803022_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="1" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1504628791127006_ac_1504629467803022_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="2" pipe-name="object" pipe-item-name="d-proc-obj" get-address="" set-address="" return-type=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509428132"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </show> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1504629257375014" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1504629257375014" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <properties/> 
+</process>

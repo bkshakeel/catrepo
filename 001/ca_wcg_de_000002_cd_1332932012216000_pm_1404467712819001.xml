@@ -1,0 +1,295 @@
+
+<process catalyst-version="5.0" id="1404467712819001" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001" access-code="" type="pm" title="Stipulations" version="001" sub-type="" reference="process" time-out=""> 
+  <last-update time="1404836830086"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="ac" id="1404467714600002" title="End process - OK" version="001" sub-type="end" reference="endproc" x-coordinate="98" y-coordinate="419" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467714600002" access-code=""> 
+    <last-update time="1404836830086"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467714600002_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <last-update time="1404836830086"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>endproc</activity-type>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1404467714600003" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="98" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467714600003" access-code=""> 
+    <last-update time="1404836830086"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1404467775464022" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1404467740420021" title="Add Stipulation" version="001" sub-type="" reference="calculator" x-coordinate="287" y-coordinate="257" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021" access-code=""> 
+    <last-update time="1404836830086"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <preprocessor catalyst-version="5.0" id="1404467740420012" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012" access-code="" title="Bank Guarantee" version="001" sub-type="" reference="" seq="0" notes=""> 
+      <last-update time="1404836830086"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CallMethodProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CallMethodProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <class> 
+          <operand catalyst-version="5.0" id="1404467740420014" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_1404467740420014" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="call-object"> 
+            <last-update time="1404836830086"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>Calms service
+          </operand>  
+          <operand catalyst-version="5.0" id="1404467740420016" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_1404467740420016" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="exception-key" pipe-name="object" pipe-item-name="d-external-exception" get-address="" set-address="" return-type="java.lang.Exception"> 
+            <last-update time="1404836830086"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </class>  
+        <constructor/>  
+        <method> 
+          <operand catalyst-version="5.0" id="1404467740420019" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_1404467740420019" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method-name"> 
+            <last-update time="1404836830086"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>updateApplicationStipulation
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="return-value-key" pipe-name="dataitem" pipe-item-name="d-temp-text" get-address="" set-address=""> 
+            <last-update time="1404836830086"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <argument seq="1" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="1404467740420020" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_1404467740420020" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="arg-name" pipe-name="dataitem" pipe-item-name="a-genus-proposal-id" get-address="" set-address=""> 
+              <last-update time="1404836830086"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </argument>  
+          <argument seq="2" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="arg-name"> 
+              <last-update time="1404836830086"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>BANKG
+            </operand> 
+          </argument>  
+          <argument seq="3" type="java.lang.String"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404467740420021_null_1404467740420012_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="arg-name"> 
+              <last-update time="1404836830086"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>OPEN
+            </operand> 
+          </argument> 
+        </method> 
+      </config> 
+    </preprocessor>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1404468269545025" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ru" id="1404467775464022" title="Bank Guarantee?" version="001" sub-type="" reference="rule" x-coordinate="96" y-coordinate="257" width="104" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1404836830086"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1404467838629023" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404467838629023" access-code="" title="1404467838629023" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1404836830086"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404467838629023_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-cust-type" get-address="" set-address=""> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404467838629023_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>PI
+      </operand> 
+    </condition>  
+    <condition id="1404832361318000" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404832361318000" access-code="" title="1404832361318000" version="001" sub-type="" reference="" seq="2" concatenator="AND" operator="greater"> 
+      <last-update time="1404836830086"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="1" pipe-name="dataitem" pipe-item-name="a-asset-value" get-address="" set-address=""> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="2"> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>30000
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1404724846677000" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404724846677000" access-code="" title="1404724846677000" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1404836830086"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404724846677000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="object" get-address="getMessages" set-address="addMessage" return-type="com.wcg.catalyst.pa.config.ActionMessage"> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>  
+        <operand catalyst-version="5.0" id="1332932243354038" full-id="null_null_1332932243354038" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="source" pipe-name="object" pipe-item-name="$$-action-message" get-address="" set-address="" return-type="com.wcg.catalyst.pa.config.ActionMessage"> 
+          <last-update time="1404836830086"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1332932243354040" full-id="null_null_1332932243354040" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="get-address-key"> 
+          <last-update time="1404836830086"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1332932243354042" full-id="null_null_1332932243354042" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="set-address-key"> 
+          <last-update time="1404836830086"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ru_1404467775464022_null_1404724846677000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1404836830086"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Bank Guarantee required
+      </operand> 
+    </action>  
+    <next-rule target-id="1404467740420021" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1404467714600002" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ac" id="1404468269545025" title="End process - OK" version="001" sub-type="" reference="endproc" x-coordinate="461" y-coordinate="257" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404468269545025" access-code=""> 
+    <last-update time="1404836830086"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1404467712819001_ac_1404468269545025_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <last-update time="1404836830086"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <properties/> 
+</process>

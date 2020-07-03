@@ -1,0 +1,19 @@
+
+<server id="1372143949400002" full-id="ca_wcg_cc_000001_co_1372143935391000_sv_1372143949400002" access-code="" type="sv" title="SV002" version="001" sub-type="" reference=""> 
+  <last-update time="1372144039858"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Servers added</reason-for-change>  
+  <config-class/>  
+  <contact-email/>  
+  <contact-name/>  
+  <contact-phone/>  
+  <contact-sms/>  
+  <ip/>  
+  <location/>  
+  <os/>  
+  <environment target-id="1372143968609005"> 
+    <bend-points/> 
+  </environment>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</server>

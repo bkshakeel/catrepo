@@ -1,0 +1,15 @@
+
+<group catalyst-version="5.0" id="000001" full-id="ca_wcg_cc_000001" access-code="" type="cc" title="Companies" version="001" sub-type="" reference=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1442417638311"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Servers added</reason-for-change>  
+  <config-class/>  
+  <component type="co" id="1372143935391000" title="WCG" version="001" sub-type="" reference="" x-coordinate="299" y-coordinate="46" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <properties/> 
+</group>

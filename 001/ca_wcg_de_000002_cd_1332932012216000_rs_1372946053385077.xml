@@ -1,0 +1,447 @@
+
+<ruleset catalyst-version="5.0" id="1372946053385077" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077" access-code="a1" type="rs" title="Set Worksheet for Country" version="001" sub-type="" reference="ruleset" cumulative="false" active="" active-address=""> 
+  <last-update time="1399032315938"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2014/05/02 13:05</reason-for-change>  
+  <config-class>com.wcg.catalyst.re.config.RulesetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="ru" id="1372946053385007" title="End" version="001" sub-type="end" reference="endruleset" x-coordinate="348" y-coordinate="380" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385007" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315938"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="1372946053385009" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385007_null_1372946053385009" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="1"> 
+          <last-update time="1399032315938"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>OK
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type>end</rule-type> 
+  </component>  
+  <component type="ru" id="1372946053385010" title="Start" version="001" sub-type="start" reference="startruleset" x-coordinate="-103" y-coordinate="6" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385010" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315938"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type>start</rule-type>  
+    <next-rule target-id="1372946053385076" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385021" title="Brazil" version="001" sub-type="" reference="rule" x-coordinate="123" y-coordinate="150" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315938"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385015" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385015" access-code="" title="1331633717918004" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315938"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385012" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385015_null_1372946053385012" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315938"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385014" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385015_null_1372946053385014" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315938"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>BR
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385020" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385020" access-code="" title="1331637576911004" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315938"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385017" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385020_null_1372946053385017" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315938"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385019" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385021_null_1372946053385020_null_1372946053385019" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315938"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters BR
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385032" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385032" title="Italy" version="001" sub-type="" reference="rule" x-coordinate="290" y-coordinate="150" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315938"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385026" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385026" access-code="" title="1331633794174007" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315938"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385023" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385026_null_1372946053385023" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385025" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385026_null_1372946053385025" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>IT
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385031" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385031" access-code="" title="1331637609710005" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315939"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385028" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385031_null_1372946053385028" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385030" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385032_null_1372946053385031_null_1372946053385030" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters IT
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385043" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385043" title="France" version="001" sub-type="" reference="rule" x-coordinate="453" y-coordinate="153" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315939"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385037" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385037" access-code="" title="1331633891454010" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315939"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385034" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385037_null_1372946053385034" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385036" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385037_null_1372946053385036" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>FR
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385042" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385042" access-code="" title="1331637661814006" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315939"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385039" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385042_null_1372946053385039" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385041" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385043_null_1372946053385042_null_1372946053385041" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315939"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters FR
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385065" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385054" title="Benelux" version="001" sub-type="" reference="rule" x-coordinate="771" y-coordinate="150" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315939"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385048" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385048" access-code="" title="1331633943918013" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315939"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385045" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385048_null_1372946053385045" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385047" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385048_null_1372946053385047" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>BE
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385053" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385053" access-code="" title="1331637698038009" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315940"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385050" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385053_null_1372946053385050" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385052" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385054_null_1372946053385053_null_1372946053385052" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters BE
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385007" value1="false" restart-point="false"> 
+      <bend-points> 
+        <point index="0" x="701" y="430"/> 
+      </bend-points> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385065" title="Netherlands" version="001" sub-type="" reference="rule" x-coordinate="610" y-coordinate="150" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315940"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385059" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385059" access-code="" title="1340806945556001" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315940"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385056" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385059_null_1372946053385056" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385058" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385059_null_1372946053385058" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>NL
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385064" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385064" access-code="" title="1340806982621002" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315940"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385061" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385064_null_1372946053385061" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385063" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385065_null_1372946053385064_null_1372946053385063" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters NL
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385054" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1372946053385076" title="UK" version="001" sub-type="" reference="rule" x-coordinate="-61" y-coordinate="150" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1399032315940"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1372946053385070" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385070" access-code="" title="1331633717918004" version="001" sub-type="" reference="" seq="1" concatenator="" operator="equal"> 
+      <last-update time="1399032315940"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385067" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385070_null_1372946053385067" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="COUNTRY_CODE"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385069" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385070_null_1372946053385069" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315940"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>UK
+      </operand> 
+    </condition>  
+    <action catalyst-version="5.0" id="1372946053385075" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385075" access-code="" title="1331637576911004" version="001" sub-type="" reference="" seq="1" operator="equals"> 
+      <last-update time="1399032315940"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1372946053385072" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385075_null_1372946053385072" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-tolerance-worksheet-name" get-address="" set-address=""> 
+        <last-update time="1399032315941"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1372946053385074" full-id="ca_wcg_de_000002_cd_1332932012216000_rs_1372946053385077_ru_1372946053385076_null_1372946053385075_null_1372946053385074" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="2"> 
+        <last-update time="1399032315941"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>Tolerance Parameters UK
+      </operand> 
+    </action>  
+    <next-rule target-id="1372946053385021" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1372946053385007" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <properties/> 
+</ruleset>

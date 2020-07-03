@@ -1,0 +1,50 @@
+
+<company catalyst-version="5.0" id="1372143935391000" full-id="ca_wcg_cc_000001_co_1372143935391000" access-code="" type="co" title="WCG" version="001" sub-type="" reference=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1442417638258"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class/>  
+  <contact-email/>  
+  <contact-name/>  
+  <contact-phone/>  
+  <contact-sms/>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="sv" id="1372143945336001" title="SV001" version="001" sub-type="" reference="" x-coordinate="228" y-coordinate="98" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="sv" id="1372143949400002" title="SV002" version="001" sub-type="" reference="" x-coordinate="456" y-coordinate="96" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="sv" id="1372143957801003" title="SV003" version="001" sub-type="" reference="" x-coordinate="660" y-coordinate="96" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1372143966111004" title="DEV" version="001" sub-type="" reference="environment" x-coordinate="156" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1372143968609005" title="UAT" version="001" sub-type="" reference="environment" x-coordinate="456" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1372143970766006" title="Production" version="001" sub-type="" reference="environment" x-coordinate="660" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1388750497404006" title="INT" version="001" sub-type="" reference="environment" x-coordinate="288" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="sv" id="1399970191858001" title="Country" version="001" sub-type="" reference="" x-coordinate="984" y-coordinate="96" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1399970202578002" title="Client 1" version="001" sub-type="" reference="environment" x-coordinate="864" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1399970205238003" title="Client 2" version="001" sub-type="" reference="environment" x-coordinate="984" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <component type="en" id="1399970209778004" title="Client 3" version="001" sub-type="" reference="environment" x-coordinate="1104" y-coordinate="252" width="100" height="100"> 
+    <links/> 
+  </component>  
+  <properties/> 
+</company>

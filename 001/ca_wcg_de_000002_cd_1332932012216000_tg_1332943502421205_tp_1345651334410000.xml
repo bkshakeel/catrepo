@@ -1,0 +1,21 @@
+
+<template catalyst-version="5.0" id="1345651334410000" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1332943502421205_tp_1345651334410000" access-code="a1" type="tp" title="New Lead" version="001" sub-type="" reference=""> 
+  <last-update time="1388944245242"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Suzuki added</reason-for-change>  
+  <config-class/>  
+  <template-text><![CDATA[New Lead
+
+Customer
+Name:                   <<pipe|text|dataitem|a-first-name-1|null||>> <<pipe|text|dataitem|a-last-name-1|null||>>   
+Address:               <<pipe|text|dataitem|a-addr-h-number-cur-1|null||>>  <<pipe|text|dataitem|a-addr-street-cur-1|null||>>  
+                              <<pipe|text|dataitem|a-addr-town-cur-1|null||>>       
+                              <<pipe|text|dataitem|a-addr-postcode-cur-1|null||>>            
+
+Lead reason:         <<pipe|text|dataitem|a-lead-reason|null||>>        
+
+Existing contract: <<pipe|text|dataitem|a-contract-no|null||>>           ]]></template-text>  
+  <template-type>text</template-type>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</template>

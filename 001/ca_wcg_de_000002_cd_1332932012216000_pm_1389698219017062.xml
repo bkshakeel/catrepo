@@ -1,0 +1,327 @@
+
+<process catalyst-version="5.0" id="1389698219017062" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062" access-code="" type="pm" title="Sign-off (DT)" version="001" sub-type="" reference="process" time-out=""> 
+  <last-update time="1389862819009"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>mgb</last-update-by>  
+  <component type="ac" id="1389698219013039" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="312" y-coordinate="36" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219013039" access-code=""> 
+    <last-update time="1389862819009"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1389698254264069" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1389698219015053" title="Low" version="001" sub-type="" reference="manual" x-coordinate="12" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219015053" access-code=""> 
+    <last-update time="1389862819010"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389698219016055" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219015053_null_1389698219016055" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819010"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389698219016056" title="Medium" version="001" sub-type="" reference="manual" x-coordinate="168" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219016056" access-code=""> 
+    <last-update time="1389862819010"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389698219016058" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389697925022028_ac_1389698041770035_null_1389698219016058" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819010"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389698219017059" title="High" version="001" sub-type="" reference="manual" x-coordinate="324" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219017059" access-code=""> 
+    <last-update time="1389862819010"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389698219017061" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698219017059_null_1389698219017061" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819010"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389698254264069" title="Choose Q" version="001" sub-type="" reference="decision" x-coordinate="312" y-coordinate="192" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069" access-code=""> 
+    <last-update time="1389862819010"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <last-update time="1389862819010"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1389698343305070
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <last-update time="1389862819010"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="a-amt-financed" get-address="" set-address=""> 
+              <last-update time="1389862819010"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="true"> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <last-update time="1389862819010"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-value"> 
+              <last-update time="1389862819010"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand>  
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389698254264069_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="not-found"> 
+              <last-update time="1389862819011"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>high
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1389698219015053" value1="low" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389698219016056" value1="medium" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389698219017059" value1="high" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389862666042009" value1="low peak" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389862666569012" value1="medium peak" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1389862665516006" value1="high peak" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1389862665516006" title="High Peak" version="001" sub-type="" reference="manual" x-coordinate="816" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862665516006" access-code=""> 
+    <last-update time="1389862819011"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389862665516008" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862665516006_null_1389862665516008" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819011"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389862666042009" title="Low Peak" version="001" sub-type="" reference="manual" x-coordinate="504" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862666042009" access-code=""> 
+    <last-update time="1389862819011"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389862666043011" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862666042009_null_1389862666043011" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819011"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1389862666569012" title="Medium Peak" version="001" sub-type="" reference="manual" x-coordinate="660" y-coordinate="384" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862666569012" access-code=""> 
+    <last-update time="1389862819011"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="1389862666569014" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1389698219017062_ac_1389862666569012_null_1389862666569014" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1389862819011"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues/>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <properties/> 
+</process>

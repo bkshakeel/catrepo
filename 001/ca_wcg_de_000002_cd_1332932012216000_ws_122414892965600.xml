@@ -1,0 +1,145 @@
+
+<sheet catalyst-version="5.0" id="122414892965600" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_122414892965600" access-code="a1" type="ws" title="Score values" version="001" sub-type="" reference="worksheet"> 
+  <last-update time="1352721237210"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" header="1"/>  
+        <col id="0002" seq="0002" header="2"/>  
+        <col id="0003" seq="0003" header="3"/>  
+        <col id="0004" seq="0004" header="4"/>  
+        <col id="0005" seq="0005" header="5"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="No of defaults"> 
+          <col id="0000"> 
+            <value id="122414894839001" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414920242107" name="Number" value="20" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414920640608" name="Number" value="15" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414921025009" name="Number" value="12" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414921415610" name="Number" value="2" type="" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="122414921778111" name="Number" value="16" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="Loan to value"> 
+          <col id="0000"> 
+            <value id="122414902334302" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414923707812" name="Number" value="38" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414924156213" name="Number" value="30" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414924504614" name="Number" value="25" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414924782815" name="Number" value="15" type="" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="122414925573416" name="Number" value="12" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="Residential status"> 
+          <col id="0000"> 
+            <value id="122414904065603" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414926332817" name="Number" value="18" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414926542118" name="Number" value="12" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414926759319" name="Number" value="12" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414927160920" name="Number" value="7" type="" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="122414927664021" name="Number" value="15" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="Time in employment"> 
+          <col id="0000"> 
+            <value id="122414905795304" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414928517122" name="Number" value="6" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414929165623" name="Number" value="8" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414929434324" name="Number" value="12" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414930717125" name="Number" value="18" type="" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="122414931056226" name="Number" value="21" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="Applicant age"> 
+          <col id="0000"> 
+            <value id="122414907071805" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414932040627" name="Number" value="7" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414932465628" name="Number" value="10" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414932757829" name="Number" value="16" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414933109330" name="Number" value="22" type="" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="122414934368731" name="Number" value="30" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="CCJs in last 24 months"> 
+          <col id="0000"> 
+            <value id="122414918785906" name="Number" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="122414935207832" name="Number" value="20" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="122414935618733" name="Number" value="15" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="122414935800034" name="Number" value="7" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="122414936151535" name="Number" value="0" type="" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</sheet>

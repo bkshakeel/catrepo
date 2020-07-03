@@ -1,0 +1,132 @@
+
+<dictionary-group catalyst-version="5.0" id="1359500127140006" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006" access-code="a1" type="dg" title="GenericCaseDic" version="001" sub-type="" reference="dictionary"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509422158"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="di" id="AppCode" title="AppCode" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_AppCode" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422158"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="AppCode" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="wf-app-code" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509422158"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Case Sub Type" title="Case Sub Type" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_Case Sub Type" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422158"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_Case Sub Type_null_" access-code="" title="Case Sub Type" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-case-sub-type" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509422158"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Case User" title="Case User" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_Case User" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422158"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Case User" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-user" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509422158"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CaseReference" title="CaseReference" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_CaseReference" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422158"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CaseReference" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-case-ref" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509422158"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Default Queue Id" title="Default Queue Id" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_Default Queue Id" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422158"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1359500127140006_di_Default Queue Name_null_" access-code="" title="Default Queue Id" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="defaultQueueId" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509422158"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <properties/> 
+</dictionary-group>

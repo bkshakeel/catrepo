@@ -1,0 +1,173 @@
+
+<connection catalyst-version="5.0" id="1363005420009006" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006" access-code="a1" type="cn" title="Send Test email" version="001" sub-type="" reference="connection"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1416847326675"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.ih.config.email.SendEmailConnectorConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.ih.connectors.SendEmailConnector</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <message-spec> 
+      <server> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="address"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_ip
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="port"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_port
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="user-name"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_username
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="pwd"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_password
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="debug"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="secure"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>false
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="protocol"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp
+        </operand> 
+      </server>  
+      <message> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="subject"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Test Email
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="from" pipe-name="dataitem" pipe-item-name="d-email-sender" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="body" pipe-name="dataitem" pipe-item-name="d-email-body-text" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="content-type"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>H
+        </operand> 
+      </message>  
+      <to> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-email-recipient" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1363005420009006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="2" pipe-name="dataitem" pipe-item-name="d-email-recip-2" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1416847326675"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </to> 
+    </message-spec> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <connector direction="sender" state="on" pool-size="0" continuous="false" listener="false"/>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</connection>

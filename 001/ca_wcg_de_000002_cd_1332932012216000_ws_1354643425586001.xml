@@ -1,0 +1,126 @@
+
+<sheet catalyst-version="5.0" id="1354643425586001" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1354643425586001" access-code="" type="ws" title="Refer Q" version="001" sub-type="" reference="worksheet"> 
+  <last-update time="1397054900280"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" header="Product"/>  
+        <col id="0002" seq="0002" header="Financed amount"/>  
+        <col id="0003" seq="0003" header="dealer group"/>  
+        <col id="0004" seq="0004" header="Work Q"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation"> 
+          <col id="0000"> 
+            <value id="1388938862006006" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388938862007007" name="" value="= AND" type="text" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388938862007008" name="" value="&lt;=" type="text" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450657506068" name="" value="" type="" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="0001"> 
+          <col id="0000"> 
+            <value id="1388938862007009" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388938862008010" name="" value="Winter campaign" type="text" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388938862008011" name="" value="*" type="text" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450657506069" name="" value="" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1388938862008012" name="" value="prod1" type="text" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="0002"> 
+          <col id="0000"> 
+            <value id="1388938862009013" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388938862009014" name="" value="*" type="text" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388938862009015" name="" value="10000" type="text" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450657506070" name="" value="" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1388938862009016" name="" value="level1" type="text" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="0003"> 
+          <col id="0000"> 
+            <value id="1388938862010017" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388938862010018" name="" value="*" type="text" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388938862010019" name="" value="20000" type="text" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450657506071" name="" value="" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1388938862010020" name="" value="level2" type="text" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="0004"> 
+          <col id="0000"> 
+            <value id="1388938862011021" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388938862011022" name="" value="*" type="text" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388938862011023" name="" value="30000" type="text" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450657506072" name="" value="" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1388938862011024" name="" value="level3" type="text" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="0005"> 
+          <col id="0000"> 
+            <value id="1396450697130074" name="Text" value="" type="" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1396450709781076" name="Text" value="*" type="" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1396450712730077" name="Text" value="*" type="" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1396450701716075" name="Text" value="" type="" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1396450657506073" name="" value="level4" type="" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</sheet>

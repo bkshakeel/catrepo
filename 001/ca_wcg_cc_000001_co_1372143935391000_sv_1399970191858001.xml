@@ -1,0 +1,25 @@
+
+<server id="1399970191858001" full-id="ca_wcg_cc_000001_co_1372143935391000_sv_1399970191858001" access-code="" type="sv" title="Country" version="001" sub-type="" reference=""> 
+  <last-update time="1399970867786"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Amend server name</reason-for-change>  
+  <config-class/>  
+  <contact-email/>  
+  <contact-name/>  
+  <contact-phone/>  
+  <contact-sms/>  
+  <ip/>  
+  <location/>  
+  <os/>  
+  <environment target-id="1399970202578002"> 
+    <bend-points/> 
+  </environment>  
+  <environment target-id="1399970205238003"> 
+    <bend-points/> 
+  </environment>  
+  <environment target-id="1399970209778004"> 
+    <bend-points/> 
+  </environment>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</server>

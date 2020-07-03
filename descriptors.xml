@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptors version="5.5">
+	<component type="ac" className="com.wcg.catalyst.pa.config.CatalystActivityModel" access-code="a1" isComponent="true"
+	           figureClass="com.wcg.catalyst.common.designer.figures.RunnableFigure"
+	           figureImageName="activity64.gif" paletteImageNameSmall="activity16.gif" paletteImageNameLarge="activity32.gif"
+	           defaultName="New Activity" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel">
+
+		<property
+		 property-name="Version"
+		 address="Version"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="text"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="Activity Name"
+		 address="Title"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="edit"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="FullId"
+		 address="FullId"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="edit"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="Activity Type"
+		 address="ActivityType"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="text"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="Convergent"
+		 address="Convergent"
+		 access-code="a1"
+		 return-type="boolean"
+		 display-type="combo(true.false)"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="Calculator Activity Configuration"
+		 address="ConfigStore"
+		 access-code="a1"
+		 return-type="complex(com.wcg.catalyst.pa.config.CalculatorActivityConfigStore)"
+		 display-type="Config"
+		 wrap-class=""
+		 sub-type="calc"/>
+
+		<property
+		 property-name="Manual Activity Configuration"
+		 address="ConfigStore"
+		 access-code="a1"
+		 return-type="complex(com.wcg.catalyst.pa.config.ManualActivityConfigStore)"
+		 display-type="Config"
+		 wrap-class=""
+		 sub-type="manual"/>
+
+		<property
+		 property-name="Timer Activity Configuration"
+		 address="ConfigStore"
+		 access-code="a1"
+		 return-type="complex(com.wcg.catalyst.pa.config.TimerConfigStore)"
+		 display-type="Config"
+		 wrap-class=""
+		 sub-type="timer"/>
+
+		 <property
+		 property-name="Load Worksheet Activity Configuration"
+		 address="ConfigStore"
+		 access-code="a1"
+		 return-type="complex(com.wcg.catalyst.pa.config.LoadWorksheetActivityConfigStore)"
+		 display-type="Config"
+		 wrap-class=""
+		 sub-type="loadworksheet"/>
+
+		 <property
+		 property-name="ICE Activity Configuration"
+		 address="ConfigStore"
+		 access-code="a1"
+		 return-type="complex(com.wcg.ice.activity.ICEActivityConfigStore)"
+		 display-type="Config"
+		 wrap-class=""
+		 sub-type="iceActivity"/>
+
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Has pre-processor" display-type="edit" access-code="a1" address="isHasPreProcessor" return-type="boolean"/>
+		<property property-name="Has post-processor" display-type="edit" access-code="a1" address="isHasPostProcessor" return-type="boolean"/>
+		<property property-name="Sender" sub-type="email" display-type="edit" access-code="a1" address="isHasPostProcessor" return-type="java.lang.String"/>
+
+		<figure-image reference="calculator" image-name="calculator64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.CalculatorPanel"/>
+		<figure-image reference="rda" image-name="rule64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.RuleEngineActivityPanel"/>
+		<figure-image reference="subproc" image-name="librarystart64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.RuleEngineActivityPanel"/>
+		<figure-image reference="endproc" image-name="stop64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.EndContainerPanel"/>
+		<figure-image reference="startproc" image-name="start64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel"/>
+		<figure-image reference="manual" image-name="manualactivity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.manual.ManualActivityPanel"/>
+		<figure-image reference="timer" image-name="timeractivity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.TimerPanel"/>
+		<figure-image reference="email" image-name="email64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.SendEmailPanel"/>
+		<figure-image reference="file-manager" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.FileManagerPanel"/>
+		<figure-image reference="beanshell" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.BeanShellPanel"/>
+		<figure-image reference="delete-manual" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.deletemanual.DeleteManualActivityPanel"/>
+		<figure-image reference="sql" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.SqlActivityPanel"/>
+		<figure-image reference="storedproc" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.StoredProcActivityPanel"/>
+		<figure-image reference="list-check" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.ListCheckPanel"/>
+		<figure-image reference="connection-activity" image-name="connection64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.ConnectionActivityPanel"/>
+		<figure-image reference="end-synch-activity" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.EndSynchActivityPanel"/>
+		<figure-image reference="champ-challenge" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.ChampChallengePanel"/>
+		<figure-image reference="clear-pipe" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.clearpipe.ClearPipeActivityPanel"/>
+		<figure-image reference="show-pipe" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.showpipe.ShowPipeActivityPanel"/>
+		<figure-image reference="diary" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.DiaryActivityPanel"/>
+		<figure-image reference="task" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.TaskActivityPanel"/>
+		<figure-image reference="decision" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.DecisionTreeActivityPanel"/>
+		<figure-image reference="scorecard" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.ScorecardActivityPanel"/>
+		<figure-image reference="iceActivity" image-name="activity64.gif" component-panel="com.wcg.ice.activity.ICEActivityPanel"/>
+		<figure-image reference="tracking-point" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.tracking.TrackingPointActivityPanel"/>
+		<figure-image reference="complete-work-list" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.CompleteWorkListItemPanel"/>
+		<figure-image reference="loadworksheet" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.LoadWorksheetActivityPanel"/>
+		<figure-image reference="runproc" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.RunProcessActivityPanel"/>
+		<figure-image reference="branch" image-name="activity64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.BranchActivityPanel"/>
+
+		<trial-run reference="start" type="start"/>
+		<trial-run reference="endproc" type="end"/>
+		<trial-run reference="subproc" type="runcontainer"/>
+		<trial-run reference="rda" type="runcontainer"/>
+<!--
+		<trial-run reference="manual" type="skip"/>
+-->
+	</component>
+
+	<component
+	 type="manual"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.ManualActivityConfigStore"
+	 access-code="a1">
+	  <property
+	   property-name="Coexistence Group"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="CoexistenceGroup"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	  <property
+	   property-name="Escalation Hours"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="EscalationHours"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	  <property
+	   property-name="Escalation Minutes"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="EscalationMinutes"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	  <property
+	   property-name="Escalation Seconds"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="EscalationSeconds"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	</component>
+
+	<component
+	 type="timer"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.TimerConfigStore"
+	 access-code="a1">
+	  <property
+	   property-name="Escalation Minutes"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="EscalationMinutes"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	  <property
+	   property-name="Escalation Seconds"
+	   display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+	   access-code="a1"
+	   address="EscalationSeconds"
+	   return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+	   sub-type=""/>
+	</component>
+
+	<component
+	 type="calc"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.CalculatorActivityConfigStore"
+	 access-code="a1">
+	  <property
+	   property-name="Equations"
+	   display-type="Equation"
+	   access-code="a1"
+	   address="Equations"
+	   return-type="map(equation.types,Seq(data.types))"
+	   sub-type="calctype"/>
+	</component>
+
+	<component
+	 type="complete-work-list"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.CompleteWorkListConfigStore"
+	 access-code="a1">
+	</component>
+
+    <component
+	 type="loadworksheet"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.LoadWorksheetActivityConfigStore"
+	 access-code="a1">
+	</component>
+
+	<component
+	 type="calctype"
+	 isComponent="false"
+	 isProperty="true"
+	 className="com.wcg.catalyst.pa.config.calculator.EquationConfig"
+	 access-code="a1">
+	  <property
+	   property-name="Sequence"
+	   display-type="edit"
+	   access-code="a1"
+	   address="Seq"
+	   return-type="int"
+	   sub-type=""/>
+	  <property
+	   property-name="Type"
+	   display-type="text"
+	   access-code="a1"
+	   address="Type"
+	   return-type="java.lang.String"
+	   sub-type=""/>
+
+	</component>
+
+	<component type="cp" className="com.wcg.catalyst.common.processor.config.CatalystProcessorModel" access-code="a1" isDiagram="false" separate-config="false"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DesignerModel">
+		<property
+		 property-name="Processor Sequence"
+		 display-type="text"
+		 access-code="a1"
+		 address="Seq"
+		 return-type="int"
+		 wrap-class=""
+		 sub-type=""/>
+		<property
+		 property-name="Processor Notes"
+		 display-type="text"
+		 access-code="a1"
+		 address="Notes"
+		 return-type="java.lang.String"
+		 wrap-class=""
+		 sub-type=""/>
+		<property
+		 property-name="Processor Configuration"
+		 display-type="Config"
+		 access-code="a1"
+		 address="ConfigStore"
+		 return-type="complex(com.wcg.catalyst.common.processor.config.ProcessorConfig)"
+		 wrap-class=""
+		 sub-type=""/>
+		<property
+		 property-name="Processor Name"
+		 address="Title"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="edit"
+		 wrap-class=""
+		 sub-type=""/>
+	</component>
+
+
+	<component type="ca" className="com.wcg.catalyst.common.config.CatalystAccountModel" access-code="a1" isDiagram="false" separate-config="true"
+	           paletteImageNameSmall="folder16.gif" paletteImageNameLarge="folder32.gif"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DesignerModel">
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+	</component>
+
+	<component type="cc" className="com.wcg.catalyst.common.config.CatalystCompaniesModel" access-code="a1"
+	           isDiagram="true" separate-config="true"
+	           paletteImageNameSmall="folder16.gif" paletteImageNameLarge="folder32.gif"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<palette-component seq="010" componentId="company"/>
+		<palette-component seq="270" componentId="note"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<child seq="010" className="com.wcg.catalyst.common.config.CatalystCompanyModel" title="Company"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="cd" className="com.wcg.catalyst.common.config.CatalystDeploymentModel" access-code="a1"
+	           isDiagram="true" separate-config="true"
+	           paletteImageNameSmall="catalyst16.gif" paletteImageNameLarge="catalyst32.gif"  figureImageName="catalyst64.gif"
+	           defaultName="New Deployment" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.deployment.DeploymentConfigPanel">
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Deployment Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<child seq="010" className="com.wcg.catalyst.pa.config.CatalystProcessModel" title="Workflow process"/>
+		<child seq="020" className="com.wcg.catalyst.re.config.CatalystRulesetModel" title="Ruleset"/>
+		<child seq="030" className="com.wcg.catalyst.common.config.CatalystDictionaryModel" title="Dictionary group"/>
+		<child seq="040" className="com.wcg.catalyst.ih.config.CatalystConnectionModel" title="Integration Hub connection"/>
+		<child seq="050" className="com.wcg.catalyst.mv.config.CatalystWorksheetModel" title="Matrix View worksheet"/>
+		<child seq="055" className="com.wcg.catalyst.common.config.CatalystTemplateGroupModel" title="Template Group"/>
+		<child seq="056" className="com.wcg.catalyst.security.CatalystSecurityGroupModel" title="Security Group"/>
+		<child seq="057" className="com.wcg.catalyst.pa.autotest.config.CatalystTestGroupModel" title="Test Group"/>
+    	<child seq="060" className="com.wcg.ice.common.model.ICEModule" title="ICE Reports"/>
+        <child seq="070" className="com.wcg.catalyst.wq.config.WorkQueueModel" title="Work Queue"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+		<palette-component seq="010" componentId="process"/>
+		<palette-component seq="020" componentId="ruleset"/>
+		<palette-component seq="030" componentId="dictionary"/>
+		<palette-component seq="040" componentId="connection"/>
+		<palette-component seq="050" componentId="worksheet"/>
+		<palette-component seq="055" componentId="templategroup"/>
+		<palette-component seq="056" componentId="securitygroup"/>
+		<palette-component seq="057" componentId="testgroup"/>
+		<palette-component seq="060" componentId="ice-reports"/>
+        <palette-component seq="070" componentId="workqueue"/>
+		<palette-component seq="270" componentId="note"/>
+	</component>
+
+	<component type="cg" className="com.wcg.catalyst.common.config.CatalystGroupModel" access-code="a1"
+	           separate-config="true"
+	           paletteImageNameSmall="folder16.gif" paletteImageNameLarge="folder32.gif"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DesignerModel">
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<child seq="010" className="com.wcg.catalyst.common.config.CatalystCompanyModel" title="Company"/>
+		<child seq="020" className="com.wcg.catalyst.common.config.CatalystDeploymentModel" title="Deployment"/>
+	</component>
+
+	<component type="sg" className="com.wcg.catalyst.security.CatalystSecurityGroupModel" access-code="a1"
+	           isComponent="true" isDiagram="true" separate-config="true" figureImageName="security64.gif"
+	           paletteImageNameSmall="security16.gif" paletteImageNameLarge="security32.gif"
+	           defaultName="New Security Group" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Security group name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="keystore"/>
+		<palette-component seq="020" componentId="sslfactory"/>
+		<palette-component seq="030" componentId="usernametoken"/>
+		<palette-component seq="270" componentId="note"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="ks" className="com.wcg.catalyst.security.CatalystKeystoreModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true" open-with-parent="true"
+	           paletteImageNameSmall="keystore16.gif" paletteImageNameLarge="keystore32.gif"
+	           figureImageName="keystore64.gif" defaultName="New Keystore"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.security.KeystorePanel">
+		<property property-name="Title" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="sf" className="com.wcg.catalyst.security.CatalystSSLFactoryModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true" open-with-parent="true"
+	           paletteImageNameSmall="factory16.gif" paletteImageNameLarge="factory32.gif"
+	           figureImageName="factory64.gif" defaultName="New SSL Factory"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.security.SSLFactoryPanel">
+		<property property-name="Title" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="unt" className="com.wcg.catalyst.security.CatalystUsernameTokenModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true" open-with-parent="true"
+	           paletteImageNameSmall="factory16.gif" paletteImageNameLarge="factory32.gif"
+	           figureImageName="factory64.gif" defaultName="New Username Token"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.security.UsernameTokenPanel">
+		<property property-name="Title" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+	</component>
+
+	<component type="tg" className="com.wcg.catalyst.common.config.CatalystTemplateGroupModel" access-code="a1"
+	           isComponent="true" isDiagram="true" separate-config="true" figureImageName="templategroup64.gif"
+	           paletteImageNameSmall="templategroup16.gif" paletteImageNameLarge="templategroup32.gif"
+	           defaultName="New Template Group" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Template group name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="template"/>
+		<palette-component seq="020" componentId="barcode"/>
+		<palette-component seq="270" componentId="note"/>
+		<child seq="010" className="com.wcg.catalyst.common.config.CatalystTemplateModel" title="Template"/>
+		<child seq="020" className="com.wcg.catalyst.common.config.CatalystBarcodeModel" title="Barcode"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="teg" className="com.wcg.catalyst.pa.autotest.config.CatalystTestGroupModel" access-code="a1"
+	           isComponent="true" isDiagram="true" separate-config="true" figureImageName="testgroup64.gif"
+	           paletteImageNameSmall="testgroup16.gif" paletteImageNameLarge="testgroup32.gif"
+	           defaultName="New Test Group" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Test group name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="testsuite"/>
+		<palette-component seq="270" componentId="note"/>
+		<child seq="010" className="com.wcg.catalyst.pa.autotest.config.TestSuiteModel" title="Test Suite"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="tes" className="com.wcg.catalyst.pa.autotest.config.TestModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true" figureImageName="test64.gif"
+	           paletteImageNameSmall="test16.gif" paletteImageNameLarge="test32.gif"
+	           defaultName="New Test" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.autotest.TestPanel">
+		<property property-name="Test name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+	    <child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="tim" className="com.wcg.catalyst.pa.autotest.config.TestItemModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="false" figureImageName="test64.gif"
+	           paletteImageNameSmall="test16.gif" paletteImageNameLarge="test32.gif"
+	           defaultName="New Test Item" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Test Item name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+	</component>
+
+	<component type="ts" className="com.wcg.catalyst.pa.autotest.config.TestSuiteModel" access-code="a1"
+	           isComponent="true" isDiagram="true" separate-config="true" figureImageName="testsuite64.gif"
+	           paletteImageNameSmall="testsuite16.gif" paletteImageNameLarge="testsuite32.gif"
+	           defaultName="New Test Suite" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.autotest.TestSuitePanel">
+		<property property-name="Test suite name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<child seq="058" className="com.wcg.catalyst.pa.autotest.config.TestModel" title="Test"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+		<palette-component seq="010" componentId="test"/>
+		<palette-component seq="270" componentId="note"/>
+
+	</component>
+
+
+	<component type="tp" className="com.wcg.catalyst.common.config.CatalystTemplateModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true"
+	           paletteImageNameSmall="template16.gif" paletteImageNameLarge="template32.gif"
+	           figureImageName="template64.gif" defaultName="New Template"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Template Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="bc" className="com.wcg.catalyst.common.config.CatalystBarcodeModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true"
+	           paletteImageNameSmall="barcode16.gif" paletteImageNameLarge="barcode32.gif"
+	           figureImageName="barcode64.gif" defaultName="New Barcode"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Title" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="co" className="com.wcg.catalyst.common.config.CatalystCompanyModel" access-code="a1"
+	           isComponent="true" isDiagram="true" separate-config="true" figureImageName="company64.gif"
+	           paletteImageNameSmall="company16.gif" paletteImageNameLarge="company32.gif"
+	           defaultName="New Company" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Company name"  display-type="edit" access-code="W" address="Title" return-type="java.lang.String"/>
+		<property property-name="Contact name"  display-type="edit" access-code="W" address="ContactName" return-type="java.lang.String"/>
+		<property property-name="Contact email" display-type="edit"  access-code="W" address="ContactEmail" return-type="java.lang.String"/>
+		<property property-name="Contact phone" display-type="edit"  access-code="W" address="ContactPhone" return-type="java.lang.String"/>
+		<property property-name="Contact SMS" display-type="edit"  access-code="W" address="ContactSMS" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="server"/>
+		<palette-component seq="020" componentId="environment"/>
+		<palette-component seq="270" componentId="note"/>
+		<child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+	</component>
+
+	<component type="cn" className="com.wcg.catalyst.ih.config.CatalystConnectionModel" access-code="a1"
+			   isDiagram="false" isComponent="true" separate-config="true" open-with-parent="false"
+	           figureClass="com.wcg.catalyst.common.designer.figures.RunnableFigure"
+	           figureImageName="connection64.gif" paletteImageNameSmall="connection16.gif" paletteImageNameLarge="connection32.gif"
+	           defaultName="New Connection" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.connection.ConnectionConfigPanel">
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Connection Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+
+	</component>
+
+  <component type="de" className="com.wcg.catalyst.common.config.CatalystDeploymentsModel" access-code="a1" isDiagram="true" separate-config="true"
+            paletteImageNameSmall="folder16.gif" paletteImageNameLarge="folder32.gif"
+            wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+    <palette-component seq="010" componentId="deployment"/>
+    <palette-component seq="270" componentId="note"/>
+	  <property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+	  <property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+	  <property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	  <child seq="010" className="com.wcg.catalyst.common.config.CatalystDeploymentModel" title="Deployment"/>
+	  <child seq="270" className="com.wcg.catalyst.common.config.CatalystNoteModel" title="Note"/>
+  </component>
+
+	<component type="dg" className="com.wcg.catalyst.common.config.CatalystDictionaryModel" access-code="a1"
+	           isDiagram="false" isComponent="true" separate-config="true" open-with-parent="true"
+	           figureImageName="dictionary64.gif" paletteImageNameSmall="dictionary16.gif"
+	           paletteImageNameLarge="dictionary32.gif" defaultName="New Dictionary Group"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Dictionary Group Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="Dirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="di" className="com.wcg.catalyst.common.designer.dictionary.DictionaryItem" access-code="a1" isComponent="false"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+	</component>
+
+	<component type="in" className="com.wcg.catalyst.common.designer.trialrun.CatalystInjectorModel" access-code="a1" isComponent="true"
+	           figureClass="com.wcg.catalyst.common.designer.figures.RunnableFigure"
+	           figureImageName="injector64.gif" paletteImageNameSmall="injector16.gif" paletteImageNameLarge="injector32.gif"
+	           defaultName="New Injector" defaultWidth="80" defaultHeight="80"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Injector Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<figure-image reference="injector" image-name="injector64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.InjectorTesterPanel"/>
+		<trial-run reference="injector" type="injector" />
+	</component>
+
+  <component type="nt" className="com.wcg.catalyst.common.config.CatalystNoteModel" access-code="a1" isComponent="true"
+             figureClass="com.wcg.catalyst.common.designer.figures.StickyNoteFigure"
+             paletteImageNameSmall="note16.gif" defaultName="Note" defaultWidth="80" defaultHeight="40"
+             wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+    <property property-name="Note" display-type="edit" access-code="a1" address="Note" return-type="java.lang.String"/>
+  </component>
+
+	<component type="pm" className="com.wcg.catalyst.pa.config.CatalystProcessModel" access-code="a1"
+	           isDiagram="true" isComponent="true" separate-config="true"
+	           figureImageName="process64.gif" paletteImageNameSmall="process16.gif" paletteImageNameLarge="process32.gif"
+	           defaultName="New Process" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+             component-panel="com.wcg.catalyst.common.designer.parts.process.ProcessConfigPanel">
+		<property property-name="Process Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Process Type" display-type="edit" access-code="a1" address="ProcessType" return-type="java.lang.String"/>
+		<property property-name="Process Time Out" display-type="edit" access-code="a1" address="TimeOut" return-type="java.lang.String"/>
+		<property property-name="Process Log Level" display-type="edit" access-code="a1" address="isProcessLevelLog" return-type="boolean"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="calculator"/>
+		<palette-component seq="020" componentId="rda"/>
+		<palette-component seq="025" componentId="rule"/>
+		<palette-component seq="030" componentId="subproc"/>
+		<palette-component seq="040" componentId="injector"/>
+		<palette-component seq="050" componentId="tester"/>
+		<palette-component seq="055" componentId="breakpoint"/>
+		<palette-component seq="060" componentId="manual"/>
+		<palette-component seq="070" componentId="delete-manual"/>
+		<palette-component seq="080" componentId="beanshell"/>
+		<palette-component seq="090" componentId="connection-activity"/>
+		<palette-component seq="100" componentId="email"/>
+		<palette-component seq="110" componentId="file-manager"/>
+		<palette-component seq="120" componentId="list-check"/>
+		<palette-component seq="130" componentId="sql"/>
+		<palette-component seq="140" componentId="champ-challenge"/>
+		<palette-component seq="150" componentId="end-synch-activity"/>
+		<palette-component seq="160" componentId="endproc"/>
+		<palette-component seq="170" componentId="note"/>
+		<palette-component seq="180" componentId="clear-pipe"/>
+		<palette-component seq="190" componentId="show-pipe"/>
+		<palette-component seq="200" componentId="storedproc"/>
+		<palette-component seq="210" componentId="diary"/>
+		<palette-component seq="220" componentId="task"/>
+		<palette-component seq="330" componentId="decision"/>
+		<palette-component seq="350" componentId="scorecard"/>
+		<palette-component seq="440" componentId="iceActivity"/>
+		<palette-component seq="450" componentId="tracking-point"/>
+		<palette-component seq="650" componentId="timer"/>
+		<palette-component seq="660" componentId="complete-work-list"/>
+		<palette-component seq="680" componentId="loadworksheet"/>
+		<palette-component seq="690" componentId="runproc"/>
+    <palette-component seq="700" componentId="branch"/>
+		<trial-run reference="" type="container"/>
+		<trial-run reference="process" type="container"/>
+	</component>
+
+	<component type="processor" className="com.wcg.catalyst.common.config.CatalystProcessorModel" access-code="a1" isComponent="true"
+	           defaultName="New Processor">
+    <property property-name="Processor Sequence" display-type="edit" access-code="a1" address="Seq" return-type="java.lang.Integer"/>
+	  <property property-name="Processor Configuration" display-type="edit" access-code="a1" address="ConfigStore"
+	            return-type="com.wcg.catalyst.common.config.CatalystConfig"/>
+	  <palette-component seq="010" componentId="unloadobjectprocessor"/>
+	  <palette-component seq="020" componentId="loadobjectprocessor"/>
+	  <palette-component seq="030" componentId="removeobjectprocessor"/>
+	  <palette-component seq="040" componentId="readxmlprocessor"/>
+	  <palette-component seq="050" componentId="buildxmlprocessor"/>
+	  <palette-component seq="060" componentId="xsltprocessor"/>
+	  <palette-component seq="070" componentId="xmlvalidationprocessor"/>
+	  <palette-component seq="080" componentId="startprocessprocessor"/>
+	  <palette-component seq="090" componentId="identifierprocessor"/>
+	  <palette-component seq="100" componentId="callmethodprocessor"/>
+	  <palette-component seq="110" componentId="completetemplateprocessor"/>
+	  <palette-component seq="120" componentId="csvprocessor"/>
+	  <palette-component seq="125" componentId="fixedlengthreadprocessor"/>
+	  <palette-component seq="150" componentId="jposprocessor"/>
+	  <palette-component seq="160" componentId="dotnetposprocessor"/>
+	  <palette-component seq="170" componentId="objectcacheprocessor"/>
+	  <palette-component seq="180" componentId="transactionprocessor"/>
+	  <palette-component seq="190" componentId="messagebreakoutprocessor"/>
+	  <palette-component seq="200" componentId="fixedlengthwriteprocessor"/>
+	</component>
+
+  <component type="rl" className="com.wcg.catalyst.common.config.RunnableLinkModel" access-code="a1" isComponent="true" wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+	  <property property-name="Result Value" display-type="edit" access-code="a1" address="Value1" return-type="java.lang.String"/>
+	  <property property-name="Restart Point" display-type="edit" access-code="a1" address="RestartPoint" return-type="boolean"/>
+	  <property property-name="Colour" display-type="edit" access-code="a1" address="Colour" return-type="java.lang.String"/>
+  </component>
+
+ 	<component type="rs" className="com.wcg.catalyst.re.config.CatalystRulesetModel" access-code="a1"
+ 	           isDiagram="true" isComponent="true" separate-config="true" open-with-parent="false"
+ 	           figureImageName="rule64.gif" paletteImageNameSmall="rule16.gif" paletteImageNameLarge="rule32.gif"
+ 	           defaultName="New Rule Set" defaultWidth="100" defaultHeight="100"
+ 	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Ruleset Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="rule"/>
+		<palette-component seq="020" componentId="endruleset"/>
+		<palette-component seq="040" componentId="injector"/>
+		<palette-component seq="050" componentId="tester"/>
+		<palette-component seq="055" componentId="breakpoint"/>
+		<palette-component seq="270" componentId="note"/>
+		<trial-run reference="" type="container"/>
+		<trial-run reference="ruleset" type="container"/>
+	</component>
+
+	<component type="ru" className="com.wcg.catalyst.re.config.CatalystRuleModel" access-code="a1" isComponent="true"
+	           figureClass="com.wcg.catalyst.common.designer.figures.RunnableFigure"
+	           figureImageName="rule64.gif" paletteImageNameSmall="rule16.gif" paletteImageNameLarge="rule32.gif"
+	           defaultName="New Rule" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.rule.RulePanel">
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Rule Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<figure-image reference="endruleset" image-name="stop64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.EndContainerPanel"/>
+		<figure-image reference="startruleset" image-name="start64.gif"/>
+		<figure-image reference="connection-activity" image-name="connection64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel"/>
+		<trial-run reference="startruleset" type="start"/>
+		<trial-run reference="endruleset" type="end"/>
+	</component>
+
+	<component type="sv" className="com.wcg.catalyst.common.config.CatalystServerModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true"
+	           paletteImageNameSmall="server16.gif" paletteImageNameLarge="server32.gif"
+	           figureImageName="server64.gif" defaultName="New Server"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel">
+		<property property-name="Server Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Contact name"  display-type="edit" access-code="a1" address="ContactName" return-type="java.lang.String"/>
+		<property property-name="Contact email" display-type="edit"  access-code="a1" address="ContactEmail" return-type="java.lang.String"/>
+		<property property-name="Contact phone" display-type="edit"  access-code="a1" address="ContactPhone" return-type="java.lang.String"/>
+		<property property-name="Contact SMS" display-type="edit"  access-code="a1" address="ContactSMS" return-type="java.lang.String"/>
+		<property property-name="IP Address" display-type="edit"  access-code="a1" address="Ip" return-type="java.lang.String"/>
+		<property property-name="Location" display-type="edit"  access-code="a1" address="Location" return-type="java.lang.String"/>
+		<property property-name="Operating system" display-type="edit" access-code="a1" address="Os" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="en" className="com.wcg.catalyst.common.config.CatalystEnvironmentModel" access-code="a1"
+	           isComponent="true" isDiagram="false" separate-config="true"
+	           paletteImageNameSmall="catalyst16.gif" paletteImageNameLarge="catalyst32.gif"
+	           figureImageName="catalyst64.gif" defaultName="New Environment"
+	           defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.environment.EnvironmentConfigPanel">
+	    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+	    <property property-name="Full Id" display-type="edit" access-code="a1" address="FullId" return-type="java.lang.String"/>
+		<property property-name="Environment Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Contact name"  display-type="edit" access-code="a1" address="ContactName" return-type="java.lang.String"/>
+		<property property-name="Contact email" display-type="edit"  access-code="a1" address="ContactEmail" return-type="java.lang.String"/>
+		<property property-name="Contact phone" display-type="edit"  access-code="a1" address="ContactPhone" return-type="java.lang.String"/>
+		<property property-name="Contact SMS" display-type="edit"  access-code="a1" address="ContactSMS" return-type="java.lang.String"/>
+		<property property-name="Run state" display-type="edit" access-code="a1" address="State" return-type="java.lang.String"/>
+		<property property-name="URL" display-type="edit" access-code="a1" address="Url" return-type="java.lang.String"/>
+		<property property-name="Deployment Id" display-type="edit" access-code="a1" address="DeploymentId" return-type="java.lang.String"/>
+		<property property-name="Deployment Version" display-type="edit" access-code="a1" address="DeploymentVersion" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+	    <property property-name="Access Code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<engine seq="1" type="pa">
+		  <title>Process</title>
+          <engine-class>com.wcg.catalyst.pa.engine.PAEngine</engine-class>
+		  <model-class>com.wcg.catalyst.pa.config.PAEngineModel</model-class>
+		  <config-panel-class>com.wcg.catalyst.common.designer.parts.environment.PAEngineConfigPanel</config-panel-class>
+	    </engine>
+        <engine seq="2" type="ih">
+          <title>Integration Hub</title>
+          <engine-class>com.wcg.catalyst.ih.engine.ConnectionManager</engine-class>
+          <model-class>com.wcg.catalyst.ih.config.IHEngineModel</model-class>
+          <config-panel-class>com.wcg.catalyst.common.designer.parts.environment.IHEngineConfigPanel</config-panel-class>
+        </engine>
+        <engine seq="3" type="wq">
+          <title>Work Queue</title>
+          <engine-class>com.wcg.catalyst.wq.engine.WQEngine</engine-class>
+          <model-class>com.wcg.catalyst.wq.config.WQEngineModel</model-class>
+          <config-panel-class>com.wcg.catalyst.common.designer.parts.environment.WQEngineConfigPanel</config-panel-class>
+        </engine>
+        <engine seq="4" type="dh">
+          <title>Diary</title>
+          <engine-class>com.wcg.catalyst.dh.engine.DiaryEngine</engine-class>
+          <model-class>com.wcg.catalyst.dh.engine.DiaryEngineModel</model-class>
+          <config-panel-class>com.wcg.catalyst.common.designer.parts.environment.DiaryEngineConfigPanel</config-panel-class>
+        </engine>
+        <engine seq="5" type="th">
+          <title>Task</title>
+          <engine-class>com.wcg.catalyst.th.engine.TaskEngine</engine-class>
+          <model-class>com.wcg.catalyst.th.engine.TaskEngineModel</model-class>
+          <config-panel-class>com.wcg.catalyst.common.designer.parts.environment.TaskEngineConfigPanel</config-panel-class>
+        </engine>
+        <engine seq="6" type="mv">
+          <title>MatrixView</title>
+          <engine-class>com.wcg.catalyst.mv.engine.MatrixViewEngine</engine-class>
+          <model-class>com.wcg.catalyst.mv.engine.MatrixViewEngineModel</model-class>
+          <config-panel-class></config-panel-class>
+        </engine>
+		<engine seq="7" type="ic">
+          <title>ICE Engine</title>
+          <engine-class>com.wcg.ice.engine.ICEEngine</engine-class>
+          <model-class>com.wcg.ice.engine.config.ICEEngineModel</model-class>
+          <config-panel-class>com.wcg.ice.designer.dialogs.ICEEngineConfigPanel</config-panel-class>
+        </engine>
+	</component>
+
+	<component type="te" className="com.wcg.catalyst.common.designer.trialrun.CatalystTesterModel" access-code="a1" isComponent="true"
+	           figureClass="com.wcg.catalyst.common.designer.figures.TesterFigure"
+	           figureImageName="testerwaiting64.gif" paletteImageNameSmall="testerwaiting16.gif" paletteImageNameLarge="testerwaiting32.gif"
+	           defaultName="New Tester" defaultWidth="80" defaultHeight="80"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+               component-panel="com.wcg.catalyst.common.designer.parts.activity.InjectorTesterPanel">
+		<property property-name="Tester Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<trial-run reference="tester" type="tester"/>
+	</component>
+
+	<component type="bkp" className="com.wcg.catalyst.common.designer.trialrun.CatalystBreakpointModel" access-code="a1" isComponent="true"
+	           figureImageName="breakpoint64.gif" paletteImageNameSmall="breakpoint16.gif" paletteImageNameLarge="breakpoint32.gif"
+	           defaultName="New Breakpoint" defaultWidth="80" defaultHeight="80"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+               component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel">
+		<property property-name="Breakpoint Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<trial-run reference="breakpoint" type="breakpoint"/>
+	</component>
+
+	<component type="wq" className="com.wcg.catalyst.wq.config.WorkQueueModel" access-code="a1"
+	           isDiagram="false" isComponent="true" separate-config="true"
+	           figureImageName="queue64.gif" paletteImageNameSmall="queue16.gif" paletteImageNameLarge="queue32.gif"
+	           defaultName="New Work Queue" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+             component-panel="com.wcg.catalyst.common.designer.parts.wq.WorkQueueConfigPanel">
+		<property property-name="Work Queue Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Work Queue Type" display-type="edit" access-code="a1" address="WorkQueueType" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+
+	<component type="ws" className="com.wcg.catalyst.mv.config.CatalystWorksheetModel" access-code="a1"
+	           isDiagram="false" isComponent="true" separate-config="true" open-with-parent="true"
+	           figureImageName="worksheet64.gif" paletteImageNameSmall="worksheet16.gif" paletteImageNameLarge="worksheet32.gif"
+	           defaultName="New Worksheet" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+               component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel">
+		<property property-name="Worksheet Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+	    <property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="java.lang.String"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+	</component>
+
+	<component type="im" className="com.wcg.ice.common.model.ICEModule" access-code="a1"
+             isDiagram="true" isComponent="true" separate-config="true"
+             figureImageName="activity64.gif" paletteImageNameSmall="activity16.gif" paletteImageNameLarge="activity32.gif"
+             defaultName="ICE reports" defaultWidth="100" defaultHeight="100"
+             wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+             component-panel="com.wcg.ice.designer.parts.ICEModulePanel">
+    <property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+    <property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+    <property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+    <property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+    <palette-component seq="010" componentId="ice-report"/>
+  </component>
+
+	<component type="ir" className="com.wcg.ice.common.model.ICEReportModel" access-code="a1"
+	           isDiagram="true" isComponent="true" separate-config="true"
+	           figureImageName="process64.gif" paletteImageNameSmall="process16.gif" paletteImageNameLarge="process32.gif"
+	           defaultName="New report" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+             component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel">
+		<property property-name="Report Type Name" display-type="edit" access-code="a1" address="Title" return-type="java.lang.String"/>
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+		<property property-name="Version" display-type="edit" access-code="a1" address="Version" return-type="java.lang.String"/>
+		<property property-name="Modified" display-type="edit" access-code="a1" address="isDirty" return-type="java.lang.String"/>
+		<property property-name="Id" display-type="edit" access-code="a1" address="Id" return-type="java.lang.String"/>
+		<property property-name="Access code" display-type="edit" access-code="a1" address="AccessCode" return-type="java.lang.String"/>
+		<palette-component seq="010" componentId="iceAddReport"/>
+		<palette-component seq="020" componentId="iceAddDocument"/>
+		<palette-component seq="025" componentId="iceFindReport"/>
+		<palette-component seq="030" componentId="iceFindDocument"/>
+		<palette-component seq="040" componentId="iceAddIndex"/>
+		<palette-component seq="050" componentId="iceAddCharge"/>
+		<palette-component seq="060" componentId="equifaxUKConsumer"/>
+		<palette-component seq="061" componentId="experianUKConsumer"/>
+		<palette-component seq="062" componentId="decisionBureau"/>
+		<palette-component seq="063" componentId="coLDBUpdate"/>
+		<palette-component seq="064" componentId="bankOfPortugal"/>
+		<palette-component seq="065" componentId="crediInformacoes"/>
+		<palette-component seq="066" componentId="fileSourcePlugin"/>
+		<palette-component seq="067" componentId="ccs"/>
+		<palette-component seq="068" componentId="veda"/>
+		<palette-component seq="069" componentId="tuxml"/>
+		<palette-component seq="070" componentId="iceXSLTransform"/>
+		<palette-component seq="071" componentId="lexisnexis"/>
+		<palette-component seq="072" componentId="creditreform"/>
+		<palette-component seq="100" componentId="iceGetRequest"/>
+		<palette-component seq="110" componentId="endicerep"/>
+		<palette-component seq="180" componentId="hunterII"/>
+		<palette-component seq="190" componentId="experianqas"/>
+		<palette-component seq="200" componentId="equifaxUSConsumer"/>
+		<palette-component seq="210" componentId="factorTrust"/>
+		<palette-component seq="220" componentId="equifaxCAConsumer"/>
+
+		<trial-run reference="" type="container"/>
+		<trial-run reference="process" type="container"/>
+	</component>
+
+	<component type="is" className="com.wcg.ice.common.model.ReportStepModel" access-code="a1" isComponent="true"
+	           figureClass="com.wcg.catalyst.common.designer.figures.RunnableFigure"
+	           figureImageName="activity64.gif" paletteImageNameSmall="activity16.gif" paletteImageNameLarge="activity32.gif"
+	           defaultName="New Report Step" defaultWidth="100" defaultHeight="100"
+	           wrap-class="com.wcg.catalyst.common.designer.model.DiagramFigureModel"
+	           component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel">
+
+		<property
+		 property-name="Version"
+		 address="Version"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="text"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property
+		 property-name="Report Step Name"
+		 address="Title"
+		 access-code="a1"
+		 return-type="java.lang.String"
+		 display-type="edit"
+		 wrap-class=""
+		 sub-type=""/>
+
+		<property property-name="Locked" display-type="edit" access-code="a1" address="isLocked" return-type="boolean"/>
+
+    <property
+     property-name="Add Report Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.AddReportConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceAddReport"/>
+
+    <property
+     property-name="Add Document Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.AddDocumentConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceAddDocument"/>
+
+    <property
+     property-name="Find Report Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.FindReportConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceFindReport"/>
+
+    <property
+     property-name="Find Document Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.FindDocumentConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceFindDocument"/>
+
+    <property
+     property-name="Add Index Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.AddIndexConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceAddIndex"/>
+
+    <property
+     property-name="Add Charge Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.AddChargeConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceAddCharge"/>
+
+	 <property
+     property-name="XSL Transform Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.XSLTransformConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceXSLTransform"/>
+
+	 <property
+     property-name="ICE Get Request Configuration"
+     address="ConfigStore"
+     access-code="a1"
+     return-type="complex(com.wcg.ice.reportstep.config.GetRequestConfigStore)"
+     display-type="Config"
+     wrap-class=""
+     sub-type="iceGetRequest"/>
+
+		<figure-image reference="iceAddReport" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.AddReportReportStepPanel"/>
+		<figure-image reference="iceAddDocument" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.AddDocumentStepPanel"/>
+		<figure-image reference="iceFindReport" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.FindReportStepPanel"/>
+		<figure-image reference="iceFindDocument" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.FindDocumentStepPanel"/>
+		<figure-image reference="iceAddIndex" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.AddIndexReportStepPanel"/>
+		<figure-image reference="iceAddCharge" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.AddChargeReportStepPanel"/>
+		<figure-image reference="iceXSLTransform" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.XSLTransformPanel"/>
+		<figure-image reference="equifaxUKConsumer" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.EquifaxUKConsumerPanel"/>
+		<figure-image reference="equifaxUSConsumer" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.EquifaxUSConsumerPanel"/>
+		<figure-image reference="experianUKConsumer" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.ExperianUKConsumerPanel"/>
+		<figure-image reference="decisionBureau" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.DecisionBureauPanel"/>
+		<figure-image reference="coLDBUpdate" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.vwfs.CoLDBUpdatePanel"/>
+		<figure-image reference="bankOfPortugal" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.BankOfPortugalPanel"/>
+		<figure-image reference="crediInformacoes" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.CrediInformacoesPanel"/>
+		<figure-image reference="fileSourcePlugin" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.FileSourcePluginPanel"/>
+		<figure-image reference="ccs" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.CCSPanel"/>
+		<figure-image reference="iceGetRequest" image-name="activity64.gif" component-panel="com.wcg.ice.designer.parts.GetRequestStepPanel"/>
+        <figure-image reference="starticerep" image-name="start64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel"/>
+	    <figure-image reference="endicerep" image-name="stop64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel"/>
+		<figure-image reference="hunterII" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.HunterIIPanel"/>
+		<figure-image reference="veda" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.VedaPanel"/>
+		<figure-image reference="tuxml" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.TUXmlPanel"/>
+		<figure-image reference="lexisnexis" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.LexisNexisPanel"/>
+		<figure-image reference="creditreform" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.CreditreformPanel"/>
+		<figure-image reference="experianqas" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.ExperianQASPanel"/>
+		<figure-image reference="factorTrust" image-name="connection64.gif" component-panel="com.wcg.ice.designer.parts.FactorTrustPanel"/>
+		<figure-image reference="equifaxCAConsumer" image-name="connection64.gif" component-panel="com.wcg.catalyst.common.designer.parts.activity.NotSupportedActivityPanel"/>
+
+	</component>
+
+  <component
+   type="iceAddReport"
+   isComponent="false"
+   isProperty="true"
+   className="com.wcg.ice.reportstep.config.AddReportConfigStore"
+   access-code="a1">
+    <property
+     property-name="Report Id"
+     display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+     access-code="a1"
+     address="ReportId"
+     return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+     sub-type=""/>
+
+  </component>
+
+  <component
+   type="iceAddDocument"
+   isComponent="false"
+   isProperty="true"
+   className="com.wcg.ice.reportstep.config.AddDocumentConfigStore"
+   access-code="a1">
+    <property
+     property-name="Report Id"
+     display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+     access-code="a1"
+     address="ReportId"
+     return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+     sub-type=""/>
+
+    <property
+     property-name="Document"
+     display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+     access-code="a1"
+     address="Document"
+     return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+     sub-type=""/>
+
+    <property
+     property-name="Document Type"
+     display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+     access-code="a1"
+     address="DocumentType"
+     return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+     sub-type=""/>
+
+    <property
+     property-name="Document Id"
+     display-type="dialog(com.wcg.catalyst.common.designer.dialogs.OperandDialog)"
+     access-code="a1"
+     address="DocumentId"
+     return-type="complex(com.wcg.catalyst.common.config.OperandConfigModel)"
+     sub-type=""/>
+
+  </component>
+
+<!--  Activity configs -->
+
+	<component-config reference="calculator" title="New Calculator">
+		<activity-type>calculator</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>
+			<calculator>
+				<equation seq="010" type="Clear" target="d-temp" value="0" value-type="constant" unit-type="integer"/>
+				<equation seq="020" type="Add" target="d-temp" value="d-age-at-loan-end" value-type="workflow-pipe" unit-type="integer"/>
+				<equation seq="030" type="Subtract" target="d-temp" value="d-max-age-end" value-type="workflow-pipe" unit-type="integer"/>
+				<equation seq="040" type="Multiply" target="d-temp" value="12" value-type="constant" unit-type="integer"/>
+				<equation seq="050" type="Subtract" target="d-term" value="d-temp" value-type="workflow-pipe" unit-type="integer"/>
+			</calculator>
+		</config>
+	</component-config>
+
+	<component-config reference="champ-challenge" title="Champ/Challenger">
+		<activity-type>champ-challenge</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.ChampChallengeActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.ChampChallengeActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="endproc" title="End process - OK">
+		<activity-type>end</activity-type>
+		<config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>
+			<result>
+        <operand ref="result" operand-type="constant" item-type="text" value="OK"/>
+			</result>
+		</config>
+	</component-config>
+
+	<component-config reference="subproc" title="Run sub process">
+		<activity-type>subproc</activity-type>
+		<config-class>com.wcg.catalyst.common.config.RunSubContainerConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.RunSubContainer</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="runproc" title="Run a process">
+		<activity-type>runproc</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.RunProcessActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.RunProcessActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="branch" title="Branch process">
+		<activity-type>branch</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.BranchActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.BranchActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="startproc" title="Start">
+		<activity-type>start</activity-type>
+		<config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="manual" title="Add to Work Queue">
+		<activity-type>manual</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="timer" title="Delay in the progress of a work item through a Process">
+		<activity-type>timer</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.TimerConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.TimerActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="tracking-point" title="Add Tracking Point">
+		<activity-type>tracking-point</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.TrackingPointActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.TrackingPointActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="email" title="Send an Email">
+		<activity-type>email</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.SendEmailActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.SendEmailActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="connection-activity" title="Connection">
+		<activity-type>connection-activity</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.ConnectionActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.ConnectionActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="rda" title="Run Rules Engine">
+		<activity-type>rda</activity-type>
+		<config-class>com.wcg.catalyst.common.config.RunSubContainerConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.RulesEngineActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="file-manager" title="File Manager">
+		<activity-type>file-manager</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.FileManagerActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.FileManagerActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="beanshell" title="Bean Shell">
+		<activity-type>beanshell</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.BeanShellActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.BeanShellActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="delete-manual" title="Delete Manual">
+		<activity-type>delete-manual</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.DeleteManualActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.DeleteManualActivity</handler-class>
+		</config>
+	</component-config>
+
+	<component-config reference="sql" title="SQL Activity">
+		<activity-type>sql</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.SQLActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.SQLActivity</handler-class>
+		</config>
+	</component-config>
+	<component-config reference="storedproc" title="Stored Proc Activity">
+		<activity-type>storedproc</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.StoredProcActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.StoredProcActivity</handler-class>
+		</config>
+	</component-config>
+	<component-config reference="list-check" title="List Check">
+		<activity-type>list-check</activity-type>
+		<config-class>com.wcg.catalyst.pa.config.ListCheckActivityConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.pa.activities.ListCheckActivity</handler-class>
+		</config>
+	</component-config>
+
+  <component-config reference="end-synch-activity" title="End Synch">
+    <activity-type>end-synch</activity-type>
+    <config-class>com.wcg.catalyst.pa.config.EndSynchActivityConfigStore</config-class>
+    <config>
+      <handler-class>com.wcg.catalyst.pa.activities.EndSynchActivity</handler-class>
+    </config>
+  </component-config>
+
+  <component-config reference="clear-pipe" title="Clear Pipe">
+	<activity-type>clear-pipe</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.CleanPipeActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.CleanPipeActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="complete-work-list" title="Complete Work List Item">
+	<activity-type>complete-work-list</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.CompleteWorkListConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.CompleteWorkListItemActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="loadworksheet" title="Load Worksheet Activity">
+	<activity-type>loadworksheet</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.LoadWorksheetActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.LoadWorksheetActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="show-pipe" title="Show Pipe">
+	<activity-type>show-pipe</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.PipeShowActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.PipeShowActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="diary" title="Diary Activity">
+    <activity-type>diary</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.DiaryActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.DiaryActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="task" title="Task Activity">
+    <activity-type>diary</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.TaskActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.TaskActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="decision" title="Decision Tree Activity">
+    <activity-type>decision</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="scorecard" title="Scorecard Activity">
+    <activity-type>scorecard</activity-type>
+	<config-class>com.wcg.catalyst.pa.config.ScorecardActivityConfigStore</config-class>
+	<config>
+	  <handler-class>com.wcg.catalyst.pa.activities.ScorecardActivity</handler-class>
+	</config>
+  </component-config>
+
+  <component-config reference="iceActivity" title="ICE Activity">
+      <activity-type>iceActivity</activity-type>
+      <config-class>com.wcg.ice.activity.ICEActivityConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.activity.ICEActivity</handler-class>
+      </config>
+  </component-config>
+
+
+  <component-config reference="workqueue" title="Work Queue">
+      <activity-type>workqueue</activity-type>
+      <config-class>com.wcg.wq.config.WorkQueueConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.wq.config.WorkQueueModel</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="testsuite" title="Test Suite">
+      <activity-type>testsuite</activity-type>
+      <config-class>com.wcg.catalyst.pa.autotest.config.TestSuiteModelConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+
+<!--  Connection configs  -->
+
+	<component-config reference="connection">
+		<title>Connection</title>
+		<config-class>com.wcg.catalyst.ih.config.ConnectionConfig</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.ih.connectors.IHConnector</handler-class>
+		</config>
+	</component-config>
+
+<!--  Deployment configs  -->
+
+	<component-config reference="deployment">
+		<title>Deployment</title>
+		<config-class>com.wcg.catalyst.common.config.DeploymentConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+		</config>
+	</component-config>
+
+<!-- Environment config -->
+
+	<component-config reference="environment">
+		<title>Environment</title>
+		<config-class>com.wcg.catalyst.common.config.EnvironmentConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+		</config>
+	</component-config>
+
+<!-- Dictionary group config -->
+
+  <component-config reference="dictionary">
+      <title>Dictionary</title>
+      <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+<!-- Process config -->
+
+  <component-config reference="process">
+      <title>Process</title>
+      <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+<!--  Injector configs  -->
+
+	<component-config reference="injector">
+		<title>Injector</title>
+		<activity-type>injector</activity-type>
+		<config-class>com.wcg.catalyst.pa.autotest.config.TestItemInjectorConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.designer.trialrun.Injector</handler-class>
+		</config>
+	</component-config>
+
+<!--  Tester configs  -->
+
+	<component-config reference="tester">
+		<title>Tester</title>
+		<activity-type>tester</activity-type>
+		<config-class>com.wcg.catalyst.pa.autotest.config.TestItemTesterConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.designer.trialrun.Tester</handler-class>
+		</config>
+	</component-config>
+
+<!--  Breakpoint configs  -->
+
+	<component-config reference="breakpoint">
+		<title>Breakpoint</title>
+		<activity-type>breakpoint</activity-type>
+		<config-class>com.wcg.catalyst.common.designer.trialrun.InjectorConfigStore</config-class>
+		<config>
+			<handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+		</config>
+	</component-config>
+
+<!--  Rule configs  -->
+
+	<component-config reference="startruleset">
+		<rule-type>start</rule-type>
+		<config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>
+		<config>
+  		<handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>
+  	</config>
+	</component-config>
+
+  <component-config reference="rule">
+    <title>Start</title>
+    <rule-type>rule</rule-type>
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>
+    <config>
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>
+    </config>
+  </component-config>
+
+  <component-config reference="endruleset">
+    <title>End ruleset</title>
+    <rule-type>end</rule-type>
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>
+    <config>
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>
+      <result>
+        <operand catalyst-version="5.0" x-coordinate="0" y-coordinate="0" height="0" width="0" id="" title="" version="001"
+                 operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="wf-result"
+                 get-address="" set-address="">
+          <last-update time="1196348507323" />
+          <last-update-by />
+          <reason-for-change />
+          <config-class />
+        </operand>
+      </result>
+    </config>
+  </component-config>
+
+<!-- Ruleset config -->
+
+  <component-config reference="ruleset">
+      <title>Ruleset</title>
+      <config-class>com.wcg.catalyst.re.config.RulesetConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+<!--  Processor configs -->
+
+	<component-config reference="transactionprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.TransactionProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.TransactionProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="unloadobjectprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.UnloadObjectProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.UnloadObjectProcessor</handler-class>
+	       <object></object>
+	  </config>
+	</component-config>
+	<component-config reference="loadobjectprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.LoadObjectProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.LoadObjectProcessor</handler-class>
+	       <object></object>
+	  </config>
+	</component-config>
+	<component-config reference="removeobjectprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.RemoveObjectProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.RemoveObjectProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="readxmlprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.ReadXMLProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.ReadXMLProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="buildxmlprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.BuildXMLProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.BuildXMLProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="objectcacheprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.ObjectCacheProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.ObjectCacheProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="xsltprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.XSLTProcessorConfigStore</config-class>
+	  <config>
+       <handler-class>com.wcg.catalyst.common.processor.XSLTProcessor</handler-class>
+       <xslt/>
+	  </config>
+	</component-config>
+	<component-config reference="jposprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.JPOSProcessorConfigStore</config-class>
+	  <config>
+	      <handler-class>com.wcg.catalyst.common.processor.JPOSProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="dotnetposprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.DotNetPOSProcessorConfigStore</config-class>
+	  <config>
+	      <handler-class>com.wcg.catalyst.common.processor.DotNetPOSProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="messagebreakoutprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.ProcessorConfig</config-class>
+	  <config>
+	      <handler-class>com.wcg.catalyst.common.processor.MessageBreakoutProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="xmlvalidationprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.XMLValidationProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.XMLValidationProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="startprocessprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.StartProcessProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.StartProcessProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="identifierprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.IdentifierProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.IdentifierProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="callmethodprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.CallMethodProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.CallMethodProcessor</handler-class>
+	       <class>
+		   </class>
+		   <constructor>
+		     <argument seq="1" name="" type=""/>
+		   </constructor>
+		   <method>
+		     <argument seq="1" name="" type=""/>
+		</method>
+	  </config>
+	</component-config>
+	<component-config reference="completetemplateprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.CompleteTemplateProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.CompleteTemplateProcessor</handler-class>
+	       <template>
+	       <template-name/>
+	       <output-item/>
+	       </template>
+	  </config>
+	</component-config>
+	<component-config reference="csvprocessor">
+	  <title>New Processor</title>
+	  <config-class>com.wcg.catalyst.common.processor.config.CSVProcessorConfigStore</config-class>
+	  <config>
+	       <handler-class>com.wcg.catalyst.common.processor.CSVProcessor</handler-class>
+	  </config>
+	</component-config>
+	<component-config reference="fixedlengthreadprocessor">
+    <title>New Processor</title>
+    <config-class>com.wcg.catalyst.common.processor.config.FixedLengthReadProcessorConfigStore</config-class>
+    <config>
+         <handler-class>com.wcg.catalyst.common.processor.FixedLengthReadProcessor</handler-class>
+    </config>
+  	</component-config>
+	<component-config reference="fixedlengthwriteprocessor">
+    <title>New Processor</title>
+    <config-class>com.wcg.catalyst.common.processor.config.FixedLengthWriteProcessorConfigStore</config-class>
+    <config>
+         <handler-class>com.wcg.catalyst.common.processor.FixedLengthWriteProcessor</handler-class>
+    </config>
+</component-config>
+
+<!-- Test Model/Config -->
+
+ <component-config reference="testmodel">
+  <title>New Test</title>
+  <config-class>com.wcg.catalyst.pa.autotest.config.TestModelConfigStore</config-class>
+  <config>
+       <handler-class>com.wcg.catalyst.pa.autotest.config.TestModel</handler-class>
+  </config>
+ </component-config>
+
+
+
+
+<!-- Worksheet config -->
+
+  <component-config reference="worksheet">
+      <title>Worksheet</title>
+      <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+			  <item-value-mapping>
+			    <sheet-defaults>
+			      <value id="122224631955603" name="Number" value="" type="number"/>
+			      <value id="122224631009302" name="Text" value="" type="text"/>
+			    </sheet-defaults>
+			    <columns/>
+			    <rows/>
+			  </item-value-mapping>
+      </config>
+  </component-config>
+
+ <component-config reference="workqueue">
+  <title>New Work Queue</title>
+  <config-class>com.wcg.catalyst.wq.config.WorkQueueConfigStore</config-class>
+  <config>
+       <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+  </config>
+ </component-config>
+
+ <component-config reference="ice-reports">
+      <title>ICE Reports</title>
+      <config-class>com.wcg.ice.common.model.ICEModuleConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="ice-report">
+      <title>ICE Report</title>
+      <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceAddReport" title="Add Report">
+      <title>ICE Add Report Step</title>
+      <config-class>com.wcg.ice.reportstep.config.AddReportConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.AddReportReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceAddDocument" title="Add Document">
+      <title>ICE Add Document Step</title>
+      <config-class>com.wcg.ice.reportstep.config.AddDocumentConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.AddDocumentReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceFindReport" title="Find Report">
+      <title>ICE Fine Report Step</title>
+      <config-class>com.wcg.ice.reportstep.config.FindReportConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.FindReportReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceFindDocument" title="Find Document">
+      <title>ICE Find Document Step</title>
+      <config-class>com.wcg.ice.reportstep.config.FindDocumentConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.FindDocumentReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceAddIndex" title="Add Index">
+      <title>ICE Add Index Step</title>
+      <config-class>com.wcg.ice.reportstep.config.AddIndexConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.AddIndexReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceAddCharge" title="Add Charge">
+      <title>ICE Add Charge Step</title>
+      <config-class>com.wcg.ice.reportstep.config.AddChargeConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.AddChargeReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceXSLTransform" title="XSL Transform">
+      <title>ICE XSL Transform Step</title>
+      <config-class>com.wcg.ice.reportstep.config.XSLTransformConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.XSLTransformDocumentStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceModule" title="ICE Module">
+      <title>ICE Module</title>
+      <config-class>com.wcg.ice.common.model.ICEModuleConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="iceGetRequest" title="ICE Get Request">
+      <title>ICE Get Request</title>
+      <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.GetRequestReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="starticerep" title="Start">
+      <title>Start</title>
+      <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.StartReportReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="endicerep" title="End">
+      <title>End</title>
+      <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.EndReportReportStep</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="equifaxUKConsumer" title="Equifax UK Consumer">
+      <title>Equifax Consumer Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.equifaxukconsumer.EquifaxUKConsumerPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.equifaxukconsumer.EquifaxUKConsumerPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="equifaxUSConsumer" title="Equifax USA Consumer">
+      <title>Equifax USA Consumer Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="equifaxCAConsumer" title="Equifax Canada Consumer">
+      <title>Equifax Canada Consumer Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="experianUKConsumer" title="Experian UK Consumer">
+      <title>Experian UK Consumer Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.experianconsumer.ExperianUKConsumerPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.experianconsumer.ExperianUKConsumerPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="decisionBureau" title="Decision Bureau">
+      <title>Decision Bureau Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="coLDBUpdate" title="CoL DB Update">
+      <title>CoL DB Update</title>
+      <config-class>com.wcg.ice.reportstep.vwfs.CoLDBUpdateConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.vwfs.CoLDBUpdate</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="bankOfPortugal" title="Bank of Portugal">
+      <title>Bank of Portugal</title>
+      <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="hunterII" title="Hunter II">
+      <title>Hunter II Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.hunterii.HunterIIPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.hunterii.HunterIIPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="veda" title="Veda">
+      <title>Veda Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.veda.VedaPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.veda.VedaPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="creditreform" title="Creditreform">
+      <title>Creditreform Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.creditreform.CreditreformConfigStore</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.creditreform.CreditreformPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="tuxml" title="TUXML">
+      <title>TUXML Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.tuxml.TUXmlPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.tuxml.TUXmlPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="lexisnexis" title="LexisNexis">
+      <title>LexisNexis Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="factorTrust" title="FactorTrust">
+      <title>FactorTrust Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.factortrust.FactorTrustPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.factortrust.FactorTrustPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="crediInformacoes" title="Credi Informacoes">
+      <title>Credi Informacoes</title>
+      <config-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="fileSourcePlugin" title="File Source Plugin">
+      <title>File Source Plugin</title>
+      <config-class>com.wcg.ice.reportstep.agency.FileSourcePluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.FileSourcePlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="ccs" title="CCS">
+      <title>CCS</title>
+      <config-class>com.wcg.ice.reportstep.agency.ccs.CCSPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.ccs.CCSPlugin</handler-class>
+      </config>
+  </component-config>
+
+  <component-config reference="experianqas" title="Experian QaS">
+      <title>Experian QaS</title>
+      <config-class>com.wcg.ice.reportstep.agency.experianquickaddress.ExperianQASPluginConfig</config-class>
+      <config>
+        <handler-class>com.wcg.ice.reportstep.agency.experianquickaddress.ExperianQASPlugin</handler-class>
+      </config>
+  </component-config>
+
+<!--  Palette options  -->
+
+  <palette seq="010" id="company"    label="Company" shortDescription="Add a company"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystCompanyModel"
+	                                   smallIconImageName="company16.gif" largeIconImageName="company32.gif"/>
+  <palette seq="020" id="server"     label="Server" shortDescription="Add a server"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystServerModel"
+	                                   smallIconImageName="server16.gif" largeIconImageName="server32.gif"/>
+  <palette seq="030" id="environment" label="Environment" shortDescription="Add a environment"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystEnvironmentModel"
+	                                   smallIconImageName="catalyst16.gif" largeIconImageName="catalyst32.gif"
+	                                   componentReference="environment"/>
+  <palette seq="040" id="deployment" label="Deployment" shortDescription="Add a deployment"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystDeploymentModel"
+	                                   smallIconImageName="catalyst16.gif" largeIconImageName="catalyst32.gif"
+	                                   componentReference="deployment"/>
+  <palette seq="050" id="process"    label="Process" shortDescription="Add a process"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystProcessModel"
+	                                   smallIconImageName="process16.gif" largeIconImageName="process32.gif" componentReference="process"/>
+  <palette seq="060" id="ruleset"    label="Ruleset" shortDescription="Add a rule set"
+	                                   figureModelClassName="com.wcg.catalyst.re.config.CatalystRulesetModel"
+	                                   smallIconImageName="rule16.gif" largeIconImageName="rule32.gif" componentReference="ruleset"/>
+  <palette seq="070" id="dictionary" label="Dictionary" shortDescription="Add a dictionary"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystDictionaryModel"
+	                                   smallIconImageName="dictionary16.gif" largeIconImageName="dictionary32.gif" componentReference="dictionary"/>
+  <palette seq="080" id="connection" label="Connection" shortDescription="Add a connection"
+	                                   figureModelClassName="com.wcg.catalyst.ih.config.CatalystConnectionModel"
+	                                   smallIconImageName="connection16.gif" largeIconImageName="connection32.gif"  componentReference="connection"/>
+  <palette seq="090" id="worksheet"  label="Worksheet" shortDescription="Add a worksheet"
+	                                   figureModelClassName="com.wcg.catalyst.mv.config.CatalystWorksheetModel"
+	                                   smallIconImageName="worksheet16.gif" largeIconImageName="worksheet32.gif"  componentReference="worksheet"/>
+  <palette seq="100" id="rule"       label="Rule" shortDescription="Add a rule"
+	                                   figureModelClassName="com.wcg.catalyst.re.config.CatalystRuleModel"
+	                                   smallIconImageName="rule16.gif" largeIconImageName="rule32.gif" componentReference="rule"/>
+  <palette seq="110" id="endruleset" label="End" shortDescription="End"
+	                                   figureModelClassName="com.wcg.catalyst.re.config.CatalystRuleModel"
+	                                   smallIconImageName="stop16.gif" largeIconImageName="stop32.gif" componentReference="endruleset"/>
+  <palette seq="120" id="calculator" label="Calculator" shortDescription="Add a calculator"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="calculator16.gif" largeIconImageName="calculator32.gif" componentReference="calculator"/>
+  <palette seq="130" id="rda"        label="Rules" shortDescription="Add rules"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="rule16.gif" largeIconImageName="rule32.gif" componentReference="rda"/>
+  <palette seq="140" id="subproc"    label="Sub Process" shortDescription="Run sub process"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="librarystart16.gif" largeIconImageName="librarystart32.gif" componentReference="subproc"/>
+  <palette seq="150" id="manual" label="Manual Activity" shortDescription="Add a manual activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="manualactivity16.gif" largeIconImageName="manualactivity32.gif" componentReference="manual"/>
+  <palette seq="160" id="champ-challenge" label="Champ/Challenger" shortDescription="Splits the flow on a random basis"
+                                       figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+                                       smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="champ-challenge"/>
+  <palette seq="170" id="complete-work-list" label="Complete Work List Item" shortDescription="Complete Work List Item"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="complete-work-list"/>
+  <palette seq="180" id="connection-activity" label="Connection Activity" shortDescription="Add a connection activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="connection-activity"/>
+  <palette seq="190" id="decision" label="Decision Tree Activity" shortDescription="Decision Tree activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="decision"/>
+  <palette seq="195" id="scorecard" label="Scorecard Activity" shortDescription="Scorecard activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="scorecard"/>
+  <palette seq="200" id="delete-manual" label="Delete Manual Activity" shortDescription="Delete a Manual activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+		                               smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="delete-manual"/>
+  <palette seq="210" id="diary" label="Diary Activity" shortDescription="Diary activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="diary"/>
+  <palette seq="220" id="endproc"    label="End" shortDescription="End"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="stop16.gif" largeIconImageName="stop32.gif" componentReference="endproc"/>
+  <palette seq="230" id="end-synch-activity" label="End Synch" shortDescription="End Synchronous Process"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="end-synch-activity"/>
+  <palette seq="240" id="file-manager" label="File Manager Activity" shortDescription="Add a file manager activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="file-manager"/>
+  <palette seq="250" id="iceActivity" label="ICE Activity" shortDescription="ICE activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceActivity"/>
+  <palette seq="260" id="list-check" label="List Check Activity" shortDescription="List Check Activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+		                               smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="list-check"/>
+  <palette seq="270" id="sql" label="SQL Activity" shortDescription="SQL activity"
+		                               figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+		                               smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="sql"/>
+  <palette seq="280" id="storedproc" label="Stored Proc" shortDescription="Stored Proc Activity"
+      		                           figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+      		                           smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="storedproc"/>
+  <palette seq="290" id="timer" label="Timer" shortDescription="Add a timer activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="timeractivity16.gif" largeIconImageName="timeractivity32.gif" componentReference="timer"/>
+  <palette seq="300" id="tracking-point" label="Tracking Point" shortDescription="Add a tracking point"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="tracking-point"/>
+  <palette seq="310" id="injector"   label="Injector" shortDescription="Injector"
+	                                   figureModelClassName="com.wcg.catalyst.common.designer.trialrun.CatalystInjectorModel"
+	                                   smallIconImageName="injector16.gif" largeIconImageName="injector32.gif" componentReference="injector"/>
+  <palette seq="320" id="tester"     label="Tester" shortDescription="Tester"
+	                                   figureModelClassName="com.wcg.catalyst.common.designer.trialrun.CatalystTesterModel"
+	                                   smallIconImageName="testerwaiting16.gif" largeIconImageName="testerwaiting32.gif" componentReference="tester"/>
+  <palette seq="325" id="breakpoint" label="Breakpoint" shortDescription="Breakpoint"
+	                                   figureModelClassName="com.wcg.catalyst.common.designer.trialrun.CatalystBreakpointModel"
+	                                   smallIconImageName="breakpoint16.gif" largeIconImageName="breakpoint32.gif" componentReference="breakpoint"/>
+  <palette seq="330" id="beanshell" label="Bean Shell Activity" shortDescription="Bean shell activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="beanshell"/>
+  <palette seq="340" id="clear-pipe" label="Clear Pipe" shortDescription="Clear items from the Pipe"
+		                               figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+		                               smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="clear-pipe"/>
+  <palette seq="350" id="show-pipe" label="Show Pipe" shortDescription="Show items from the Pipe"
+		                               figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+		                               smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="show-pipe"/>
+  <palette seq="360" id="note" label="Note" shortDescription="Note"
+                                       figureModelClassName="com.wcg.catalyst.common.config.CatalystNoteModel"
+                                       smallIconImageName="note16.gif" largeIconImageName="note32.gif" componentReference="note"/>
+  <palette seq="370" id="email" label="Email" shortDescription="Add an email activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="email16.gif" largeIconImageName="email32.gif" componentReference="email"/>
+
+  <palette seq="380" id="ice-reports" label="ICE Reports" shortDescription="ICE Reports"
+      		                           figureModelClassName="com.wcg.ice.common.model.ICEModule"
+      		                           smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="ice-reports"/>
+
+  <palette seq="390" id="ice-report" label="ICE Report" shortDescription="ICE Report"
+                                     figureModelClassName="com.wcg.ice.common.model.ICEReportModel"
+                                     smallIconImageName="process16.gif" largeIconImageName="process32.gif" componentReference="ice-report"/>
+
+  <palette seq="400" id="iceAddReport" label="Add Report" shortDescription="Add Report"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceAddReport"/>
+
+  <palette seq="410" id="iceAddDocument" label="Add Document" shortDescription="Add Document"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceAddDocument"/>
+
+  <palette seq="420" id="iceFindReport" label="Find Report" shortDescription="Find Report"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceFindReport"/>
+
+  <palette seq="430" id="iceFindDocument" label="Find Document" shortDescription="Find Document"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceFindDocument"/>
+
+  <palette seq="440" id="iceAddIndex" label="Add Index" shortDescription="Add Index"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceAddIndex"/>
+
+  <palette seq="450" id="iceAddCharge" label="Add Charge" shortDescription="Add Charge"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceAddCharge"/>
+
+  <palette seq="460" id="equifaxUKConsumer" label="Equifax UK Consumer" shortDescription="Equifax UK Consumer"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="equifaxUKConsumer"/>
+
+  <palette seq="462" id="equifaxUSConsumer" label="Equifax USA Consumer" shortDescription="Equifax USA Consumer"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="equifaxUSConsumer"/>
+
+  <palette seq="463" id="equifaxCAConsumer" label="Equifax Canada Consumer" shortDescription="Equifax Canada Consumer"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="equifaxCAConsumer"/>
+
+  <palette seq="470" id="experianUKConsumer" label="Experian UK Consumer" shortDescription="Experian UK Consumer"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="experianUKConsumer"/>
+
+  <palette seq="480" id="decisionBureau" label="Decision Bureau" shortDescription="Decision Bureau"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="decisionBureau"/>
+
+  <palette seq="490" id="coLDBUpdate" label="CoL DB Update" shortDescription="CoL DB Update"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="coLDBUpdate"/>
+
+  <palette seq="500" id="bankOfPortugal" label="Bank of Portugal" shortDescription="Bank of Portugal"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="bankOfPortugal"/>
+
+  <palette seq="510" id="crediInformacoes" label="Credi Informacoes" shortDescription="Credi Informacoes"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="crediInformacoes"/>
+
+  <palette seq="520" id="fileSourcePlugin" label="File Source Plugin" shortDescription="File Source Plugin"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="fileSourcePlugin"/>
+
+  <palette seq="530" id="iceXSLTransform" label="XSL Transform" shortDescription="XSL Transform"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceXSLTransform"/>
+
+  <palette seq="540" id="iceModule" label="ICE Module" shortDescription="ICE Module"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceModule"/>
+
+  <palette seq="550" id="iceGetRequest" label="ICE Get Request" shortDescription="ICE Get Request"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="iceGetRequest"/>
+
+  <palette seq="560" id="endicerep" label="End" shortDescription="End"
+                                     figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                     smallIconImageName="stop16.gif" largeIconImageName="stop32.gif" componentReference="endicerep"/>
+
+  <palette seq="570" id="templategroup" label="Template Group" shortDescription="Add a template group"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystTemplateGroupModel"
+	                                   smallIconImageName="templategroup16.gif" largeIconImageName="templategroup32.gif"/>
+
+  <palette seq="580" id="template"     label="Template" shortDescription="Add a template"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystTemplateModel"
+	                                   smallIconImageName="template16.gif" largeIconImageName="template32.gif"/>
+
+  <palette seq="590" id="barcode"     label="Barcode" shortDescription="Add a barcode"
+	                                   figureModelClassName="com.wcg.catalyst.common.config.CatalystBarcodeModel"
+	                                   smallIconImageName="barcode16.gif" largeIconImageName="barcode32.gif"/>
+
+  <palette seq="600" id="securitygroup" label="Security Group" shortDescription="Add a security group"
+	                                   figureModelClassName="com.wcg.catalyst.security.CatalystSecurityGroupModel"
+	                                   smallIconImageName="security16.gif" largeIconImageName="security32.gif"/>
+
+  <palette seq="610" id="keystore" label="Keystore" shortDescription="Add a keystore"
+	                                   figureModelClassName="com.wcg.catalyst.security.CatalystKeystoreModel"
+	                                   smallIconImageName="keystore16.gif" largeIconImageName="keystore32.gif"/>
+
+  <palette seq="620" id="sslfactory" label="SSL Factory" shortDescription="Add an SSL factory"
+	                                   figureModelClassName="com.wcg.catalyst.security.CatalystSSLFactoryModel"
+	                                   smallIconImageName="factory16.gif" largeIconImageName="factory32.gif"/>
+
+  <palette seq="625" id="usernametoken" label="Username Token" shortDescription="Add a username token"
+	                                   figureModelClassName="com.wcg.catalyst.security.CatalystUsernameTokenModel"
+	                                   smallIconImageName="factory16.gif" largeIconImageName="factory32.gif"/>
+
+  <palette seq="630" id="workqueue" label="Work Queue" shortDescription="Work Queue"
+                                       figureModelClassName="com.wcg.catalyst.wq.config.WorkQueueModel"
+                                       smallIconImageName="queue16.gif" largeIconImageName="queue32.gif" componentReference="workqueue"/>
+
+  <palette seq="640" id="testsuite" label="Test Suite" shortDescription="Add a test suite"
+	                                   figureModelClassName="com.wcg.catalyst.pa.autotest.config.TestSuiteModel"
+	                                   smallIconImageName="testsuite16.gif" largeIconImageName="testsuite32.gif" componentReference="testsuite"/>
+
+  <palette seq="650" id="test" label="Test" shortDescription="Add a test"
+  									   figureModelClassName="com.wcg.catalyst.pa.autotest.config.TestModel"
+	                                   smallIconImageName="test16.gif" largeIconImageName="test32.gif" componentReference="testmodel"/>
+
+  <palette seq="660" id="testgroup" label="Test Group" shortDescription="Add a test group"
+  									   figureModelClassName="com.wcg.catalyst.pa.autotest.config.CatalystTestGroupModel"
+	                                   smallIconImageName="testgroup16.gif" largeIconImageName="testgroup32.gif"/>
+
+  <palette seq="680" id="loadworksheet" label="Load Worksheet" shortDescription="Add a load worksheet activity"
+  									   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="loadworksheet"/>
+  <palette seq="690" id="ccs" label="CCS" shortDescription="CCS"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="ccs"/>
+  <palette seq="700" id="veda" label="Veda" shortDescription="Veda"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="veda"/>
+  <palette seq="790" id="hunterII" label="Hunter II" shortDescription="Hunter II"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="hunterII"/>
+  <palette seq="710" id="tuxml" label="TUXML" shortDescription="TUXML"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="tuxml"/>
+  <palette seq="720" id="lexisnexis" label="LexisNexis" shortDescription="LexisNexis"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="lexisnexis"/>
+  <palette seq="730" id="creditreform" label="Creditreform" shortDescription="Creditreform"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="creditreform"/>
+  <palette seq="800" id="experianqas" label="Experian QaS" shortDescription="Experian QaS"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="experianqas"/>
+  <palette seq="850" id="factorTrust" label="FactorTrust" shortDescription="FactorTrust"
+                                       figureModelClassName="com.wcg.ice.common.model.ReportStepModel"
+                                       smallIconImageName="connection16.gif" largeIconImageName="connection32.gif" componentReference="factorTrust"/>
+  <palette seq="860" id="runproc" label="Run a process" shortDescription="Run a process"
+  									   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="runproc"/>
+  <palette seq="900" id="task" label="Task Activity" shortDescription="Task activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="task"/>
+  <palette seq="950" id="branch" label="Branch Activity" shortDescription="Branch activity"
+	                                   figureModelClassName="com.wcg.catalyst.pa.config.CatalystActivityModel"
+	                                   smallIconImageName="activity16.gif" largeIconImageName="activity32.gif" componentReference="branch"/>
+</descriptors>

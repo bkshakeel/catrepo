@@ -1,0 +1,25 @@
+
+<template catalyst-version="5.0" id="1345648999295134" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1345648982764133_tp_1345648999295134" access-code="a1" type="tp" title="CarmaxProposal" version="001" sub-type="" reference=""> 
+  <last-update time="1352721238938"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class/>  
+  <template-text><![CDATA[<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+<proposal>
+  <period><xsl:value-of select="Term"/></period>
+  <loan-amount><xsl:value-of select="Financed-amt"/></loan-amount>
+  <finance-type><xsl:value-of select="Product"/></finance-type>
+  <xsl:for-each select="Entity">
+    <customer>
+    </customer>
+</proposal>
+</xsl:template>
+
+</xsl:stylesheet>]]></template-text>  
+  <template-type>text</template-type>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</template>

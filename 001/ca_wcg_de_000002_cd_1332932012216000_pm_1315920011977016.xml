@@ -1,0 +1,2132 @@
+
+<process catalyst-version="5.0" id="1315920011977016" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016" access-code="a1" type="pm" title="Scorecard" version="001" sub-type="" reference="process" time-out=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1473872166129"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="ac" id="1315920011981017" title="End process - OK" version="001" sub-type="end" reference="endproc" x-coordinate="1223" y-coordinate="350" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1315920011981017" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1315920011981017_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>endproc</activity-type>  
+    <next-activity/>  
+    <links/> 
+  </component>  
+  <component type="ac" id="1315920011981018" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="45" y-coordinate="56" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1315920011981018" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1435565198557140" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565198557140" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565195257000" title="LTV" version="001" sub-type="" reference="decision" x-coordinate="436" y-coordinate="219" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565195257002" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257002" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1360688763978107
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565195257004" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257004" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565195257006" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257006" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257008" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257008" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565195257010" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257010" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0005
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257012" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257012" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="c-ltv-si" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="3"> 
+            <operand catalyst-version="5.0" id="1435565195257014" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257014" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0006
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257016" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257016" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-ltv" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="4"> 
+            <operand catalyst-version="5.0" id="1435565195257018" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257018" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0007
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257020" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257020" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-ltv" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565195257022" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257022" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0008
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257032" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257032" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="column-value"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>  
+              <operand catalyst-version="5.0" id="1435565195257024" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565195257026" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565195257028" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565195257030" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/>R
+              </operand> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565195257034" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195257000_null_1435565195257034" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565198007127" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565198007127" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565195797035" title="Add increment" version="001" sub-type="" reference="calculator" x-coordinate="910" y-coordinate="351" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195797035" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="1435565195797037" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195797035_null_1435565195797037" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565195797047" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565195797035_null_1435565195797047" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="opt1"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>  
+          <operand catalyst-version="5.0" id="1435565195797039" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565195797041" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565195797043" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565195797045" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>R
+          </operand> 
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565199107169" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565199107169" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565196357048" title="Worst Adverse" version="001" sub-type="" reference="decision" x-coordinate="754" y-coordinate="219" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565196357050" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357050" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1363219912355011
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565196357052" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357052" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565196357054" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357054" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565196357056" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357056" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565196357058" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357058" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565196357060" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357060" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-spec-ind" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="3"> 
+            <operand catalyst-version="5.0" id="1435565196357062" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357062" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0003
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565196357064" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357064" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="c-worst-adverse-code" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565196357066" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357066" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565196357076" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357076" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="column-value"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>  
+              <operand catalyst-version="5.0" id="1435565196357068" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565196357070" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565196357072" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565196357074" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/>R
+              </operand> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565196357078" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196357048_null_1435565196357078" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565200717252" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565200717252" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565196897079" title="Add increment" version="001" sub-type="" reference="calculator" x-coordinate="1066" y-coordinate="351" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196897079" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="1435565196897081" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196897079_null_1435565196897081" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565196897091" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565196897079_null_1435565196897091" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="opt1"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>  
+          <operand catalyst-version="5.0" id="1435565196897083" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565196897085" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565196897087" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565196897089" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>R
+          </operand> 
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1315920011981017" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1315920011981017" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565197447092" title="Month since BK" version="001" sub-type="" reference="decision" x-coordinate="598" y-coordinate="219" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565197447094" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447094" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1361799894189062
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565197447096" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447096" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565197447098" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447098" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447100" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565197447102" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447102" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447104" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447104" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-spec-ind" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="3"> 
+            <operand catalyst-version="5.0" id="1435565197447106" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447106" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0003
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447108" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447108" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-months-since-adjusted" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="4"> 
+            <operand catalyst-version="5.0" id="1435565197447110" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447110" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447112" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447112" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-months-since-adjusted" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565197447114" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447114" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0005
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447124" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447124" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="column-value"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>  
+              <operand catalyst-version="5.0" id="1435565197447116" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565197447118" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565197447120" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565197447122" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/>R
+              </operand> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565197447126" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565197447092_null_1435565197447126" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565200187239" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565200187239" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565198007127" title="Add increment" version="001" sub-type="" reference="calculator" x-coordinate="436" y-coordinate="351" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198007127" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="1435565198007129" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198007127_null_1435565198007129" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565198007139" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198007127_null_1435565198007139" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="opt1"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>  
+          <operand catalyst-version="5.0" id="1435565198007131" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565198007133" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565198007135" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565198007137" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>R
+          </operand> 
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565197447092" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565197447092" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565198557140" title="Choose Scorecard" version="001" sub-type="" reference="decision" x-coordinate="192" y-coordinate="56" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565198557142" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557142" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1372141329361011
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565198557144" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557144" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565198557146" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557146" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557148" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557148" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-cust-type" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565198557150" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557150" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557152" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557152" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="a-dealer-brand" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565198557158" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557158" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557160" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557160" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557162" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557162" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>1
+            </operand> 
+          </result-column>  
+          <result-column seq="2" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565198557164" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557164" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0005
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557166" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557166" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565198557168" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565198557140_null_1435565198557168" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1470226613050000" value1="Consumer" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1435565195257000" value1="Commercial" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1470226613050000" value1="Consumer" restart-point="false"> 
+        <bend-points/> 
+      </link>  
+      <link target-id="1435565195257000" value1="Commercial" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565199107169" title="Enquiries" version="001" sub-type="" reference="decision" x-coordinate="1066" y-coordinate="219" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565199107171" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107171" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1360702305251215
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565199107173" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107173" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565199107175" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107175" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107177" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107177" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565199107179" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107179" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107181" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107181" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-spec-ind" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="3"> 
+            <operand catalyst-version="5.0" id="1435565199107183" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107183" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0003
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107185" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107185" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="c-recent-enquiries" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="4"> 
+            <operand catalyst-version="5.0" id="1435565199107187" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107187" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107189" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107189" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="c-recent-enquiries" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565199107191" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107191" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0005
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107201" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107201" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="column-value"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>  
+              <operand catalyst-version="5.0" id="1435565199107193" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199107195" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199107197" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199107199" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/>R
+              </operand> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199107203" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199107169_null_1435565199107203" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565196897079" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565196897079" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565199637204" title="Bureau score" version="001" sub-type="" reference="decision" x-coordinate="910" y-coordinate="219" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.DecisionTreeActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.DecisionTreeActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <worksheet> 
+        <operand catalyst-version="5.0" id="1435565199637206" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637206" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1360687557154055
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565199637208" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637208" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="items-direction"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>columns
+        </operand>  
+        <input-columns> 
+          <input-column seq="1"> 
+            <operand catalyst-version="5.0" id="1435565199637210" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637210" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0001
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637212" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637212" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="2"> 
+            <operand catalyst-version="5.0" id="1435565199637214" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637214" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0002
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637216" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637216" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column-value" pipe-name="dataitem" pipe-item-name="d-spec-ind" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="3"> 
+            <operand catalyst-version="5.0" id="1435565199637218" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637218" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0003
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637220" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637220" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="c-bureau-score" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column>  
+          <input-column seq="4"> 
+            <operand catalyst-version="5.0" id="1435565199637222" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637222" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0004
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637224" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637224" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="column-value" pipe-name="dataitem" pipe-item-name="c-bureau-score" get-address="" set-address=""> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/> 
+            </operand> 
+          </input-column> 
+        </input-columns>  
+        <result-columns> 
+          <result-column seq="1" as-output="false"> 
+            <operand catalyst-version="5.0" id="1435565199637226" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637226" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="column-header"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0005
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637236" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637236" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="column-value"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>  
+              <operand catalyst-version="5.0" id="1435565199637228" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199637230" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199637232" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/> 
+              </operand>  
+              <operand catalyst-version="5.0" id="1435565199637234" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+                <effective-from/>  
+                <effective-to/>  
+                <champion-challenge-pct/>  
+                <champion-challenge-version/>  
+                <last-update time="1473872166129"/>  
+                <last-update-by/>  
+                <reason-for-change/>  
+                <config-class/>  
+                <properties/>R
+              </operand> 
+            </operand>  
+            <operand catalyst-version="5.0" id="1435565199637238" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565199637204_null_1435565199637238" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="not-found"> 
+              <effective-from/>  
+              <effective-to/>  
+              <champion-challenge-pct/>  
+              <champion-challenge-version/>  
+              <last-update time="1473872166129"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>0
+            </operand> 
+          </result-column> 
+        </result-columns> 
+      </worksheet> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565195797035" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565195797035" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565200187239" title="Add increment" version="001" sub-type="" reference="calculator" x-coordinate="598" y-coordinate="351" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200187239" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="1435565200187241" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200187239_null_1435565200187241" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565200187251" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200187239_null_1435565200187251" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="opt1"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>  
+          <operand catalyst-version="5.0" id="1435565200187243" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200187245" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200187247" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200187249" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>R
+          </operand> 
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565196357048" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565196357048" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1435565200717252" title="Add increment" version="001" sub-type="" reference="calculator" x-coordinate="754" y-coordinate="351" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200717252" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="1435565200717254" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200717252_null_1435565200717254" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1435565200727264" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1435565200717252_null_1435565200727264" access-code="" title="" version="001" sub-type="" reference="" operand-type="ivm" item-type="number" ref="opt1"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>  
+          <operand catalyst-version="5.0" id="1435565200717256" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="worksheet" pipe-name="dataitem" pipe-item-name="d-scorecard" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200727258" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row" pipe-name="dataitem" pipe-item-name="d-row-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200727260" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="column" pipe-name="dataitem" pipe-item-name="d-column-pointer" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand>  
+          <operand catalyst-version="5.0" id="1435565200727262" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="default"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>R
+          </operand> 
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1435565199637204" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1435565199637204" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1470226613050000" title="Scorecard" version="001" sub-type="" reference="scorecard" x-coordinate="436" y-coordinate="57" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ScorecardActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ScorecardActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <operand catalyst-version="5.0" id="1470226613050002" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050002" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="worksheet-full-id"> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1473872166129"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>ca_wcg_de_000002_cd_1332932012216000_ws_1424856929078025
+      </operand>  
+      <operand catalyst-version="5.0" id="1470226613050004" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050004" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="scorecard-type"> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1473872166129"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>simple
+      </operand>  
+      <operand catalyst-version="5.0" id="1470226613050006" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050006" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="score-holder" pipe-name="dataitem" pipe-item-name="d-score" get-address="" set-address=""> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1473872166129"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <scorecard-elements> 
+        <scorecard-element id="Credit Grade"> 
+          <operand catalyst-version="5.0" id="1470226613050008" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050008" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="d-sc-credit-grade-#" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Credit Amt as a % of InvoicePrice"> 
+          <operand catalyst-version="5.0" id="1470226613050010" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050010" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-credit-amt-as-%-of-invoiceprice" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Merchandise Code"> 
+          <operand catalyst-version="5.0" id="1470226613050012" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050012" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-merchandise-code" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Days in Credit"> 
+          <operand catalyst-version="5.0" id="1470226613050014" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050014" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-days-in-credit-l6m" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Total number of returned DDs"> 
+          <operand catalyst-version="5.0" id="1470226613050016" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050016" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-total-no-of-returned-dds" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Time with Bank (months)"> 
+          <operand catalyst-version="5.0" id="1470226613050018" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050018" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-time-with-bank" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Dealer Type"> 
+          <operand catalyst-version="5.0" id="1470226613050020" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050020" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-dealer-type" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Time with Employer (months)"> 
+          <operand catalyst-version="5.0" id="1470226613050022" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050022" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-time-with-emp" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Age of Customer"> 
+          <operand catalyst-version="5.0" id="1470226613050024" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050024" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-age-of-cust" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element>  
+        <scorecard-element id="Invoice Price"> 
+          <operand catalyst-version="5.0" id="1470226613050026" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1470226613050000_null_1470226613050026" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="row-value" pipe-name="dataitem" pipe-item-name="a-sc-invoice-price" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1473872166129"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </scorecard-element> 
+      </scorecard-elements> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1473872120040000" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1473872120040000" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1473872120040000" title="End process - OK" version="001" sub-type="" reference="endproc" x-coordinate="610" y-coordinate="57" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1315920011977016_ac_1473872120040000" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1473872166129"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1473872166129"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/>  
+    <links/> 
+  </component>  
+  <properties/> 
+</process>

@@ -1,0 +1,535 @@
+
+<sheet catalyst-version="5.0" id="1360688763978107" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1360688763978107" access-code="a1" type="ws" title="SC - LTV" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1503491543643"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults/>  
+      <columns> 
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Scorecard"/>  
+        <col id="0006" seq="0006" marked="false" shrunk="false" mark-on-off="false" header="From"/>  
+        <col id="0007" seq="0007" marked="false" shrunk="false" mark-on-off="false" header="To"/>  
+        <col id="0008" seq="0008" marked="false" shrunk="false" mark-on-off="false" header="Score"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127439000" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127439001" name="" value="= AND" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127439003" name="" value="&gt;= AND" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127439004" name="" value="&lt;" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="SC1-LTV-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127439005" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127439006" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127440008" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127440009" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127440010" name="" value="10" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="SC1-LTV-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127440011" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127440012" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127440014" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127440015" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127441016" name="" value="25" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="SC1-0&lt;=LTV&lt;80" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127441017" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127441018" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127441020" name="" value="0" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127441021" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127441022" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="SC1-80&lt;=LTV&lt;90" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127441023" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127441024" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127442026" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127442027" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127442028" name="" value="44" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="SC1-90&lt;=LTV&lt;110" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127442029" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127442030" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127442032" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127442033" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127442034" name="" value="19" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="SC1-110&lt;=LTV&lt;120" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127443035" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127443036" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127443038" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127443039" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127443040" name="" value="12" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="SC1-120&lt;=LTV" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127443041" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127443042" name="" value="1" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127444044" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127444045" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127444046" name="" value="20" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0009" seq="9" title="SC2-LTV-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127444047" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127444048" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127444050" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127444051" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127444052" name="" value="13" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0010" seq="10" title="SC2-LTV-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127444053" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127445054" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127445056" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127445057" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127445058" name="" value="13" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0011" seq="11" title="SC2-0&lt;=LTV&lt;80" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127445059" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127445060" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127445062" name="" value="0" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127446063" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127446064" name="" value="8" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0012" seq="12" title="SC2-80&lt;=LTV&lt;90" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127446065" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127446066" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127446068" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127446069" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127446070" name="" value="28" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0013" seq="13" title="SC2-90&lt;=LTV&lt;110" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127446071" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127447072" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127447074" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127447075" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127447076" name="" value="13" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0014" seq="14" title="SC2-110&lt;=LTV&lt;120" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127447077" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127447078" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127447080" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127447081" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127448082" name="" value="14" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0015" seq="15" title="SC2-120&lt;=LTV" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127448083" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127448084" name="" value="2" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127448086" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127448087" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127448088" name="" value="14" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0016" seq="16" title="SC3-LTV-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127448089" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127448090" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127449092" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127449093" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127449094" name="" value="21" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0017" seq="17" title="SC3-LTV-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127449095" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127449096" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127449098" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127449099" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127449100" name="" value="21" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0018" seq="18" title="SC3-0&lt;=LTV&lt;80" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127449101" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127450102" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127450104" name="" value="0" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127450105" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127450106" name="" value="6" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0019" seq="19" title="SC3-80&lt;=LTV&lt;90" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127450107" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127450108" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127450110" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127450111" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127451112" name="" value="32" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0020" seq="20" title="SC3-90&lt;=LTV&lt;110" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127451113" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127451114" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127451116" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127451117" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127451118" name="" value="16" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0021" seq="21" title="SC3-110&lt;=LTV&lt;120" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127451119" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127451120" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127452122" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127452123" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127452124" name="" value="10" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0022" seq="22" title="SC3-120&lt;=LTV" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127452125" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127452126" name="" value="3" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127452128" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127452129" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127452130" name="" value="10" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0023" seq="23" title="SC4-LTV-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127453131" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127453132" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127453134" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127453135" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127453136" name="" value="21" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0024" seq="24" title="SC4-LTV-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127453137" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127453138" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127454140" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127454141" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127454142" name="" value="21" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0025" seq="25" title="SC4-0&lt;=LTV&lt;80" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127454143" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127454144" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127454146" name="" value="0" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127455147" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127455148" name="" value="6" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0026" seq="26" title="SC4-80&lt;=LTV&lt;90" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127455149" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127455150" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127455152" name="" value="80" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127455153" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127455154" name="" value="32" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0027" seq="27" title="SC4-90&lt;=LTV&lt;110" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127455155" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127456156" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127456158" name="" value="90" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127456159" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127456160" name="" value="16" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0028" seq="28" title="SC4-110&lt;=LTV&lt;120" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127456161" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127456162" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127456164" name="" value="110" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127457165" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127457166" name="" value="10" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0029" seq="29" title="SC4-120&lt;=LTV" marked="false"> 
+          <col id="0000"> 
+            <value id="1372105127457167" name="Text" value="" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1372105127457168" name="" value="4" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1372105127457170" name="" value="120" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1372105127457171" name="" value="*" type="text" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1372105127457172" name="" value="10" type="text" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>
