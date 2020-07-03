@@ -1,0 +1,140 @@
+
+<deployment catalyst-version="5.0" id="1332932012216000" full-id="ca_wcg_de_000002_cd_1332932012216000" access-code="a1" type="cd" title="FMO" version="002" sub-type="" reference="deployment">
+  <default-exception-process/>
+  <start-up-process/>
+  <co-exist-groups/>
+  <database-links>
+    <database-link name="catalyst"/>
+  </database-links>
+  <environment-links>
+    <environment-link name="local"/>
+  </environment-links>
+  <physical-links>
+    <physical-link name=""/>
+    <physical-link name="DM_URL"/>
+    <physical-link name="Email account password"/>
+    <physical-link name="Email account user"/>
+    <physical-link name="Input File"/>
+    <physical-link name="Mail server IP"/>
+    <physical-link name="Mail server Port"/>
+    <physical-link name="STIP_ASSET_VALUE"/>
+    <physical-link name="intray"/>
+    <physical-link name="smtp_ip"/>
+    <physical-link name="smtp_password"/>
+    <physical-link name="smtp_port"/>
+    <physical-link name="smtp_username"/>
+    <physical-link name="working"/>
+  </physical-links>
+  <fast-indexes>
+    <fast-index app-code="WCG" default="yes">
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="1" pipe-name="dataitem" pipe-item-name="a-genus-proposal-id" get-address="" set-address="">
+        <effective-from/>
+        <effective-to/>
+        <champion-challenge-pct/>
+        <champion-challenge-version/>
+        <last-update time="1593768285322"/>
+        <last-update-by/>
+        <reason-for-change/>
+        <config-class/>
+        <properties/>
+      </operand>
+    </fast-index>
+  </fast-indexes>
+  <effective-from/>
+  <effective-to/>
+  <champion-challenge-pct/>
+  <champion-challenge-version/>
+  <last-update time="1593768285322"/>
+  <last-update-by>catalyst</last-update-by>
+  <reason-for-change>Deployment - name : -FMO- version : -189- Comment : hh</reason-for-change>
+  <config-class>com.wcg.catalyst.common.config.DeploymentConfigStore</config-class>
+  <component type="rs" id="122406572398400" title="Complete ?" version="001" sub-type="" reference="ruleset" x-coordinate="48" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="122406742540605" title="Submit " version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="240" width="99" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="122406853498420" title="Validate" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="122406857345329" title="Decision" version="001" sub-type="" reference="process" x-coordinate="480" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="122406866529635" title="Send docs" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="1362" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="122406885250039" title="Get proposal" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="122406932025044" title="Get Proposal" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="122406968435946" title="Update proposal" version="001" sub-type="" reference="connection" x-coordinate="264" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="122414529662500" title="Set score" version="001" sub-type="" reference="ruleset" x-coordinate="372" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="122414892965600" title="Score values" version="001" sub-type="" reference="worksheet" x-coordinate="264" y-coordinate="612" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="122414991801503" title="Credit items" version="001" sub-type="" reference="dictionary" x-coordinate="588" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="122415380217100" title="Approve rules" version="001" sub-type="" reference="ruleset" x-coordinate="156" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="122415400045306" title="Sign off level" version="001" sub-type="" reference="ruleset" x-coordinate="264" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1268062421203011" title="CMS Activate" version="001" sub-type="" reference="connection" x-coordinate="480" y-coordinate="1482" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1268062883281012" title="Credit Check" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1268062960703016" title="Select Agency MT" version="001" sub-type="" reference="ruleset" x-coordinate="696" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1273240753808000" title="CALMS Proposal" version="001" sub-type="" reference="" x-coordinate="156" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1274092447136048" title="Genus Dictionary" version="001" sub-type="" reference="dictionary" x-coordinate="48" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1282829301333001" title="Customer" version="001" sub-type="" reference="dictionary" x-coordinate="156" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1282829545810005" title="Scorecard" version="001" sub-type="" reference="dictionary" x-coordinate="480" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1288018602891006" title="CALMS UpdateApplicationStatusService" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1298649542320021" title="Check Credit 1" version="001" sub-type="" reference="process" x-coordinate="588" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1308303670297545" title="CALMS Business Partner" version="001" sub-type="" reference="dictionary" x-coordinate="264" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1308729674661020" title="RS Check Exception" version="001" sub-type="" reference="" x-coordinate="48" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1315920011977016" title="Scorecard" version="001" sub-type="" reference="process" x-coordinate="372" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1326286348586005" title="Score bands" version="001" sub-type="" reference="worksheet" x-coordinate="480" y-coordinate="612" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1332932078861034" title="Asset" version="001" sub-type="" reference="dictionary" x-coordinate="264" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1332932198268035" title="Proposal" version="001" sub-type="" reference="dictionary" x-coordinate="48" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1332932227359036" title="Catalyst" version="001" sub-type="" reference="dictionary" x-coordinate="372" y-coordinate="48" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1332932497640087" title="Temp" version="001" sub-type="" reference="dictionary" x-coordinate="712" y-coordinate="51" width="100" height="100">
+    <links/>
+  </comp
