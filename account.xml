@@ -1,6 +1,11 @@
 
 <account>
   <name>wcg</name>
+<<<<<<< HEAD
   <current-version>002</current-version>
   <highest-version>2</highest-version>
+=======
+  <current-version>001</current-version>
+  <highest-version>1</highest-version>
+>>>>>>> parent of c7858a8... new
 </account>
