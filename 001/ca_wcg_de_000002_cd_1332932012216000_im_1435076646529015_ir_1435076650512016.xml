@@ -1,113 +1,136 @@
 
-<report id="1435076650512016" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016" access-code="" type="ir" title="GB Group report" version="001" sub-type="" reference="ice-report"> 
-  <effective-from/>  
-  <effective-to/>  
-  <champion-challenge-pct/>  
-  <champion-challenge-version/>  
-  <last-update time="1435076857001"/>  
-  <last-update-by>jrs</last-update-by>  
-  <reason-for-change/>  
-  <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>  
-  <config> 
-    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
-    <report-life>-1</report-life>  
-    <embedded-items ignore-global-embedded="false"/> 
-  </config>  
-  <exception-process/>  
-  <skip-in-test>no</skip-in-test>  
-  <skip-in-normal>no</skip-in-normal>  
-  <convergent>false</convergent>  
-  <last-update-by>jrs</last-update-by>  
-  <component type="is" id="1435076650513017" title="End" version="001" sub-type="end" reference="endicerep" x-coordinate="100" y-coordinate="400" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650513017" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1435076857001"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.EndReportReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>endicerep</report-step-type>  
-    <links/> 
-  </component>  
-  <component type="is" id="1435076650514018" title="ICE Get Request" version="001" sub-type="" reference="iceGetRequest" x-coordinate="200" y-coordinate="250" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514018" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1435076857001"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.GetRequestReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/>  
-      <get-request> 
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514018_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="request"> 
-          <effective-from/>  
-          <effective-to/>  
-          <champion-challenge-pct/>  
-          <champion-challenge-version/>  
-          <last-update time="1435076857001"/>  
-          <last-update-by/>  
-          <reason-for-change/>  
-          <config-class/>  
-          <properties/> 
-        </operand>  
-        <request-elements/> 
-      </get-request> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>iceGetRequest</report-step-type>  
-    <next-step target-id="1435076650513017" restart-point="false"> 
-      <bend-points/> 
-    </next-step>  
-    <links> 
-      <link target-id="1435076650513017" restart-point="false"> 
-        <bend-points/> 
-      </link> 
-    </links> 
-  </component>  
-  <component type="is" id="1435076650514019" title="Start" version="001" sub-type="start" reference="starticerep" x-coordinate="100" y-coordinate="100" width="100" height="100" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514019" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1435076857001"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.StartReportReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>starticerep</report-step-type>  
-    <next-step target-id="1435076650513017" restart-point="false"> 
-      <bend-points/> 
-    </next-step>  
-    <links> 
-      <link target-id="1435076650513017" restart-point="false"> 
-        <bend-points/> 
-      </link> 
-    </links> 
-  </component>  
-  <properties/> 
+<report catalyst-version="5.0" id="1435076650512016" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016" access-code="" type="ir" title="GB Group report" version="001" sub-type="" reference="ice-report">
+  <effective-from/>
+  <effective-to/>
+  <champion-challenge-pct/>
+  <champion-challenge-version/>
+  <last-update time="1593768260863"/>
+  <last-update-by>catalyst</last-update-by>
+  <reason-for-change/>
+  <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
+  <config>
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+    <report-life>-1</report-life>
+    <embedded-items ignore-global-embedded="false"/>
+  </config>
+  <exception-process/>
+  <skip-in-test>no</skip-in-test>
+  <skip-in-normal>no</skip-in-normal>
+  <convergent>false</convergent>
+  <last-update-by>catalyst</last-update-by>
+  <component type="is" id="1435076650513017" title="End" version="001" sub-type="end" reference="endicerep" x-coordinate="100" y-coordinate="400" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650513017" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1593768260863"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.EndReportReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>endicerep</report-step-type>
+    <links/>
+  </component>
+  <component type="is" id="1435076650514018" title="ICE Get Request" version="001" sub-type="" reference="iceGetRequest" x-coordinate="200" y-coordinate="250" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514018" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1593768260863"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.GetRequestReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <get-request>
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514018_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="request" get-address="" set-address="">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1593768260863"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+        <request-elements/>
+      </get-request>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>iceGetRequest</report-step-type>
+    <next-step target-id="1435076650513017" restart-point="false">
+      <bend-points/>
+    </next-step>
+    <links>
+      <link target-id="1435076650513017" restart-point="false">
+        <bend-points/>
+      </link>
+    </links>
+  </component>
+  <component type="is" id="1435076650514019" title="Start" version="001" sub-type="start" reference="starticerep" x-coordinate="100" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1435076650514019" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1593768260863"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.StartReportReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>starticerep</report-step-type>
+    <next-step target-id="1435076650513017" restart-point="false">
+      <bend-points/>
+    </next-step>
+    <links>
+      <link target-id="1435076650513017" restart-point="false">
+        <bend-points/>
+      </link>
+    </links>
+  </component>
+  <component type="is" id="1593768254333000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="683" y-coordinate="228" width="119" height="120" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1593768254333000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1593768260863"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <decision-bureau-plugin/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
+  </component>
+  <properties/>
 </report>
