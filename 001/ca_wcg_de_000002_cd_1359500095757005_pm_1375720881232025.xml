@@ -590,7 +590,7 @@
           <last-update-by/>  
           <reason-for-change/>  
           <config-class/>  
-          <properties/>This customer has missed his first inastalment and his balance is currently Â£
+          <properties/>This customer has missed his first inastalment and his balance is currently £
         </operand> 
       </equation>  
       <equation type="string-set" seq="3"> 
