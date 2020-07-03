@@ -1,0 +1,108 @@
+
+<sheet catalyst-version="5.0" id="1388940504910035" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1388940504910035" access-code="" type="ws" title="Select CB" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1473012924650"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Updates</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Country"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Loan amt"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Bureau"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1388940742699036" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388940749880037" name="Text" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388940760776038" name="Text" value="&lt;=" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="0001" marked="false"> 
+          <col id="0000"> 
+            <value id="1388940814353039" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388940820803040" name="Text" value="UK" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388940827552041" name="Text" value="5000" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1388940836378042" name="Text" value="equifax" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="0002" marked="false"> 
+          <col id="0000"> 
+            <value id="1388940863919043" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388940897600044" name="Text" value="UK" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388940923197045" name="Text" value="10000" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1388940941394046" name="Text" value="callcredit" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="0003" marked="false"> 
+          <col id="0000"> 
+            <value id="1388940995616047" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388941000312048" name="Text" value="UK" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388941006947049" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1388941013213050" name="Text" value="experian" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="0004" marked="false"> 
+          <col id="0000"> 
+            <value id="1388941032082051" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1388941036799052" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1388941045540053" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1388941050439054" name="Text" value="experian" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

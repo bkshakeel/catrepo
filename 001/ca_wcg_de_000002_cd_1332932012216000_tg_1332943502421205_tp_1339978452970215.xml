@@ -1,0 +1,15 @@
+
+<template catalyst-version="5.0" id="1339978452970215" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1332943502421205_tp_1339978452970215" access-code="a1" type="tp" title="Remind dealer documents" version="001" sub-type="" reference=""> 
+  <last-update time="1388944245229"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Suzuki added</reason-for-change>  
+  <config-class/>  
+  <template-text><![CDATA[MISSING DOCUMENTS FOR PROPOSAL <<pipe|number|dataitem|a-genus-proposal-id|null||>>  
+
+The proposal has been submitted for payout but is still awaiting documents.
+
+The payout is delayed, please send the outstanding documents as soon as possible]]></template-text>  
+  <template-type>text</template-type>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</template>

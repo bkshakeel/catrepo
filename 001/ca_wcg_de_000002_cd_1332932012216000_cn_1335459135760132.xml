@@ -1,0 +1,47 @@
+
+<connection catalyst-version="5.0" id="1335459135760132" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335459135760132" access-code="a1" type="cn" title="Read Lead" version="001" sub-type="" reference="connection"> 
+  <last-update time="1352721238740"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.ih.config.FileReadConnectorConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.ih.connectors.FileReadConnector</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335459135760132_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="dir-path"> 
+      <last-update time="1352721238740"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>working
+    </operand>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335459135760132_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="file-name" pipe-name="dataitem" pipe-item-name="d-file-name" get-address="" set-address=""> 
+      <last-update time="1352721238740"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335459135760132_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="read-method"> 
+      <last-update time="1352721238740"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>record
+    </operand>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335459135760132_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="message-buffer" pipe-name="dataitem" pipe-item-name="a-lead-record" get-address="" set-address=""> 
+      <last-update time="1352721238740"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <connector direction="receiver" state="on" pool-size="0" continuous="false" listener="false"/>  
+  <receiver poll-freq="0" batch-size="0"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</connection>

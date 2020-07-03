@@ -1,0 +1,229 @@
+
+<process catalyst-version="5.0" id="1366081628217067" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067" access-code="a1" type="pm" title="Send Fax" version="001" sub-type="" reference="process" time-out=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509422512"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="ac" id="1366081629465068" title="End process - OK" version="001" sub-type="end" reference="endproc" x-coordinate="100" y-coordinate="300" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081629465068" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422512"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.EndContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.EndContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <result> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081629465068_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="result"> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509422512"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </result> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>endproc</activity-type>  
+    <next-activity/>  
+    <links/> 
+  </component>  
+  <component type="ac" id="1366081629465069" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="100" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081629465069" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422512"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1366085774124006" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1366085774124006" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1366081709822070" title="Send Fax" version="001" sub-type="" reference="beanshell" x-coordinate="473" y-coordinate="291" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081709822070" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422512"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.BeanShellActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.BeanShellActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <source><![CDATA[
+		try{    
+			
+			RightFAX.RFaxSubmit rFaxSubmit = new RightFAX.RFaxSubmit();    
+			RightFAX.RFaxSubmit.setDebug(true);    
+			   
+			rFaxSubmit.setTargetURL(targetURL);    
+			   
+			rFaxSubmit.m_FaxDocument.setSenderInfo("cms.internal", "", "", "administrator");
+			logger.debug("Send to fax number : "+faxNumber);                
+			rFaxSubmit.m_FaxDocument.addRecipient ("1",    
+                                                   
+					faxNumber,  
+    
+					"",      
+                           
+					"",      
+                     
+                           "");      
+         
+			rFaxSubmit.m_FaxDocument.setBody("TXT", "Arial");
+			
+			/**
+			rFaxSubmit.m_FaxDocument.setBody ("",                                     "TXT", 
+					-1,                                      -1,  
+					-1,                                      "Arial",    
+					-1,                                      -1);  */
+			for(Object next:catalystPipe.getPipe("dataitem").getMap().keySet()){  
+				String nextKey = next.toString();   
+				if(nextKey.startsWith("attachment-")){     
+					String filename = catalystPipe.getPipe("dataitem").getText(nextKey);    
+					String fullPath = new java.io.File(filename).getAbsolutePath();    
+					logger.debug("Fax attachment "+fullPath);     
+					rFaxSubmit.addAttachment(fullPath);     }   }         
+			java.util.Vector obRetList = rFaxSubmit.submit();     
+			int nSize = obRetList.size();  
+			for (int i = 0; i < nSize; i++) {    
+				RightFAX.RFStatus rFStatus = (RightFAX.RFStatus)(obRetList.get(i));  
+				if(logger.isDebugEnabled()) logger.debug ((i+1) + "-");  
+				if(logger.isDebugEnabled()) logger.debug ("\tID: " + rFStatus.getID());   
+				if(logger.isDebugEnabled()) logger.debug ("\tStatusCode: " + rFStatus.getStatusCode());
+				if(logger.isDebugEnabled()) logger.debug ("\tStatusMessage: " + rFStatus.getStatusMsg());  
+				if (rFStatus.getStatusCode() != 1) {       
+     
+					}  
+				}
+			}
+		catch(Throwable ex)
+		{  logger.error(ex,ex);
+		}]]></source>  
+      <data-items> 
+        <item variable-name="targetURL" type="java.lang.String"> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081709822070_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="physical" item-type="text" ref="1" link-name="FAX_IP"> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509422512"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </item>  
+        <item variable-name="faxNumber" type="java.lang.String"> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366081709822070_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="2" pipe-name="dataitem" pipe-item-name="d-faxnumber" get-address="" set-address=""> 
+            <effective-from/>  
+            <effective-to/>  
+            <champion-challenge-pct/>  
+            <champion-challenge-version/>  
+            <last-update time="1506509422512"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </item> 
+      </data-items> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1366081629465068" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1366081629465068" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <component type="ac" id="1366085774124006" title="Show Pipe" version="001" sub-type="" reference="show-pipe" x-coordinate="549" y-coordinate="30" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1366081628217067_ac_1366085774124006" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509422512"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.PipeShowActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.PipeShowActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <output type="log"/>  
+      <show all-data-items="true"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1366081709822070" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity>  
+    <links> 
+      <link target-id="1366081709822070" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </link> 
+    </links> 
+  </component>  
+  <properties/> 
+</process>

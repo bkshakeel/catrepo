@@ -1,0 +1,117 @@
+
+<connection catalyst-version="5.0" id="1335457630911122" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122" access-code="a1" type="cn" title="Get Contract" version="001" sub-type="" reference="connection"> 
+  <last-update time="1352721238722"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.ih.config.endpoint.EndpointClientConnectorConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.ih.connectors.endpoint.EndpointClientConnector</handler-class>  
+    <endpoint name="Get Contract Details" type="cxf"> 
+      <classes apply-namespace="false"/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="wsdlUrlLink"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="portName"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="timeOut"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="methodName"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="methodUrlLink"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="user"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="password"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="maintainSession"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="serviceClass"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="classSource"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="sslFactory"> 
+        <last-update time="1352721238722"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <ports/>  
+      <object type="out"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" item-type="text" ref="objectClass"> 
+          <last-update time="1352721238722"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1335457630911122_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" item-type="other" ref="objectValue"> 
+          <last-update time="1352721238722"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </object>  
+      <attachments/> 
+    </endpoint>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <connector direction="receiver" state="on" pool-size="0" continuous="false" listener="false"/>  
+  <receiver poll-freq="0" batch-size="0"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</connection>

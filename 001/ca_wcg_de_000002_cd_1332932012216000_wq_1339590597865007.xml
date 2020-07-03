@@ -1,0 +1,33 @@
+
+<wq catalyst-version="5.0" id="1339590597865007" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590597865007" access-code="a1" type="wq" title=" Payout Low" version="001" sub-type="" reference="workqueue"> 
+  <last-update time="1352721238811"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.wq.config.WorkQueueConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <tracking-points/>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <escalations/>  
+    <user-fields/>  
+    <tracking-points/>  
+    <working-day-calendar> 
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590597865007_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+        <last-update time="1352721238811"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </working-day-calendar>  
+    <manual-activities> 
+      <manual-activity activity-name="Underwriter" process-name="Drive dashboard" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1339590322749000_ac_1339590755118011"/>  
+      <manual-activity activity-name="Payout" process-name="Drive dashboard" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1339590322749000_ac_1339590776273014"/>  
+      <manual-activity activity-name="Payout A" process-name="Payout" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1345641497806011_ac_1345645432866100"/> 
+    </manual-activities>  
+    <max-work-items>10</max-work-items>  
+    <sort-order-list/> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</wq>

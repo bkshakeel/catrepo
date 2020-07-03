@@ -1,0 +1,67 @@
+
+<wq catalyst-version="5.0" id="1362149411001005" full-id="ca_wcg_de_000002_cd_1359500095757005_wq_1362149411001005" access-code="a1" type="wq" title="InsolvencyQueue" version="001" sub-type="" reference="workqueue"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509422311"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.wq.config.WorkQueueConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <tracking-points/>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <escalations/>  
+    <user-fields> 
+      <user-field id="1" title="Case User" type="text" format=""> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_wq_1362149411001005_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="a-user" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509422311"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </user-field>  
+      <user-field id="2" title="Default Queue Id" type="text" format=""> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_wq_1362149411001005_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="2" pipe-name="dataitem" pipe-item-name="defaultQueueId" get-address="" set-address=""> 
+          <effective-from/>  
+          <effective-to/>  
+          <champion-challenge-pct/>  
+          <champion-challenge-version/>  
+          <last-update time="1506509422311"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </user-field> 
+    </user-fields>  
+    <tracking-points/>  
+    <working-day-calendar> 
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_wq_1362149411001005_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+        <effective-from/>  
+        <effective-to/>  
+        <champion-challenge-pct/>  
+        <champion-challenge-version/>  
+        <last-update time="1506509422311"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </working-day-calendar>  
+    <manual-activities> 
+      <manual-activity activity-name="Add to Insolvency Queue" process-name="Insolvency" full-id="ca_wcg_de_000002_cd_1359500095757005_pm_1362144677814001_ac_1362144769963004"/> 
+    </manual-activities>  
+    <max-work-items>10</max-work-items>  
+    <sort-order-list/>  
+    <work-queue-name>InsolvencyQueue</work-queue-name> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</wq>

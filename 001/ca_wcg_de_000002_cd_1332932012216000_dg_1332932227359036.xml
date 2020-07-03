@@ -1,0 +1,202 @@
+
+<dictionary-group catalyst-version="5.0" id="1332932227359036" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036" access-code="a1" type="dg" title="Catalyst" version="001" sub-type="" reference="dictionary"> 
+  <last-update time="1414419651931"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="di" id="Action Message" title="Action Message" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Action Message" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932243355044" full-id="null_null_1332932243355044" access-code="" title="Action Message" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="object" get-address="getMessages" set-address="addMessage" return-type="com.wcg.catalyst.pa.config.ActionMessage"> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="1332932243354038" full-id="null_null_1332932243354038" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="source" pipe-name="object" pipe-item-name="$$-action-message" get-address="" set-address="" return-type="com.wcg.catalyst.pa.config.ActionMessage"> 
+        <last-update time="1414419651931"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1332932243354040" full-id="null_null_1332932243354040" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="get-address-key"> 
+        <last-update time="1414419651931"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="1332932243354042" full-id="null_null_1332932243354042" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="set-address-key"> 
+        <last-update time="1414419651931"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </operand> 
+  </component>  
+  <component type="di" id="Action Messages Array" title="Action Messages Array" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Action Messages Array" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932249581046" full-id="null_null_1332932249581046" access-code="" title="Action Messages Array" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="$$-action-message" get-address="" set-address="" return-type="com.wcg.catalyst.pa.config.ActionMessage"> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="All Action Messages" title="All Action Messages" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_All Action Messages" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932267576048" full-id="null_null_1332932267576048" access-code="" title="All Action Messages" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-action-messages-*" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Approval User" title="Approval User" version="001" sub-type="" reference="" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Approval User" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand id="" full-id="null_null_" access-code="" title="Approval User" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" pipe-name="dataitem" pipe-item-name="a-approval-user" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Creation User" title="Creation User" version="001" sub-type="" reference="" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Creation User" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand id="" full-id="null_null_" access-code="" title="Creation User" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" pipe-name="dataitem" pipe-item-name="a-creation-user" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Filename" title="Filename" version="001" sub-type="" reference="" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Filename" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand id="" full-id="null_null_" access-code="" title="Filename" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" pipe-name="dataitem" pipe-item-name="a-filename" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="ID" title="ID" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_ID" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="ID" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-id" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="ID Server" title="ID Server" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_ID Server" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="ID Server" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="d-idserver" get-address="" set-address="" return-type="com.wcg.catalyst.util.IDServer"> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Input File Contents" title="Input File Contents" version="001" sub-type="" reference="" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Input File Contents" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand id="" full-id="null_null_" access-code="" title="Input File Contents" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" pipe-name="dataitem" pipe-item-name="a-input-file-contents" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="WfTrigger atttributes" title="WfTrigger atttributes" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_WfTrigger atttributes" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932489318086" full-id="null_null_1332932489318086" access-code="" title="WfTrigger atttributes" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-wftrigger-attributes" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Workflow Activity Result" title="Workflow Activity Result" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_Workflow Activity Result" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932458075082" full-id="null_null_1332932458075082" access-code="" title="Workflow Activity Result" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="wf-result" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="wfTriggerProcessName" title="wfTriggerProcessName" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1332932227359036_di_wfTriggerProcessName" access-code=""> 
+    <last-update time="1414419651931"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="1332932466942084" full-id="null_null_1332932466942084" access-code="" title="wfTriggerProcessName" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="dbtrigger-process-name" get-address="" set-address=""> 
+      <last-update time="1414419651931"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <properties/> 
+</dictionary-group>

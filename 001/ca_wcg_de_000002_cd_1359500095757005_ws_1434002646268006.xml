@@ -1,0 +1,209 @@
+
+<sheet catalyst-version="5.0" id="1434002646268006" full-id="ca_wcg_de_000002_cd_1359500095757005_ws_1434002646268006" access-code="a1" type="ws" title="Restructure Term" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509427494"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Country"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Role"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Term"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Result"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1434002997015008" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="&lt;= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1434003074168009" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="FR" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="12" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed [Territory Code(44), role(CMSBATCH), term&lt;13]" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="3" marked="false"> 
+          <col id="0000"> 
+            <value id="1434003241288010" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="FR" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="0" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="4" marked="false"> 
+          <col id="0000"> 
+            <value id="1434003755060011" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="FR" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed - Invalid role" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="5" marked="false"> 
+          <col id="0000"> 
+            <value id="1434409901453011" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="44" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="12" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed [Territory Code(44), role(CMSBATCH), term&lt;13]" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="6" marked="false"> 
+          <col id="0000"> 
+            <value id="1442965945560006" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="44" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="0" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="7" marked="false"> 
+          <col id="0000"> 
+            <value id="1442965999388007" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="44" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed - Invalid Role" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="8" marked="false"> 
+          <col id="0000"> 
+            <value id="1442966054123008" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1442966074654011" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1442966087279014" name="Text" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1442966101529017" name="Text" value="12" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed [Territory Code(44), role(CMSBATCH), term&lt;13]" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0009" seq="9" title="9" marked="false"> 
+          <col id="0000"> 
+            <value id="1442966055404009" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1442966076373012" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1442966093170015" name="Text" value="CMSBATCH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1442966104389018" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="0" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0010" seq="10" title="10" marked="false"> 
+          <col id="0000"> 
+            <value id="1442966056873010" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1442966077842013" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1442966097139016" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1442966106592019" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="Restructure Not Allowed - Invalid Role" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

@@ -1,0 +1,110 @@
+
+<connection catalyst-version="5.0" id="1395786655617080" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080" access-code="a1" type="cn" title="Send SMS" version="001" sub-type="" reference="connection"> 
+  <last-update time="1396270874708"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.ih.config.email.SendEmailConnectorConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.ih.connectors.SendEmailConnector</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <message-spec> 
+      <server> 
+        <operand catalyst-version="5.0" id="1395786655627098" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627098" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="address"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_ip
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655627100" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627100" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="port"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_port
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655627094" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627094" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="user-name"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_username
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655627092" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627092" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="pwd"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp_password
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655627090" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627090" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="debug"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655617082" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655617082" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="secure"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>false
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655617084" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655617084" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="protocol"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp
+        </operand> 
+      </server>  
+      <message> 
+        <operand catalyst-version="5.0" id="1395786655627102" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627102" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="subject"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>zehc6%kemwu
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655627096" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627096" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="from" pipe-name="dataitem" pipe-item-name="d-sms-sender" get-address="" set-address=""> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655617086" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655617086" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="body" pipe-name="dataitem" pipe-item-name="d-sms-message" get-address="" set-address=""> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1395786655617088" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655617088" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="content-type"> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>H
+        </operand> 
+      </message>  
+      <to> 
+        <operand catalyst-version="5.0" id="1395786655627104" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1395786655617080_null_1395786655627104" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-sms-number" get-address="" set-address=""> 
+          <last-update time="1396270874708"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </to> 
+    </message-spec> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <connector direction="sender" state="on" pool-size="0" continuous="false" listener="false"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</connection>

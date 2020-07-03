@@ -1,0 +1,648 @@
+
+<process catalyst-version="5.0" id="1335799789357019" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019" access-code="a1" type="pm" title="Check docs recvd" version="001" sub-type="" reference="process" time-out=""> 
+  <last-update time="1357723680609"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Tidy</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.ProcessConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <exception-process/>  
+  <priority>0</priority>  
+  <process-log-level>false</process-log-level>  
+  <last-update-by>mgb</last-update-by>  
+  <component type="ac" id="1335799789358021" title="Start" version="001" sub-type="start" reference="startproc" x-coordinate="276" y-coordinate="72" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335799789358021" access-code=""> 
+    <last-update time="1357723680609"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.StartContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.StartContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type>start</activity-type>  
+    <next-activity> 
+      <valid-result target-id="1335799815467022" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1335799815467022" title="Get proposal" version="001" sub-type="" reference="subproc" x-coordinate="276" y-coordinate="228" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335799815467022" access-code=""> 
+    <last-update time="1357723680609"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.common.config.RunSubContainerConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.common.engine.RunSubContainer</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <sub-container seq="2"> 
+        <operand catalyst-version="5.0" id="" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="id"> 
+          <last-update time="1357723680609"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>ca_wcg_de_000002_cd_1332932012216000_pm_122406885250039
+        </operand>  
+        <result-map/> 
+      </sub-container> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1335799893041023" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1335799893041023" title="Build lists" version="001" sub-type="" reference="calculator" x-coordinate="276" y-coordinate="372" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335799893041023" access-code=""> 
+    <last-update time="1357723680609"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="string-set" seq="1"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335799893041023_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-doc-pointer" get-address="" set-address=""> 
+          <last-update time="1357723680609"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335799893041023_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="opt1"> 
+          <last-update time="1357723680609"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>1
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1335799993538024" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ru" id="1335799993538024" title="End of docs" version="001" sub-type="" reference="rule" x-coordinate="276" y-coordinate="516" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335799993538024" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1357723680609"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1335800006369025" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335799993538024_null_1335800006369025" access-code="" title="1335800006369025" version="001" sub-type="" reference="" seq="1" concatenator="" operator="greater"> 
+      <last-update time="1357723680609"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335799993538024_null_1335800006369025_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="1" pipe-name="dataitem" pipe-item-name="d-doc-pointer" get-address="" set-address=""> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335799993538024_null_1335800006369025_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="2" pipe-name="dataitem" pipe-item-name="d-num-docs" get-address="" set-address=""> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </condition>  
+    <next-rule target-id="1335800425595026" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1345642035749014" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ru" id="1335800425595026" title="Doc received ?" version="001" sub-type="" reference="rule" x-coordinate="276" y-coordinate="648" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335800425595026" access-code="" complex="false" croGroup="0" croOverrideLevel="0" cro-mode=""> 
+    <last-update time="1357723680610"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.re.config.RuleConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.re.engine.RuleRunner</handler-class>  
+      <embedded-items ignore-global-embedded="false"/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <rule-type/>  
+    <condition catalyst-version="5.0" id="1335800442676027" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335800425595026_null_1335800442676027" access-code="" title="1335800442676027" version="001" sub-type="" reference="" seq="1" concatenator="" operator="contains"> 
+      <last-update time="1357723680610"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335800425595026_null_1335800442676027_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-docs-recd" get-address="" set-address=""> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ru_1335800425595026_null_1335800442676027_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="2" pipe-name="object" get-address="get" set-address="set" return-type="java.lang.String"> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>  
+        <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="source" pipe-name="object" pipe-item-name="d-reqd-docs" get-address="" set-address="" return-type="java.util.ArrayList"> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="get-address-key" pipe-name="dataitem" pipe-item-name="d-doc-pointer" get-address="" set-address=""> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" item-type="number" ref="set-address-key"> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </operand> 
+    </condition>  
+    <next-rule target-id="1335800495446028" value1="true" restart-point="false"> 
+      <bend-points/> 
+    </next-rule>  
+    <next-rule target-id="1345644498718063" value1="false" restart-point="false"> 
+      <bend-points/> 
+    </next-rule> 
+  </component>  
+  <component type="ac" id="1335800495446028" title="Next doc" version="001" sub-type="" reference="calculator" x-coordinate="108" y-coordinate="648" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335800495446028" access-code=""> 
+    <last-update time="1357723680610"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="add" seq="1"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335800495446028_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="target" pipe-name="dataitem" pipe-item-name="d-doc-pointer" get-address="" set-address=""> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1335800495446028_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="opt1"> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>1
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1335799993538024" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1345642035749014" title="Validate docs" version="001" sub-type="" reference="manual" x-coordinate="468" y-coordinate="516" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642035749014" access-code=""> 
+    <last-update time="1357723680610"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642035749014_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues> 
+        <work-queue id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006"/> 
+      </work-queues>  
+      <results> 
+        <result id="1345642143458015" title="Documents OK" type="process" value="Payout"/>  
+        <result id="1345642183300016" title="Return to Dealer" type="process" value="Return to Dealer"/> 
+      </results>  
+      <title> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642035749014_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="title"> 
+          <last-update time="1357723680610"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Validate the documents
+        </operand> 
+      </title> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1345643814759048" value1="escalate" restart-point="false"> 
+        <bend-points/> 
+      </valid-result>  
+      <valid-result target-id="1345644316014052" value1="warning" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1345642540602020" title="Email dealer" version="001" sub-type="" reference="connection-activity" x-coordinate="672" y-coordinate="648" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642540602020" access-code=""> 
+    <last-update time="1357723680610"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ConnectionActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ConnectionActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642540602020_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="deployment"> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>ca_wcg_de_000002_cd_1332932012216000
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642540602020_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection-full-id"> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642540602020_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method"> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>send
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642540602020_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="env-link-name"> 
+        <last-update time="1357723680610"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>local
+      </operand> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1345642847423021" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1345642847423021" title="Send docs" version="001" sub-type="" reference="manual" x-coordinate="876" y-coordinate="648" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642847423021" access-code=""> 
+    <last-update time="1357723680610"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642847423021_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues> 
+        <work-queue id="ca_wcg_de_000002_cd_1332932012216000_wq_1345641349673007"/> 
+      </work-queues>  
+      <results/>  
+      <title> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642847423021_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="title"> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Payout delayed - Send missing documents
+        </operand> 
+      </title> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1345643794301047" title="Email supervisor" version="001" sub-type="" reference="connection-activity" x-coordinate="672" y-coordinate="372" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643794301047" access-code=""> 
+    <last-update time="1357723680611"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ConnectionActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ConnectionActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643794301047_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="deployment"> 
+        <last-update time="1357723680611"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>ca_wcg_de_000002_cd_1332932012216000
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643794301047_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection-full-id"> 
+        <last-update time="1357723680611"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643794301047_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="method"> 
+        <last-update time="1357723680611"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>send
+      </operand>  
+      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643794301047_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="env-link-name"> 
+        <last-update time="1357723680611"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/>local
+      </operand> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1345643814759048" title="Supervisor" version="001" sub-type="" reference="manual" x-coordinate="672" y-coordinate="516" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643814759048" access-code=""> 
+    <last-update time="1357723680611"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.ManualActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.ManualActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <escalations/>  
+      <user-fields/>  
+      <tracking-points/>  
+      <working-day-calendar> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345643814759048_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </working-day-calendar>  
+      <fast-indexes/>  
+      <logging-options pipe="none" fast-index="no" user-fields="no"/>  
+      <work-queues> 
+        <work-queue id="ca_wcg_de_000002_cd_1332932012216000_wq_1345643889124049"/> 
+      </work-queues>  
+      <results/> 
+    </config>  
+    <exception-process/>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity/> 
+  </component>  
+  <component type="ac" id="1345644316014052" title="Create email" version="001" sub-type="" reference="calculator" x-coordinate="468" y-coordinate="372" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052" access-code=""> 
+    <last-update time="1357723680611"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="string-set" seq="1"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="target" pipe-name="dataitem" pipe-item-name="d-email-rec" get-address="" set-address=""> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="opt1"> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>payout.supervisor@wcg.com
+        </operand> 
+      </equation>  
+      <equation type="string-set" seq="2"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="target" pipe-name="dataitem" pipe-item-name="d-email-subject" get-address="" set-address=""> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="opt1"> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Payout documentation validation warning
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <preprocessor catalyst-version="5.0" id="1345644340112053" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_1345644340112053" access-code="" title="New" version="001" sub-type="" reference="" seq="0" notes=""> 
+      <last-update time="1357723680611"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CompleteTemplateProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CompleteTemplateProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <template from-file="false"> 
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_1345644340112053_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="template-id"> 
+            <last-update time="1357723680611"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>ca_wcg_de_000002_cd_1332932012216000_tg_1332943502421205_tp_1345644031648050
+          </operand>  
+          <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_1345644340112053_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="output-item" pipe-name="dataitem" pipe-item-name="d-email-msg" get-address="" set-address=""> 
+            <last-update time="1357723680611"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </template> 
+      </config> 
+    </preprocessor>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1345643794301047" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <component type="ac" id="1345644498718063" title="Create email" version="001" sub-type="" reference="calculator" x-coordinate="468" y-coordinate="648" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063" access-code=""> 
+    <last-update time="1357723680611"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class>com.wcg.catalyst.pa.config.CalculatorActivityConfigStore</config-class>  
+    <properties/>  
+    <config> 
+      <handler-class>com.wcg.catalyst.pa.activities.CalculatorActivity</handler-class>  
+      <embedded-items ignore-global-embedded="false"/>  
+      <equation type="string-set" seq="1"> 
+        <operand catalyst-version="5.0" id="1345644498719065" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063_null_1345644498719065" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="target" pipe-name="dataitem" pipe-item-name="d-email-rec" get-address="" set-address=""> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1345644498719067" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063_null_1345644498719067" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="opt1" pipe-name="dataitem" pipe-item-name="a-dlr-email-addr" get-address="" set-address=""> 
+          <last-update time="1357723680611"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </equation>  
+      <equation type="string-set" seq="2"> 
+        <operand catalyst-version="5.0" id="1345644498719069" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063_null_1345644498719069" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="target" pipe-name="dataitem" pipe-item-name="d-email-subject" get-address="" set-address=""> 
+          <last-update time="1357723680612"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="1345644498719071" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063_null_1345644498719071" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="opt1"> 
+          <last-update time="1357723680612"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Payout delayed awaiting documentation
+        </operand> 
+      </equation> 
+    </config>  
+    <exception-process/>  
+    <preprocessor catalyst-version="5.0" id="1345644498718058" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644498718063_null_1345644498718058" access-code="" title="New" version="001" sub-type="" reference="" seq="0" notes=""> 
+      <last-update time="1357723680612"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class>com.wcg.catalyst.common.processor.config.CompleteTemplateProcessorConfigStore</config-class>  
+      <properties/>  
+      <exception-process/>  
+      <skip-in-test>no</skip-in-test>  
+      <skip-in-normal>no</skip-in-normal>  
+      <convergent>false</convergent>  
+      <config> 
+        <handler-class>com.wcg.catalyst.common.processor.CompleteTemplateProcessor</handler-class>  
+        <embedded-items ignore-global-embedded="false"/>  
+        <template from-file="false"> 
+          <operand catalyst-version="5.0" id="1345644498718062" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_1345644340112053_null_1345644498718062" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="template-id"> 
+            <last-update time="1357723680612"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/>ca_wcg_de_000002_cd_1332932012216000_tg_1332943502421205_tp_1345644031648050
+          </operand>  
+          <operand catalyst-version="5.0" id="1345644498718060" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345644316014052_null_1345644340112053_null_1345644498718060" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="output-item" pipe-name="dataitem" pipe-item-name="d-email-msg" get-address="" set-address=""> 
+            <last-update time="1357723680612"/>  
+            <last-update-by/>  
+            <reason-for-change/>  
+            <config-class/>  
+            <properties/> 
+          </operand> 
+        </template> 
+      </config> 
+    </preprocessor>  
+    <skip-in-test>no</skip-in-test>  
+    <skip-in-normal>no</skip-in-normal>  
+    <convergent>false</convergent>  
+    <activity-type/>  
+    <next-activity> 
+      <valid-result target-id="1345642540602020" value1="OK" restart-point="false"> 
+        <bend-points/> 
+      </valid-result> 
+    </next-activity> 
+  </component>  
+  <properties/> 
+</process>

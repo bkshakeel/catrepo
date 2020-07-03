@@ -1,0 +1,200 @@
+
+<sheet catalyst-version="5.0" id="1478669584559097" full-id="ca_wcg_de_000002_cd_1359500095757005_ws_1478669584559097" access-code="a1" type="ws" title="Four Eye Check - Fees" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509427747"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Country"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Function"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Role"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Region"/>  
+        <col id="0005" seq="0005" marked="false" shrunk="false" mark-on-off="false" header="Branch"/>  
+        <col id="0006" seq="0006" marked="false" shrunk="false" mark-on-off="false" header="Business Division"/>  
+        <col id="0007" seq="0007" marked="false" shrunk="false" mark-on-off="false" header="Business Unit"/>  
+        <col id="0008" seq="0008" marked="false" shrunk="false" mark-on-off="false" header="Dealer"/>  
+        <col id="0009" seq="0009" marked="false" shrunk="false" mark-on-off="false" header="Current Balance"/>  
+        <col id="0010" seq="0010" marked="false" shrunk="false" mark-on-off="false" header="Amount Financed"/>  
+        <col id="0011" seq="0011" marked="false" shrunk="false" mark-on-off="false" header="Arrears Position"/>  
+        <col id="0012" seq="0012" marked="false" shrunk="false" mark-on-off="false" header="Remaining Mths"/>  
+        <col id="0013" seq="0013" marked="false" shrunk="false" mark-on-off="false" header="Staff Contract"/>  
+        <col id="0014" seq="0014" marked="false" shrunk="false" mark-on-off="false" header="Transaction Amount"/>  
+        <col id="0015" seq="0015" marked="false" shrunk="false" mark-on-off="false" header="Result"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1475108968977043" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1475109250722044" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1475109252826045" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="1475109254906046" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="1475109257274047" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="1475109259002048" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1475109300836049" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="44" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="543" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1475109398945050" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1475109400873051" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1475109402713052" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1475109405009053" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1475109407161054" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1475109409297055" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1475109411833056" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="1475109413784057" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="1475109416304058" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="1475109418304059" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="1475109423792060" name="Text" value="N" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1475109448026061" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1475109457270062" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1475109459053063" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1475109461749065" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1475109463397066" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1475109464853067" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1475109466397068" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0007"> 
+            <value id="1475109467861069" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0008"> 
+            <value id="1475109469509070" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0009"> 
+            <value id="1475109471181071" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0010"> 
+            <value id="1475109472573072" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0011"> 
+            <value id="1475109474268073" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0012"> 
+            <value id="1475109475676074" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0013"> 
+            <value id="1475109476980075" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0014"> 
+            <value id="1475109478332076" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0015"> 
+            <value id="1475109481180077" name="Text" value="Y" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

@@ -1,0 +1,25 @@
+
+<template id="1423066357415007" full-id="ca_wcg_de_000002_cd_1332932012216000_tg_1423066342315006_tp_1423066357415007" access-code="" type="tp" title="Email Template 1" version="001" sub-type="" reference=""> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1423066978585"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class/>  
+  <template-text><![CDATA[Dear Customer, <br>
+<br>
+Congratulations on your successful application <br>
+<br>
+Thanks a lot <br>
+<br>
+BIF <br>
+<br>
+<br>
+<br>
+]]></template-text>  
+  <template-type>text</template-type>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</template>

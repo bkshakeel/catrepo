@@ -1,0 +1,178 @@
+
+<dictionary-group catalyst-version="5.0" id="1411483113082039" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039" access-code="a1" type="dg" title="Email_Dictionary" version="001" sub-type="" reference="dictionary"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509426997"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="di" id="Email Body" title="Email Body" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Body" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Body" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-body" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Recipient 1" title="Email Recipient 1" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Recipient 1" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Recipient 1" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-recipient-1" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Recipient 2" title="Email Recipient 2" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Recipient 2" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Recipient 2" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-recipient-2" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Recipient 3" title="Email Recipient 3" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Recipient 3" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Recipient 3" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-recipient-3" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Recipient 4" title="Email Recipient 4" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Recipient 4" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Recipient 4" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-recipient-4" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Recipient 5" title="Email Recipient 5" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Recipient 5" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Recipient 5" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-recipient-5" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Email Subject" title="Email Subject" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1411483113082039_di_Email Subject" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509426997"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Email Subject" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-email-subject" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509426997"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <properties/> 
+</dictionary-group>

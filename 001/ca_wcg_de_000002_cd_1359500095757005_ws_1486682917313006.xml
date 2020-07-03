@@ -1,0 +1,89 @@
+
+<sheet catalyst-version="5.0" id="1486682917313006" full-id="ca_wcg_de_000002_cd_1359500095757005_ws_1486682917313006" access-code="a1" type="ws" title="Four Eye Check - Asset Details" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509428017"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631009302" name="Text" value="" type="number"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Engine number"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Result"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Asset UnderUsage Tolerance"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="asset security"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1482203101447092" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1487138603754006" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1487138890649009" name="Text" value="=AND" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1482203228532093" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="20" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="Y" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1487138612492007" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1487138898984010" name="Text" value="A" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="2" marked="false"> 
+          <col id="0000"> 
+            <value id="1487032292588007" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="N" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1487138622618008" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1487138905165011" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

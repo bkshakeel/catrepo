@@ -1,0 +1,122 @@
+
+<sheet catalyst-version="5.0" id="1431331834682000" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1431331834682000" access-code="a1" type="ws" title="Blacklist" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1431418832756"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2015/05/12 09:20</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Name"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Result"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operator" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331886061001" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="=" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="John Smith" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331887541002" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="JohnSMITH05051967" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="" name="" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="Steven James" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331888481003" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="StevenJAMES06071980" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332094820013" name="Text" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="James Jones" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331889471004" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1431332009006008" name="Text" value="JamesJONES05031970" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332096570014" name="Text" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="Sophie Jackson" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331890741005" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1431332010226009" name="Text" value="SophieJACKSON15091970" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332098250015" name="Text" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="Maria Philips" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331980738006" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1431332011356010" name="Text" value="MariaPHILIPS25031950" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332100090016" name="Text" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="Katie Walker" marked="false"> 
+          <col id="0000"> 
+            <value id="1431331982788007" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1431332012466011" name="Text" value="KatieWALKER30081975" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332102250017" name="Text" value="Yes" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="Other" marked="false"> 
+          <col id="0000"> 
+            <value id="1431332073612012" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="" name="" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1431332104470018" name="Text" value="No" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

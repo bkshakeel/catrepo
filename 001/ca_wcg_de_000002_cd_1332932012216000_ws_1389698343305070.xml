@@ -1,0 +1,92 @@
+
+<sheet catalyst-version="5.0" id="1389698343305070" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1389698343305070" access-code="" type="ws" title="Sign off " version="001" sub-type="" reference="worksheet"> 
+  <last-update time="1389863113669"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" header="Amount"/>  
+        <col id="0002" seq="0002" header="Initial from"/>  
+        <col id="0003" seq="0003" header="Initial to"/>  
+        <col id="0004" seq="0004" header="Queue"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation"> 
+          <col id="0000"> 
+            <value id="1389863087047034" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389863087047035" name="" value="&lt; AND" type="text" show="Y"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389863087047036" name="" value="&gt;= AND" type="text" show="Y"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389863087048037" name="" value="&lt;=" type="text" show="Y"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="Low"> 
+          <col id="0000"> 
+            <value id="1389863087048038" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389863087048039" name="" value="30000" type="text" show="Y"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389863087049040" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389863087049041" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389863087049042" name="" value="low" type="text" show="Y"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="Medium"> 
+          <col id="0000"> 
+            <value id="1389863087049043" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389863087050044" name="" value="50000" type="text" show="Y"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389863087050045" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389863087050046" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389863087050047" name="" value="medium" type="text" show="Y"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="High"> 
+          <col id="0000"> 
+            <value id="1389863087051048" name="Text" value="" type="text" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389863087051049" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389863087051050" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389863087051051" name="" value="*" type="text" show="Y"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389863087051052" name="" value="high" type="text" show="Y"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</sheet>

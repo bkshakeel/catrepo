@@ -1,0 +1,186 @@
+
+<sheet catalyst-version="5.0" id="1389702702698103" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1389702702698103" access-code="" type="ws" title="Complex" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1436273821783"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Imported worksheet at 2015/07/07 13:56</reason-for-change>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Amount"/>  
+        <col id="0002" seq="0002" marked="false" shrunk="false" mark-on-off="false" header="Product"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="Brand"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="Queue"/>  
+        <col id="0005" seq="0005" marked="false" shrunk="false" mark-on-off="false" header="Cust Initial"/>  
+        <col id="0006" seq="0006" marked="false" shrunk="false" mark-on-off="false" header="Cust initial"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1389698572776071" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389698580316072" name="Text" value="&lt; AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389702912532104" name="Text" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389702915677105" name="Text" value="=" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1389787351630024" name="Text" value="&gt;= " type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1389787358888025" name="Text" value="&lt;" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="Opel" marked="false"> 
+          <col id="0000"> 
+            <value id="1389698610223073" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389698614066074" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389698616971075" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389702962907106" name="Text" value="Opel" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703005300107" name="Text" value="opel" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="CH Low" marked="false"> 
+          <col id="0000"> 
+            <value id="1389698626404076" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389698632283077" name="Text" value="30000" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389698635291078" name="Text" value="CH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389703038180108" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703046163109" name="Text" value="ch low" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="CH Medium" marked="false"> 
+          <col id="0000"> 
+            <value id="1389698658097079" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389698661306080" name="Text" value="50000" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389698664394081" name="Text" value="CH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389703062363110" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703066059111" name="Text" value="ch med" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="CH Hight" marked="false"> 
+          <col id="0000"> 
+            <value id="1389703090205112" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389703093611113" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389703096187114" name="Text" value="CH" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389703098331115" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703102627116" name="Text" value="ch high" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="PEP" marked="false"> 
+          <col id="0000"> 
+            <value id="1389703143828117" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389703150683118" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389703153698119" name="Text" value="PEP" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389703156610120" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703159338121" name="Text" value="pep" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="Other" marked="false"> 
+          <col id="0000"> 
+            <value id="1389703170578122" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389703173466123" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389703176505124" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389703178939125" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389703185690126" name="Text" value="other" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="reserve 1" marked="false"> 
+          <col id="0000"> 
+            <value id="1389786899336019" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1389786903834020" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0002"> 
+            <value id="1389786913574021" name="Text" value="FL" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1389786917408022" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1389786922687023" name="Text" value="reserver 1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1389787365516026" name="Text" value="A" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0006"> 
+            <value id="1389787368890027" name="Text" value="L" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

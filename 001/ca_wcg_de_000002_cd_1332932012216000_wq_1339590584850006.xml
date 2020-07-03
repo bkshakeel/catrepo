@@ -1,0 +1,199 @@
+
+<wq catalyst-version="5.0" id="1339590584850006" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006" access-code="a1" type="wq" title="Doc validate" version="001" sub-type="" reference="workqueue"> 
+  <last-update time="1352721238805"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.wq.config.WorkQueueConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <tracking-points/>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <escalations> 
+      <escalation id="1345643604645035" title="Make red"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="hours"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="minutes"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>10
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="seconds"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="calc-date"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <action id="1345643604646036" action="colour"> 
+          <param id="1345643625261037" title=""> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="value"> 
+              <last-update time="1352721238805"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>Red
+            </operand> 
+          </param> 
+        </action> 
+      </escalation>  
+      <escalation id="1345643633040038" title="Warning"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="hours"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="minutes"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>20
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="seconds"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="calc-date"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <action id="1345643633040039" action="result-clear"> 
+          <param id="1345643652090040" title=""> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="value"> 
+              <last-update time="1352721238805"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>warning
+            </operand> 
+          </param> 
+        </action> 
+      </escalation>  
+      <escalation id="1345643678526041" title="Supervisor"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="hours"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="minutes"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>30
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="seconds"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="calc-date"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <action id="1345643678526042" action="result"> 
+          <param id="1345643699527043" title=""> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="value"> 
+              <last-update time="1352721238805"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>escalate
+            </operand> 
+          </param> 
+        </action> 
+      </escalation>  
+      <escalation id="1345643718584044" title="Track"> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="hours"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="number" ref="minutes"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>30
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="seconds"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="calc-date"> 
+          <last-update time="1352721238805"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <action id="1345643718585045" action="tracking"> 
+          <param id="1345643742227046" title=""> 
+            <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="value"> 
+              <last-update time="1352721238805"/>  
+              <last-update-by/>  
+              <reason-for-change/>  
+              <config-class/>  
+              <properties/>POEsc
+            </operand> 
+          </param> 
+        </action> 
+      </escalation> 
+    </escalations>  
+    <user-fields/>  
+    <tracking-points/>  
+    <working-day-calendar> 
+      <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_wq_1339590584850006_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="connection"> 
+        <last-update time="1352721238805"/>  
+        <last-update-by/>  
+        <reason-for-change/>  
+        <config-class/>  
+        <properties/> 
+      </operand> 
+    </working-day-calendar>  
+    <manual-activities> 
+      <manual-activity activity-name="Validate docs" process-name="Docs received" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1335799789357019_ac_1345642035749014"/>  
+      <manual-activity activity-name="Validate docs" process-name="Drive dashboard" full-id="ca_wcg_de_000002_cd_1332932012216000_pm_1339590322749000_ac_1339590770276013"/> 
+    </manual-activities>  
+    <max-work-items>1</max-work-items>  
+    <sort-order-list/>  
+    <work-queue-type>stack</work-queue-type>  
+    <work-queue-name>Validate Contract Documents</work-queue-name> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <properties/> 
+</wq>

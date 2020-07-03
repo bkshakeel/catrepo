@@ -1,0 +1,69 @@
+
+<dictionary-group catalyst-version="5.0" id="1337914441549006" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006" access-code="a1" type="dg" title="CALMS Credit Decision" version="001" sub-type="" reference="dictionary"> 
+  <last-update time="1352721238785"/>  
+  <last-update-by>catalyst</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2012/11/12 11:53</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>catalyst</last-update-by>  
+  <component type="di" id="Auto Reject Flag" title="Auto Reject Flag" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006_di_Auto Reject Flag" access-code=""> 
+    <last-update time="1352721238786"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Auto Reject Flag" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-auto-reject-flag" get-address="" set-address=""> 
+      <last-update time="1352721238786"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="First Underwriter" title="First Underwriter" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006_di_First Underwriter" access-code=""> 
+    <last-update time="1352721238786"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="First Underwriter" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-first-underwriter" get-address="" set-address=""> 
+      <last-update time="1352721238786"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Last Proposal Decision" title="Last Proposal Decision" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006_di_Last Proposal Decision" access-code=""> 
+    <last-update time="1352721238786"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Last Proposal Decision" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="a-last-proposal-decision" get-address="" set-address=""> 
+      <last-update time="1352721238786"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <component type="di" id="Required Competence Level" title="Required Competence Level" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006_di_Required Competence Level" access-code=""> 
+    <last-update time="1352721238786"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_dg_1337914441549006_di_Required Competence Level_null_" access-code="" title="Required Competence Level" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="d-required-competence-level" get-address="" set-address=""> 
+      <last-update time="1352721238786"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand> 
+  </component>  
+  <properties/> 
+</dictionary-group>

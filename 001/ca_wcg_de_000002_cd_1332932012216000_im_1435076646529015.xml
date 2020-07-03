@@ -1,0 +1,33 @@
+
+<ice catalyst-version="5.0" id="1435076646529015" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015" access-code="" type="im" title="ICE reports" version="001" sub-type="" reference="ice-reports">
+  <effective-from/>
+  <effective-to/>
+  <champion-challenge-pct/>
+  <champion-challenge-version/>
+  <last-update time="1593174213080"/>
+  <last-update-by>catalyst</last-update-by>
+  <reason-for-change/>
+  <config-class>com.wcg.ice.common.model.ICEModuleConfigStore</config-class>
+  <config>
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+    <embedded-items ignore-global-embedded="false"/>
+  </config>
+  <exception-process/>
+  <skip-in-test>no</skip-in-test>
+  <skip-in-normal>no</skip-in-normal>
+  <convergent>false</convergent>
+  <last-update-by>catalyst</last-update-by>
+  <component type="ir" id="1435076650512016" title="GB Group report" version="001" sub-type="" reference="ice-report" x-coordinate="105" y-coordinate="80" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ir" id="1435076685267020" title="Motor Insurance" version="001" sub-type="" reference="ice-report" x-coordinate="246" y-coordinate="80" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ir" id="1435076826765024" title="CRA Report" version="001" sub-type="" reference="ice-report" x-coordinate="390" y-coordinate="81" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ir" id="1436270531209000" title="Fraud Check" version="001" sub-type="" reference="ice-report" x-coordinate="536" y-coordinate="84" width="100" height="100">
+    <links/>
+  </component>
+  <properties/>
+</ice>

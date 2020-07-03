@@ -1,0 +1,2156 @@
+
+<dictionary-group catalyst-version="5.0" id="1348712357298036" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036" access-code="a1" type="dg" title="CMS Dictionary Group" version="001" sub-type="" reference="dictionary"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1506509421889"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change>Import from 5 configuration at 2017/09/27 11:50</reason-for-change>  
+  <config-class>com.wcg.catalyst.common.config.DictionaryGroupConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <component type="di" id="Asynch Response" title="Asynch Response" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Asynch Response" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421889"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Asynch Response" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-asynch-response" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421889"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details Asset Mv Year" title="CMS Asset Details Asset Mv Year" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details Asset Mv Year" access-code="" comment="CMS Asset Details Asset Mv Year"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details Asset Mv Year" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvYear" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details AssetNVic" title="CMS Asset Details AssetNVic" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details AssetNVic" access-code="" comment="CMS Asset Details AssetNVic flag"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details AssetNVic" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetNvic" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAllowedMileage" title="CMS Asset Details CmsAllowedMileage" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAllowedMileage" access-code="" comment="CMS Asset Details CmsAllowedMileage"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAllowedMileage" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAllowedMileage" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAllowedMileageMat" title="CMS Asset Details CmsAllowedMileageMat" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAllowedMileageMat" access-code="" comment="CMS Asset Details CmsAllowedMileageMat"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAllowedMileageMat" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAllowedMileageMat" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetAOrS" title="CMS Asset Details CmsAssetAOrS" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetAOrS" access-code="" comment="CMS Asset Details CmsAssetAOrS"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetAOrS" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetAOrS" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetCondition" title="CMS Asset Details CmsAssetCondition" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetCondition" access-code="" comment="CMS Asset Details CmsAssetCondition"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetCondition" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCondition" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetCoySaleProceeds" title="CMS Asset Details CmsAssetCoySaleProceeds" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetCoySaleProceeds" access-code="" comment="CMS Asset Details CmsAssetCoySaleProceeds"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetCoySaleProceeds" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCoySaleProceeds" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421890"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetCurrentMileage" title="CMS Asset Details CmsAssetCurrentMileage" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetCurrentMileage" access-code="" comment="CMS Asset Details CmsAssetCurrentMileage"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421890"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetCurrentMileage" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCurrentMileage" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetExcessMileageChgAmt" title="CMS Asset Details CmsAssetExcessMileageChgAmt" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetExcessMileageChgAmt" access-code="" comment="CMS Asset Details CmsAssetExcessMileageChgAmt"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetExcessMileageChgAmt" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetExcessMileageChgAmt" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetExcessUsageBasis" title="CMS Asset Details CmsAssetExcessUsageBasis" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetExcessUsageBasis" access-code="" comment="CMS Asset Details CmsAssetExcessUsageBasis"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetExcessUsageBasis" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetExcessUsageBasis" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetExcessUsageTolerance" title="CMS Asset Details CmsAssetExcessUsageTolerance" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetExcessUsageTolerance" access-code="" comment="CMS Asset Details CmsAssetExcessUsageTolerance"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetExcessUsageTolerance" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetExcessUsageTolerance" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetFuelTypeDescription" title="CMS Asset Details CmsAssetFuelTypeDescription" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetFuelTypeDescription" access-code="" comment="CMS Asset Details CmsAssetFuelTypeDescription"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetFuelTypeDescription" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetFuelTypeDescription" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetFutureMileage" title="CMS Asset Details CmsAssetFutureMileage" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetFutureMileage" access-code="" comment="CMS Asset Details CmsAssetFutureMileage"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetFutureMileage" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetFutureMileage" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetGaraged1" title="CMS Asset Details CmsAssetGaraged1" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetGaraged1" access-code="" comment="CMS Asset Details CmsAssetGaraged1"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetGaraged1" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetGaraged1" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetGaraged2" title="CMS Asset Details CmsAssetGaraged2" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetGaraged2" access-code="" comment="CMS Asset Details CmsAssetGaraged2"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetGaraged2" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetGaraged2" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetLoanMaturityDate" title="CMS Asset Details CmsAssetLoanMaturityDate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetLoanMaturityDate" access-code="" comment="CMS Asset Details CmsAssetLoanMaturityDate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421891"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetLoanMaturityDate_null_" access-code="" title="CMS Asset Details CmsAssetLoanMaturityDate" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetLoanMaturityDate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421891"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetLoanStartDate" title="CMS Asset Details CmsAssetLoanStartDate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetLoanStartDate" access-code="" comment="CMS Asset Details CmsAssetLoanStartDate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetLoanStartDate_null_" access-code="" title="CMS Asset Details CmsAssetLoanStartDate" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetLoanStartDate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetLoanTerm" title="CMS Asset Details CmsAssetLoanTerm" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetLoanTerm" access-code="" comment="CMS Asset Details CmsAssetLoanTerm"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetLoanTerm" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetLoanTerm" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvEngine20" title="CMS Asset Details CmsAssetMvEngine20" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvEngine20" access-code="" comment="CMS Asset Details CmsAssetMvEngine20 flag"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvEngine20" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvEngine20" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvFeatures" title="CMS Asset Details CmsAssetMvFeatures" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvFeatures" access-code="" comment="CMS Asset Details CmsAssetMvFeatures"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvFeatures" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvFeatures" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvInvoiceNo" title="CMS Asset Details CmsAssetMvInvoiceNo" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvInvoiceNo" access-code="" comment="CMS Asset Details CmsAssetMvInvoiceNo"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvInvoiceNo" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvInvoiceNo" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvRegNoXtra" title="CMS Asset Details CmsAssetMvRegNoXtra" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvRegNoXtra" access-code="" comment="CMS Asset Details CmsAssetMvRegNoXtra"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvRegNoXtra" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvRegNoXtra" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvStockNo" title="CMS Asset Details CmsAssetMvStockNo" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvStockNo" access-code="" comment="CMS Asset Details CmsAssetMvStockNo"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvStockNo" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvStockNo" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvVehicleType" title="CMS Asset Details CmsAssetMvVehicleType" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvVehicleType" access-code="" comment="CMS Asset Details CmsAssetMvVehicleType"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvVehicleType" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvVehicleType" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetMvVin20" title="CMS Asset Details CmsAssetMvVin20" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetMvVin20" access-code="" comment="CMS Asset Details CmsAssetMvVin20"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetMvVin20" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvVin20" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetPfeRegistrationDate" title="CMS Asset Details CmsAssetPfeRegistrationDate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetPfeRegistrationDate" access-code="" comment="CMS Asset Details CmsAssetPfeRegistrationDate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetPfeRegistrationDate_null_" access-code="" title="CMS Asset Details CmsAssetPfeRegistrationDate" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetPfeRegistrationDate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetShortDesc" title="CMS Asset Details CmsAssetShortDesc" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetShortDesc" access-code="" comment="CMS Asset Details CmsAssetShortDesc"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetShortDesc" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetShortDesc" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetSource" title="CMS Asset Details CmsAssetSource" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetSource" access-code="" comment="CMS Asset Details CmsAssetSource"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetSource" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetSource" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetSourceDesc" title="CMS Asset Details CmsAssetSourceDesc" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetSourceDesc" access-code="" comment="CMS Asset Details CmsAssetSourceDesc"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421892"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetSourceDesc" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetSourceDesc" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421892"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetSupplierDesc" title="CMS Asset Details CmsAssetSupplierDesc" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetSupplierDesc" access-code="" comment="CMS Asset Details CmsAssetSupplierDesc"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetSupplierDesc" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetSupplierDesc" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetSupplierId" title="CMS Asset Details CmsAssetSupplierId" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetSupplierId" access-code="" comment="CMS Asset Details CmsAssetSupplierId"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetSupplierId" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetSupplierId" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetUnderUsageBasis" title="CMS Asset Details CmsAssetUnderUsageBasis" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetUnderUsageBasis" access-code="" comment="CMS Asset Details CmsAssetUnderUsageBasis"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetUnderUsageBasis" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetUnderUsageBasis" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetUnderUsageCredit" title="CMS Asset Details CmsAssetUnderUsageCredit" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetUnderUsageCredit" access-code="" comment="CMS Asset Details CmsAssetUnderUsageCredit"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetUnderUsageCredit" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetUnderUsageCredit" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetUnderUsageTolerance" title="CMS Asset Details CmsAssetUnderUsageTolerance" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetUnderUsageTolerance" access-code="" comment="CMS Asset Details CmsAssetUnderUsageTolerance"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetUnderUsageTolerance" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetUnderUsageTolerance" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetUnitOfMeasure" title="CMS Asset Details CmsAssetUnitOfMeasure" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetUnitOfMeasure" access-code="" comment="CMS Asset Details CmsAssetUnitOfMeasure"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetUnitOfMeasure" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetUnitOfMeasure" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsAssetVehicleUse" title="CMS Asset Details CmsAssetVehicleUse" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsAssetVehicleUse" access-code="" comment="CMS Asset Details CmsAssetVehicleUse"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsAssetVehicleUse" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetVehicleUse" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsCompleteMonths" title="CMS Asset Details CmsCompleteMonths" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsCompleteMonths" access-code="" comment="CMS Asset Details CmsCompleteMonths"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsCompleteMonths" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsCompleteMonths" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsExcessMileageCharge" title="CMS Asset Details CmsExcessMileageCharge" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsExcessMileageCharge" access-code="" comment="CMS Asset Details CmsExcessMileageCharge"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsExcessMileageCharge" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsExcessMileageCharge" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsExpectedMileage" title="CMS Asset Details CmsExpectedMileage" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsExpectedMileage" access-code="" comment="CMS Asset Details CmsExpectedMileage"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsExpectedMileage" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsExpectedMileage" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details CmsLoanRegExpiryDate" title="CMS Asset Details CmsLoanRegExpiryDate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details CmsLoanRegExpiryDate" access-code="" comment="CMS Asset Details CmsLoanRegExpiryDate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details CmsLoanRegExpiryDate" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsLoanRegExpiryDate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details Mv Make" title="CMS Asset Details Mv Make" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details Mv Make" access-code="" comment="CMS Asset Details Mv Make"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details Mv Make" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvMake" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details Mv Model" title="CMS Asset Details Mv Model" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details Mv Model" access-code="" comment="CMS Asset Details Mv Model"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421893"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details Mv Model" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvModel" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421893"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Details New Used" title="CMS Asset Details New Used" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Details New Used" access-code="" comment="CMS Asset Details New Used flag"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Details New Used" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsassetMvNewUsed" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset DetailsCmsAssetNativeForeignGoods" title="CMS Asset DetailsCmsAssetNativeForeignGoods" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset DetailsCmsAssetNativeForeignGoods" access-code="" comment="CMS Asset DetailsCmsAssetNativeForeignGoods"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset DetailsCmsAssetNativeForeignGoods" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetNativeForeignGoods" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset Mv Colour" title="CMS Asset Mv Colour" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset Mv Colour" access-code="" comment="CMS Asset Mv Colour flag"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset Mv Colour" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvColour" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetCMStype" title="CMS Asset details CmsAssetCMStype" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetCMStype" access-code="" comment="CMS Asset details CmsAssetCMStype"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetCMStype" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCMStype" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetCapId" title="CMS Asset details CmsAssetCapId" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetCapId" access-code="" comment="CMS Asset details CmsAssetCapId"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetCapId" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCapId" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetCo2GmKmAssetDetails" title="CMS Asset details CmsAssetCo2GmKmAssetDetails" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetCo2GmKmAssetDetails" access-code="" comment="CMS Asset details CmsAssetCo2GmKmAssetDetails"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetCo2GmKmAssetDetails" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCo2GmKmAssetDetails" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetCollRef" title="CMS Asset details CmsAssetCollRef" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetCollRef" access-code="" comment="CMS Asset details CmsAssetCollRef"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetCollRef" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetCollRef" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetDescForMv" title="CMS Asset details CmsAssetDescForMv" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetDescForMv" access-code="" comment="CMS Asset details CmsAssetDescForMv"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetDescForMv" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetDescForMv" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetDummyAsset" title="CMS Asset details CmsAssetDummyAsset" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetDummyAsset" access-code="" comment="CMS Asset details CmsAssetDummyAsset"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetDummyAsset" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetDummyAsset" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetEngineSizeCM3" title="CMS Asset details CmsAssetEngineSizeCM3" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetEngineSizeCM3" access-code="" comment="CMS Asset details CmsAssetEngineSizeCM3"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetEngineSizeCM3" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetEngineSizeCM3" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetEnvironmentRating" title="CMS Asset details CmsAssetEnvironmentRating" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetEnvironmentRating" access-code="" comment="CMS Asset details CmsAssetEnvironmentRating"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetEnvironmentRating" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetEnvironmentRating" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetFlexBaseRate" title="CMS Asset details CmsAssetFlexBaseRate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetFlexBaseRate" access-code="" comment="CMS Asset details CmsAssetFlexBaseRate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetFlexBaseRate" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetFlexBaseRate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421894"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetFuelTypeCode" title="CMS Asset details CmsAssetFuelTypeCode" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetFuelTypeCode" access-code="" comment="CMS Asset details CmsAssetFuelTypeCode"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421894"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetFuelTypeCode" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetFuelTypeCode" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetMvRegNo" title="CMS Asset details CmsAssetMvRegNo" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetMvRegNo" access-code="" comment="CMS Asset details CmsAssetMvRegNo"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetMvRegNo" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetMvRegNo" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetPurpose" title="CMS Asset details CmsAssetPurpose" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetPurpose" access-code="" comment="CMS Asset details CmsAssetPurpose"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetPurpose" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetPurpose" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsAssetTaxPowerRating" title="CMS Asset details CmsAssetTaxPowerRating" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsAssetTaxPowerRating" access-code="" comment="CMS Asset details CmsAssetTaxPowerRating"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsAssetTaxPowerRating" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetTaxPowerRating" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsExcessMileage" title="CMS Asset details CmsExcessMileage" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsExcessMileage" access-code="" comment="CMS Asset details CmsExcessMileage"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsExcessMileage" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsExcessMileage" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsLextnRampUpApplies" title="CMS Asset details CmsLextnRampUpApplies" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsLextnRampUpApplies" access-code="" comment="CMS Asset details CmsLextnRampUpApplies"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsLextnRampUpApplies" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsLextnRampUpApplies" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsLextnRampUpDays" title="CMS Asset details CmsLextnRampUpDays" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsLextnRampUpDays" access-code="" comment="CMS Asset details CmsLextnRampUpDays"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsLextnRampUpDays" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsLextnRampUpDays" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsMileageProjectionDate" title="CMS Asset details CmsMileageProjectionDate" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsMileageProjectionDate" access-code="" comment="CMS Asset details CmsMileageProjectionDate"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsMileageProjectionDate_null_" access-code="" title="CMS Asset details CmsMileageProjectionDate" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CmsMileageProjectionDate" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset details CmsassetEngineSize" title="CMS Asset details CmsassetEngineSize" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset details CmsassetEngineSize" access-code="" comment="CMS Asset details CmsassetEngineSize"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset details CmsassetEngineSize" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsassetEngineSize" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Asset detils CmsAssetEnvRatingAmount" title="CMS Asset detils CmsAssetEnvRatingAmount" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Asset detils CmsAssetEnvRatingAmount" access-code="" comment="CMS Asset detils CmsAssetEnvRatingAmount"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Asset detils CmsAssetEnvRatingAmount" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="CmsAssetEnvRatingAmount" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Callback Object" title="CMS Callback Object" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Callback Object" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Callback Object" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="object" pipe-item-name="cms-callback-bean" get-address="" set-address="" return-type="java.lang.Object"> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Contract Details loanSource" title="CMS Contract Details loanSource" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Contract Details loanSource" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Contract Details loanSource" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="loanSource" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Deceased Flag Indicator" title="CMS Deceased Flag Indicator" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Deceased Flag Indicator" access-code="" comment="CMS Deceased Customer Flag Indicator"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Deceased Flag Indicator" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CMSDeceasedInd" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Negative Info Indicator" title="CMS Negative Info Indicator" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Negative Info Indicator" access-code="" comment="CMS Negative Info Indicator for BMW"> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Negative Info Indicator" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CMSNegativeInfoInd" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Request" title="CMS Request" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Request" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Request" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-cms-request" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Response" title="CMS Response" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Response" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Response" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-cms-response" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS Test" title="CMS Test" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS Test" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS Test" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="CMS Test" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="CMS catalystProcess" title="CMS catalystProcess" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_CMS catalystProcess" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="CMS catalystProcess" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="catalystProcess" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Catalyst Process Exists" title="Catalyst Process Exists" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Catalyst Process Exists" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Catalyst Process Exists" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-catalyst-proc-exists" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Contract Loan Source" title="Contract Loan Source" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Contract Loan Source" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_di_Contract Loan Source_null_" access-code="" title="Contract Loan Source" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="loanSource" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Formater" title="Formater" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Formater" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Formater" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="cms-formater" get-address="" set-address="" return-type="java.text.DecimalFormat"> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Function ID" title="Function ID" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Function ID" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Function ID" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="cms-function-id" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Internal Catalyst Object" title="Internal Catalyst Object" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Internal Catalyst Object" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Internal Catalyst Object" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="d-internal-catalyst-obj" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Internal Note" title="Internal Note" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Internal Note" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Internal Note" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-internal-note" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Key" title="Key" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Key" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Key" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-key" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Keys" title="Keys" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Keys" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Pipe_null_" access-code="" title="Keys" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="d-pipe-keys" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Pipe Index" title="Pipe Index" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Pipe Index" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Pipe Index" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="d-pipe-index" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Pipe Length" title="Pipe Length" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Pipe Length" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Pipe Length" version="001" sub-type="" reference="" operand-type="pipe" item-type="number" ref="" pipe-name="dataitem" pipe-item-name="d-pipe-length" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Process Object" title="Process Object" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Process Object" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Process Object" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="d-proc-obj" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Process to Call" title="Process to Call" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Process to Call" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Process to Call" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="cms-process-to-call" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Request DOM" title="Request DOM" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Request DOM" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Request DOM" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="requestDOM" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Request DOM4J" title="Request DOM4J" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Request DOM4J" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Request DOM4J_null_" access-code="" title="Request DOM4J" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="cms-request-dom4j" get-address="" set-address="" return-type="java.lang.Object"> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Response DOM" title="Response DOM" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Response DOM" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Response DOM" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="responseDOM" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Synchronous" title="Synchronous" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Synchronous" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Synchronous" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-synchronous" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Test" title="Test" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Test" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Test" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="dataitem" pipe-item-name="WCGTest" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Validate Lov Result" title="Validate Lov Result" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Validate Lov Result" access-code="" comment=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Validate Lov Result" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="ValidateLovResult" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Value" title="Value" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Value" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Value" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="" pipe-name="dataitem" pipe-item-name="d-value" get-address="" set-address=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <component type="di" id="Values" title="Values" version="001" sub-type="" reference="" x-coordinate="0" y-coordinate="0" width="0" height="0" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1359500095757005_dg_1348712357298036_di_Values" access-code=""> 
+    <effective-from/>  
+    <effective-to/>  
+    <champion-challenge-pct/>  
+    <champion-challenge-version/>  
+    <last-update time="1506509421895"/>  
+    <last-update-by/>  
+    <reason-for-change/>  
+    <config-class/>  
+    <properties/>  
+    <operand catalyst-version="5.0" id="" full-id="null_null_" access-code="" title="Values" version="001" sub-type="" reference="" operand-type="pipe" item-type="other" ref="" pipe-name="object" pipe-item-name="d-pipe-values" get-address="" set-address="" return-type=""> 
+      <effective-from/>  
+      <effective-to/>  
+      <champion-challenge-pct/>  
+      <champion-challenge-version/>  
+      <last-update time="1506509421895"/>  
+      <last-update-by/>  
+      <reason-for-change/>  
+      <config-class/>  
+      <properties/> 
+    </operand>  
+    <links/> 
+  </component>  
+  <properties/> 
+</dictionary-group>

@@ -1,0 +1,3881 @@
+
+<sheet catalyst-version="5.0" id="1360687557154055" full-id="ca_wcg_de_000002_cd_1332932012216000_ws_1360687557154055" access-code="a1" type="ws" title="SC-Bureau Score" version="001" sub-type="" reference="worksheet"> 
+  <effective-from/>  
+  <effective-to/>  
+  <champion-challenge-pct/>  
+  <champion-challenge-version/>  
+  <last-update time="1503491629268"/>  
+  <last-update-by>jrs</last-update-by>  
+  <reason-for-change/>  
+  <config-class>com.wcg.catalyst.mv.config.WorksheetConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <item-value-mapping> 
+      <mark-id>false</mark-id>  
+      <mark-title>false</mark-title>  
+      <mark-type>false</mark-type>  
+      <mark-default>false</mark-default>  
+      <shrink-id>false</shrink-id>  
+      <shrink-title>false</shrink-title>  
+      <shrink-type>false</shrink-type>  
+      <shrink-default>false</shrink-default>  
+      <sheet-defaults> 
+        <value id="122224631955603" name="Number" value="" type="number"/>  
+        <value id="122224631009302" name="Text" value="" type="text"/> 
+      </sheet-defaults>  
+      <columns> 
+        <col id="0001" seq="0001" marked="false" shrunk="false" mark-on-off="false" header="Scorecard"/>  
+        <col id="0003" seq="0003" marked="false" shrunk="false" mark-on-off="false" header="From"/>  
+        <col id="0004" seq="0004" marked="false" shrunk="false" mark-on-off="false" header="To"/>  
+        <col id="0005" seq="0005" marked="false" shrunk="false" mark-on-off="false" header="Score"/> 
+      </columns>  
+      <rows> 
+        <row id="0001" seq="1" title="Operation" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687586778056" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687687992057" name="Text" value="= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361722519972742" name="Text" value="&gt;= AND" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361722522273743" name="Text" value="&lt;" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="" name="" value="" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0002" seq="2" title="SC1-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687726040059" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687731781060" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687746352062" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361722627335744" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361722634368745" name="Text" value="19" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0003" seq="3" title="SC1-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687768238063" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687772872064" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687783168066" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361722676226746" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361722678606747" name="Text" value="-11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0004" seq="4" title="SC1-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687833650067" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687837675068" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687843244070" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361722818670748" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361722823064749" name="Text" value="-11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0005" seq="5" title="SC1-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687873477071" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687889982072" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687902883074" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361722857508750" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361722861560751" name="Text" value="-7" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0006" seq="6" title="SC1-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687943490075" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687947328076" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687955845078" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723022721752" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723026659753" name="Text" value="-6" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0007" seq="7" title="SC1-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1360687978107079" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1360687983894080" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1360687989011082" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723064861754" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723067482755" name="Text" value="-3" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0008" seq="8" title="SC1-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723104513756" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723105902757" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723112152759" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723117837760" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723120813761" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0009" seq="9" title="SC1-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723140820762" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723142483763" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723148433765" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723150873766" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723154116767" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0010" seq="10" title="SC1-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723277358768" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723279661769" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723284690771" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723286546772" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723288256773" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0011" seq="11" title="SC1-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723306944774" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723308894775" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723318418777" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723320814778" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723322517779" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0012" seq="12" title="SC1-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723348954780" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723350345781" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723354334783" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723356897784" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723358763785" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0013" seq="13" title="SC1-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723422696786" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723424027787" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723428096789" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723430992790" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723433054791" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0014" seq="14" title="SC1-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723814477792" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723815952793" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723821158795" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723823974796" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723827204797" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0015" seq="15" title="SC1-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723860622798" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723862148799" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723867247801" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723870049802" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723872667803" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0016" seq="16" title="SC1-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361723891141804" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361723892590805" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361723897584807" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361723901579808" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361723904869809" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0017" seq="17" title="SC1-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361726906148810" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361726907645811" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361726923600813" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361726926566814" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361726929623815" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0018" seq="18" title="SC1-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361726944650816" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361726946402817" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361726950572819" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361726953046820" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361726954578821" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0019" seq="19" title="SC1-&lt;630=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361726989792822" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361726992890823" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727001388825" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727013906826" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727023999827" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0020" seq="20" title="SC1-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727053056828" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727055676829" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727060844831" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727064285832" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727066025833" name="Text" value="36" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0021" seq="21" title="SC1-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727107804834" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727109201835" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727122262837" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727129042838" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727132316839" name="Text" value="39" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0022" seq="22" title="SC1-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727146880840" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727148227841" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727154897843" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727157410844" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727160029845" name="Text" value="40" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0023" seq="23" title="SC1-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727175490846" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727176943847" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727183717849" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727186300850" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727190296851" name="Text" value="41" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0024" seq="24" title="SC1-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727207790852" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727209151853" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727212959855" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727215828856" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727218527857" name="Text" value="41" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0025" seq="25" title="SC1-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727236777858" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727239974859" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727247562861" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727251241862" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727253969863" name="Text" value="42" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0026" seq="26" title="SC1-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727280210864" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727282093865" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727286403867" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727289482868" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727294492869" name="Text" value="42" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0027" seq="27" title="SC2-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727573077870" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727574422871" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727583385873" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727585352874" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727592161875" name="Text" value="16" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0028" seq="28" title="SC2-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727625479876" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727628178877" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727643457879" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727645897880" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727648884881" name="Text" value="16" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0029" seq="29" title="SC2-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727673606882" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727675488883" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727681437885" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727683620886" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727686080887" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0030" seq="30" title="SC2-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727703572888" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727707341889" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727716078891" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727718632892" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727720365893" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0031" seq="31" title="SC2-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727759371894" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727760832895" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727766247897" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727768407898" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727771868899" name="Text" value="10" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0032" seq="32" title="SC2-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727854634900" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727856381901" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727863424903" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727866363904" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727867969905" name="Text" value="11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0033" seq="33" title="SC2-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727905440906" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727907216907" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727911859909" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727915475910" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727917693911" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0034" seq="34" title="SC2-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727936608912" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727945888913" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727950491915" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727953001916" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727955348917" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0035" seq="35" title="SC2-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361727981262918" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361727982968919" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361727988089921" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361727990182922" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361727991981923" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0036" seq="36" title="SC2-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728106375924" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728109128925" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728138213927" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728140841928" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728142599929" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0037" seq="37" title="SC2-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728164294930" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728192196931" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728202010933" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728205007934" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728206966935" name="Text" value="15" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0038" seq="38" title="SC2-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728223156936" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728226929937" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728231624939" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728233682940" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728236226941" name="Text" value="17" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0039" seq="39" title="SC2-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728278047942" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728280565943" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728286742945" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728288828946" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728290685947" name="Text" value="18" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0040" seq="40" title="SC2-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728345482948" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728347187949" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728351112951" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728353027952" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728355099953" name="Text" value="19" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0041" seq="41" title="SC2-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728383061954" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728384810955" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728389152957" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728393273958" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728397482959" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0042" seq="42" title="SC2-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728416544960" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728418499961" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728422728963" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728426659964" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728428713965" name="Text" value="22" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0043" seq="43" title="SC2-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728529294966" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728531234967" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728535176969" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728538093970" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728544917971" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0044" seq="44" title="SC2-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728586478972" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728588267973" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728595766975" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728598711976" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728601117977" name="Text" value="24" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0045" seq="45" title="SC2-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728619852978" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728621279979" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728627236981" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728629850982" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728632148983" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0046" seq="46" title="SC2-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728801707984" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728803640985" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728807996987" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728810864988" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728815698989" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0047" seq="47" title="SC2-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728846730990" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728854017991" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728857855993" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728860586994" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728862695995" name="Text" value="27" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0048" seq="48" title="SC2-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728883251996" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728884761997" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728888941000" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728891088001" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728893968002" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0049" seq="49" title="SC2-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728905874003" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728907543004" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728911497006" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728916627007" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728920548008" name="Text" value="29" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0050" seq="50" title="SC2-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728935380009" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728939360010" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728945891012" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728950330013" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728952551014" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0051" seq="51" title="SC2-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361728966445015" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361728967930016" name="Text" value="2" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361728973596018" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361728975722019" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361728977667020" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0052" seq="52" title="SC3-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361735773482021" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361735781153022" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361735789770024" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361735793386025" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361735795699026" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0053" seq="53" title="SC3-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361735822044027" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361735825150028" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361735851358030" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361735853706031" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361735856299032" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0054" seq="54" title="SC3-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361735927966033" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361735931774034" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361735936899036" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361735940876037" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361735943166038" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0055" seq="55" title="SC3-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361735976512039" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361735980226040" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361735985258042" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361735987885043" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361735990524044" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0056" seq="56" title="SC3-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361736005139045" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361736006595046" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361736013608048" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361736016753049" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361736018675050" name="Text" value="12" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0057" seq="57" title="SC3-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361736037212051" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361736039715052" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361736047472054" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361736050627055" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361736052405056" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0058" seq="58" title="SC3-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361736278640057" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361736280386058" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361736285515060" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361736288282061" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361736290788062" name="Text" value="16" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0059" seq="59" title="SC3-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361736318380063" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361736319979064" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361736323647066" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361736326064067" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361736328051068" name="Text" value="17" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0060" seq="60" title="SC3-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361736348677069" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361736350461070" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361736356190072" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361736360048073" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361736362298074" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0061" seq="61" title="SC3-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737125257075" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737126826076" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737130688078" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737133047079" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737135651080" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0062" seq="62" title="SC3-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737151933081" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737168999082" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737173509084" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737176271085" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737179288086" name="Text" value="24" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0063" seq="63" title="SC3-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737205181087" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737210008088" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737424828094" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737428069095" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737430421096" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0064" seq="64" title="SC3-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737401764090" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737403539091" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737419663093" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737451589097" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737454367098" name="Text" value="27" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0065" seq="65" title="SC3-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737479786099" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737481475100" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737485955102" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737489255103" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737492271104" name="Text" value="29" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0066" seq="66" title="SC3-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737614673105" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737616345106" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737622404108" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737625131109" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737626922110" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0067" seq="67" title="SC3-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737651183111" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737652733112" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737659366114" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737662764115" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737664991116" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0068" seq="68" title="SC3-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737744591117" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737746473118" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737751935120" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737755270121" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737757182122" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0069" seq="69" title="SC3-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737778034123" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737779747124" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737784269126" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737787397127" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737789297128" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0070" seq="70" title="SC3-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737927213129" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737933335130" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737942790132" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737952061133" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361737960335134" name="Text" value="34" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0071" seq="71" title="SC3-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361737990644135" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361737992200136" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361737996630138" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361737998640139" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738001595140" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0072" seq="72" title="SC3-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738077497141" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738080181142" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738095276144" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738107422145" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738109681146" name="Text" value="36" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0073" seq="73" title="SC3-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738132185147" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738133927148" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738138909150" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738141098151" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738144336152" name="Text" value="37" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0074" seq="74" title="SC3-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738164333153" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738166864154" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738171145156" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738173853157" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738175539158" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0075" seq="75" title="SC3-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738199550159" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738201242160" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738204975162" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738207599163" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738209932164" name="Text" value="39" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0076" seq="76" title="SC3-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738233770165" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738235409166" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738239815168" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738242230169" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738244258170" name="Text" value="40" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0077" seq="77" title="SC4-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738316009171" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738319128172" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738328156174" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738334181175" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738336766176" name="Text" value="21" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0078" seq="78" title="SC4-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738361516177" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738363522178" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738369522180" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738371361181" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738374780182" name="Text" value="21" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0079" seq="79" title="SC4-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738484503183" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738486098184" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738489760186" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738492315187" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738495544188" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0080" seq="80" title="SC4-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738507335189" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738508966190" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738523419192" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738525793193" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738527686194" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0081" seq="81" title="SC4-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738620383195" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738622401196" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738627699198" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738630061199" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738631722200" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0082" seq="82" title=" SC4-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738682670201" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738686431202" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738691334204" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738693983205" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738699027206" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0083" seq="83" title="SC4-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738795113207" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738796645208" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738801785210" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738804365211" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738806272212" name="Text" value="18" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0084" seq="84" title="SC4-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738874956213" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738876672214" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738881110216" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738883561217" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738885559218" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0085" seq="85" title="SC4-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361738912151219" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361738915543220" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361738919995222" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361738925108223" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361738927297224" name="Text" value="22" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0086" seq="86" title="SC4-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739042763225" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739044555226" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739051196228" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739055402229" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739057761230" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0087" seq="87" title="SC4-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739074743231" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739079145232" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739084409234" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739086535235" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739091050236" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0088" seq="88" title="SC4-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739242250237" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739243902238" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739249751240" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739253348241" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739256645242" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0089" seq="89" title="SC4-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739283776243" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739288351244" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739307417246" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739309963247" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739311776248" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0090" seq="90" title="SC4-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739472258249" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739474273250" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739478983252" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739481312253" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739483253254" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0091" seq="91" title="SC4-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739529558255" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739532194256" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739535946258" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739538571259" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739543061260" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0092" seq="92" title="SC4-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739565360261" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739568092262" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739573037264" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739575913265" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739579910266" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0093" seq="93" title="SC4-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739620887267" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739622900268" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739628435270" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739631136271" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739635727272" name="Text" value="39" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0094" seq="94" title="SC4-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361739843729273" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361739845369274" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361739850493276" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361739852717277" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361739856228278" name="Text" value="40" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0095" seq="95" title="SC4-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361740240347279" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361740243066280" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361740254335282" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361740257464283" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361740260481284" name="Text" value="42" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0096" seq="96" title="SC4-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361740549686285" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361740552403286" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361740726821288" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361740729605289" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361740736988290" name="Text" value="43" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0097" seq="97" title="SC4-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361740891348291" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741036768292" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741044139294" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741047180295" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741049455296" name="Text" value="45" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0098" seq="98" title="SC4-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741060949297" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741062665298" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741068627300" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741070972301" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741072595302" name="Text" value="46" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0099" seq="99" title="SC4-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741087680303" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741090013304" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741098860306" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741103276307" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741105125308" name="Text" value="47" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0100" seq="100" title="SC4-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741118407309" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741120328310" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741126552312" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741133104313" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741135861314" name="Text" value="48" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0101" seq="101" title="SC4-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741212498315" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741215689316" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741219944318" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741222509319" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741225305320" name="Text" value="50" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0102" seq="102" title="SC5-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741338418321" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741340142322" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741352535324" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741354376325" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741361915326" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0103" seq="103" title="SC5-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741420896327" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741423459328" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741429594330" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741432270331" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741433800332" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0104" seq="104" title="SC5-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741472166333" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741474643334" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741480598336" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741485605337" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741488631338" name="Text" value="-13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0105" seq="105" title="SC5-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741517492339" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741519490340" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741523988342" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741526147343" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741529357344" name="Text" value="-3" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0106" seq="106" title="SC5-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741548122345" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741550987346" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741554981348" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741558233349" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741570118350" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0107" seq="107" title="SC5-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741607192351" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741608781352" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741615023354" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741617611355" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741619256356" name="Text" value="1" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0108" seq="108" title="SC5-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741632792357" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741634790358" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741640943360" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741643554361" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741645680362" name="Text" value="4" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0109" seq="109" title="SC5-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741657446363" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741659014364" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741664229366" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741666686367" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741668279368" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0110" seq="110" title="SC5-&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741694843369" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741696434370" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741701902372" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741704361373" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741706057374" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0111" seq="111" title="SC5-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741722011375" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741723655376" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741729629378" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741737061379" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741793202380" name="Text" value="11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0112" seq="112" title="SC5-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741813763381" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741815459382" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741819203384" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741821222385" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741823971386" name="Text" value="15" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0113" seq="113" title="SC5-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741873335387" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741876048388" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741881494390" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741884801391" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741887522392" name="Text" value="18" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0114" seq="114" title="SC5-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741904295393" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741906217394" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741914626396" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741917320397" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741920709398" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0115" seq="115" title="SC5-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741945188399" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741946820400" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741952034402" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741954182403" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361741956843404" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0116" seq="116" title="SC5-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361741985642405" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361741987351406" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361741996699408" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361741999627409" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742001422410" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0117" seq="117" title="SC5-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742025853411" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742027493412" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742032553414" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742035356415" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742039617416" name="Text" value="27" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0118" seq="118" title="SC5-630&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742058599417" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742060433418" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742067173420" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742070663421" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742073952422" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0119" seq="119" title="SC5-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742144697423" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742146699424" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742156696426" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742159257427" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742163033428" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0120" seq="120" title="SC5-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742186047429" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742187418430" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742190913432" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742192901433" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742195698434" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0121" seq="121" title="SC5-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742206520435" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742207981436" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742215315438" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742218432439" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742220676440" name="Text" value="34" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0122" seq="122" title="SC5-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742261324441" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742268010443" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742270741444" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742273869445" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742278215446" name="Text" value="36" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0123" seq="123" title="SC5-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742312873447" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742314507448" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742319777450" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742321825451" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742324753452" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0124" seq="124" title="SC5-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742340588453" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742342116454" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742345800456" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742348007457" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742350246458" name="Text" value="40" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0125" seq="125" title="SC5-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742402905459" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742404345460" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742410428462" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742415253463" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742421728464" name="Text" value="41" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0126" seq="126" title="SC5-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742436184465" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742438269466" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742442783468" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742444592469" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742447629470" name="Text" value="45" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0127" seq="127" title="SC6-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742666417471" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742675939472" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742682554474" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742694450475" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742704340476" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0128" seq="128" title="SC6-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742762173477" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742904380480" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742918969482" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742921657483" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742925561484" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0129" seq="129" title="SC6-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742897719478" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742899564479" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742935560486" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742937797487" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742939331488" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0130" seq="130" title="SC6-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361742967886489" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361742969553490" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361742975266492" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361742977278493" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361742979038494" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0131" seq="131" title="SC6-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743035234495" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743036861496" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743041206498" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743058915499" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743060715500" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0132" seq="132" title="SC6-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743072805501" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743081918502" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743091811504" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743094310505" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743096629506" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0133" seq="133" title="SC6-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743160278507" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743161880508" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743169010510" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743172087511" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743173866512" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0134" seq="134" title="SC6-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743212245513" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743214106514" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743233040516" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743235389517" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743237307518" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0135" seq="135" title="SC6-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743460189519" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743461625520" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743466529522" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743469214523" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743471032524" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0136" seq="136" title="SC6-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743491044525" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743492618526" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743496002528" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743498450529" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743499982530" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0137" seq="137" title="SC6-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743512845531" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743514992532" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743519107534" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743521667535" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743523305536" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0138" seq="138" title="SC6-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743556038537" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743557393538" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743562878540" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743564958541" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743566978542" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0139" seq="139" title="SC6-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743587437543" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743589022544" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743598705546" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743602147547" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743604807548" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0140" seq="140" title="SC6-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743703202549" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743704594550" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743708362552" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743710302553" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743712170554" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0141" seq="141" title="SC6-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743725343555" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743727770556" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743733029558" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743735862559" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743737528560" name="Text" value="29" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0142" seq="142" title="SC6-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743753803561" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743755569562" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743769711564" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743772102565" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743773663566" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0143" seq="143" title="SC6-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743839373567" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743843840568" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743849395570" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743852751571" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743854317572" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0144" seq="144" title="SC6-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743925805573" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743928029574" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743935103576" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743937071577" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743938955578" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0145" seq="145" title="SC6-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361743953970579" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361743955781580" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361743974664582" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361743977561583" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361743980585584" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0146" seq="146" title="SC6-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744025024585" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744026815586" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744031179588" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744033279589" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744035769590" name="Text" value="34" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0147" seq="147" title="SC6-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744088961591" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744090634592" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744140614594" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744144214595" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744146536596" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0148" seq="148" title="SC6-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744329039597" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744333884598" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744339268600" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744341698601" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744344080602" name="Text" value="36" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0149" seq="149" title="SC6-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744370112603" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744464244604" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744470662606" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744474388607" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744476860608" name="Text" value="37" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0150" seq="150" title="SC6-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744490099609" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744491612610" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744496493612" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744498680613" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744510819614" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0151" seq="151" title="SC6-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361744526031615" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361744527521616" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361744531747618" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361744533742619" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361744535913620" name="Text" value="39" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0152" seq="152" title="SC7-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745408516621" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745410510622" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745422824624" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745437522625" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745484521626" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0153" seq="153" title="SC7-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745505022627" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745508478628" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745516651630" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745518423631" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745521619632" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0154" seq="154" title="SC7-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745589021633" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745594360634" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745598448636" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745600536637" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745602349638" name="Text" value="11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0155" seq="155" title="SC7-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745704978639" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745706667640" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745714198642" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745716897643" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745718262644" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0156" seq="156" title="SC7-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745745207645" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745746715646" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745750374648" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745755423649" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745757515650" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0157" seq="157" title="SC7-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745777814651" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745779376652" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745784706654" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745789565655" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745791917656" name="Text" value="15" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0158" seq="158" title="SC7-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745827545657" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745830402658" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745835329660" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745839816661" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745841553662" name="Text" value="16" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0159" seq="159" title="SC7-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361745988657663" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361745991393664" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361745996432666" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361745998531667" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361745999980668" name="Text" value="17" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0160" seq="160" title="SC7-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746033221669" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746035753670" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746044024672" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746046725673" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746050487674" name="Text" value="18" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0161" seq="161" title="SC7-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746072108675" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746075492676" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746090795678" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746093031679" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746095319680" name="Text" value="19" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0162" seq="162" title="SC7-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746118709681" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746120712682" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746124855684" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746129719685" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746132308686" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0163" seq="163" title="SC7-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746152725687" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746156180688" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746169440690" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746172746691" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746176241692" name="Text" value="22" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0164" seq="164" title="SC7-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746203832693" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746206749694" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746210953696" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746215169697" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746217360698" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0165" seq="165" title="SC7-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746406262699" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746410500700" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746499271702" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746502302703" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746504916704" name="Text" value="24" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0166" seq="166" title="SC7-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746516679705" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746518914706" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746522471708" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746524528709" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746527003710" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0167" seq="167" title="SC7-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746549265711" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746554965712" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746558784714" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746561928715" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746578207716" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0168" seq="168" title="SC7-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746607578717" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746619161718" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746630298720" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746633613721" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746636405722" name="Text" value="27" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0169" seq="169" title="SC7-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746723782723" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746725531724" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746730065726" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746732621727" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746734526728" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0170" seq="170" title="SC7-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746819248729" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746820804730" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746827959732" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746835255733" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746842911734" name="Text" value="29" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0171" seq="171" title="SC7-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746860319735" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746862282736" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746866240738" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746868297739" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746870816740" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0172" seq="172" title="SC7-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746897875741" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746899329742" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746903128744" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746905546745" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746910100746" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0173" seq="173" title="SC7-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746928083747" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746929589748" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746933709750" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746936039751" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746939397752" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0174" seq="174" title="SC7-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746962130753" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361746963476754" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361746967289756" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361746969615757" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361746973219758" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0175" seq="175" title="SC7-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361746992934759" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747008539760" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747014069762" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747016307763" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747022137764" name="Text" value="34" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0176" seq="176" title="SC7-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747058898765" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747062330766" name="Text" value="7" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747066326768" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747068085769" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747071554770" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0177" seq="177" title="SC8-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747276220771" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747278162772" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747289740774" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747291990775" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747293978776" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0178" seq="178" title="SC8-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747348505777" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747351379778" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747413886780" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747416473781" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747418414782" name="Text" value="26" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0179" seq="179" title="SC8-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747490297783" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747492042784" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747496047786" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747500072787" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747502520788" name="Text" value="6" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0180" seq="180" title="SC8-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747516014789" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747517747790" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747523677792" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747525895793" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747528740794" name="Text" value="14" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0181" seq="181" title="SC8-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747541098795" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747543035796" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747550117798" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747554662799" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747560964800" name="Text" value="17" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0182" seq="182" title="SC8-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747758285801" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747760138802" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747768970804" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747773767805" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747775607806" name="Text" value="22" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0183" seq="183" title="SC8-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747805223807" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747806813808" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747815538810" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747817826811" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747822291812" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0184" seq="184" title="SC8-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747863051813" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747864719814" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747870416816" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747872431817" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747874790818" name="Text" value="24" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0185" seq="185" title="SC8-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747897715819" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747899257820" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747904010822" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747905877823" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747911706824" name="Text" value="28" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0186" seq="186" title="SC8-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747937812825" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747939345826" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747943095828" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747945005829" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747947479830" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0187" seq="187" title="SC8-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361747982774831" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361747984322832" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361747988027834" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361747992716835" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361747995221836" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0188" seq="188" title="SC8-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748011262837" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748013397838" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748018080840" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748020561841" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748022990842" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0189" seq="189" title="SC8-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748501605843" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748503065844" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748507132846" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748509176847" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748511657848" name="Text" value="37" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0190" seq="190" title="SC8-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748523726849" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748538617850" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748545082852" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748547091853" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748550360854" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0191" seq="191" title="SC8-&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748630885855" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748632566856" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748636474858" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748639659859" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748644074860" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0192" seq="192" title="SC8-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748705920861" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748707711862" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748712705864" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748715217865" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748718275866" name="Text" value="39" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0193" seq="193" title="SC8-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748740666867" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748742113868" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748746352870" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748748791871" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748752937872" name="Text" value="40" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0194" seq="194" title="SC8-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748771861873" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748773477874" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748778022876" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748780102877" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748782517878" name="Text" value="41" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0195" seq="195" title="SC8-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748814590879" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748816198880" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748819834882" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748821581883" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748823131884" name="Text" value="42" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0196" seq="196" title="SC8-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748849317885" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748850890886" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748855184888" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748856951889" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748858641890" name="Text" value="43" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0197" seq="197" title="SC8-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748877807891" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748893127892" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748898440894" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748902306895" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748906361896" name="Text" value="44" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0198" seq="198" title="SC8-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748936177897" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748937588898" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748941598900" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748943798901" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748945763902" name="Text" value="45" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0199" seq="199" title="SC8-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361748986112903" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361748987738904" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361748992819906" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361748995154907" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361748997023908" name="Text" value="46" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0200" seq="200" title="SC8-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749015829909" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749018103910" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749022499912" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749024557913" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749026707914" name="Text" value="47" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0201" seq="201" title="SC8-700]&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749160316915" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749162062916" name="Text" value="8" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749166026918" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749167524919" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749169352920" name="Text" value="49" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0202" seq="202" title="SC9-BUREAUSCORE-Neutral Score" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749257985921" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749261070922" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749271542924" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749272947925" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749274906926" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0203" seq="203" title="SC9-BUREAUSCORE-Missing" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749293649927" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749297129928" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749305297930" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749307935931" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749309733932" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0204" seq="204" title="SC9-0&lt;=BUREAUSCORE&lt;475" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749376966933" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749379044934" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749383228936" name="Text" value="0" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749386166937" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749390252938" name="Text" value="-2" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0205" seq="205" title="SC9-475&lt;=BUREAUSCORE&lt;500" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749441360939" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749444688940" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749449570942" name="Text" value="475" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749451367943" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749453148944" name="Text" value="3" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0206" seq="206" title="SC9-500&lt;=BUREAUSCORE&lt;510" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749463309945" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749465575946" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749470575948" name="Text" value="500" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749473903949" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749476501950" name="Text" value="5" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0207" seq="207" title="SC9-510&lt;=BUREAUSCORE&lt;520" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749509228951" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749511857952" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749516748954" name="Text" value="510" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749519132955" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749521131956" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0208" seq="208" title="SC9-520&lt;=BUREAUSCORE&lt;530" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749536766957" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749538766958" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749546018960" name="Text" value="520" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749557216961" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749559447962" name="Text" value="11" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0209" seq="209" title="SC9-530&lt;=BUREAUSCORE&lt;540" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749576735963" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749580626964" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749588663966" name="Text" value="530" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749590910967" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749594481968" name="Text" value="13" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0210" seq="210" title="SC9-540&lt;=BUREAUSCORE&lt;550" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749681436969" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749683272970" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749687338972" name="Text" value="540" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749689267973" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749692023974" name="Text" value="15" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0211" seq="211" title="SC9-550&lt;=BUREAUSCORE&lt;560" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749727337975" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749729146976" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749739729978" name="Text" value="550" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749746475979" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749750583980" name="Text" value="16" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0212" seq="212" title="SC9-560&lt;=BUREAUSCORE&lt;570" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749802439981" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749804223982" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749808181984" name="Text" value="560" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749812673985" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749816089986" name="Text" value="18" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0213" seq="213" title="SC9-570&lt;=BUREAUSCORE&lt;580" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749883606987" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749885273988" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749889529990" name="Text" value="570" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749893144991" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749894958992" name="Text" value="20" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0214" seq="214" title="SC9-580&lt;=BUREAUSCORE&lt;590" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749907657993" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749909317994" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749915090996" name="Text" value="580" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749917512997" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749921259998" name="Text" value="21" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0215" seq="215" title="SC9-590&lt;=BUREAUSCORE&lt;600" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749938447000" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749940498001" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749948832003" name="Text" value="590" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749950771004" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361749956210005" name="Text" value="23" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0216" seq="216" title="SC9-600&lt;=BUREAUSCORE&lt;610" marked="false"> 
+          <col id="0000"> 
+            <value id="1361749987702006" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361749989333007" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361749992964009" name="Text" value="600" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361749995277010" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750002967011" name="Text" value="25" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0217" seq="217" title="SC9-610&lt;=BUREAUSCORE&lt;620" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750035271012" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750036950013" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750041133015" name="Text" value="610" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750044100016" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750046129017" name="Text" value="27" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0218" seq="218" title="SC9-620&lt;=BUREAUSCORE&lt;630" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750073909018" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750076117019" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750104730021" name="Text" value="620" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750107342022" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750113088023" name="Text" value="29" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0219" seq="219" title="SC9-630&lt;=BUREAUSCORE&lt;640" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750215592024" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750289131025" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750297488027" name="Text" value="630" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750299877028" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750301510029" name="Text" value="30" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0220" seq="220" title="SC9-640&lt;=BUREAUSCORE&lt;650" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750314832030" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750316534031" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750332562033" name="Text" value="640" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750334970034" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750338389035" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0221" seq="221" title="SC9-650&lt;=BUREAUSCORE&lt;660" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750481032036" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750482708037" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750488722039" name="Text" value="650" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750491301040" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750492750041" name="Text" value="31" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0222" seq="222" title="SC9-660&lt;=BUREAUSCORE&lt;670" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750501699042" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750506181043" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750510807045" name="Text" value="660" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750515062046" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750517214047" name="Text" value="32" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0223" seq="223" title="SC9-670&lt;=BUREAUSCORE&lt;680" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750529357048" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750531248049" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750536312051" name="Text" value="670" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750551448052" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750553752053" name="Text" value="33" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0224" seq="224" title="SC9-680&lt;=BUREAUSCORE&lt;690" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750572003054" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750573378055" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750577240057" name="Text" value="680" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750583012058" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750585321059" name="Text" value="35" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0225" seq="225" title="SC9-690&lt;=BUREAUSCORE&lt;700" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750627982060" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750629964061" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750634707063" name="Text" value="690" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750645396064" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750647763065" name="Text" value="36" type="" is-date="false" show="N"/> 
+          </col> 
+        </row>  
+        <row id="0226" seq="226" title="SC9-700&lt;=BUREAUSCORE" marked="false"> 
+          <col id="0000"> 
+            <value id="1361750665085066" name="Text" value="" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0001"> 
+            <value id="1361750895416067" name="Text" value="9" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0003"> 
+            <value id="1361750906327069" name="Text" value="700" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0004"> 
+            <value id="1361750908296070" name="Text" value="*" type="" is-date="false" show="N"/> 
+          </col>  
+          <col id="0005"> 
+            <value id="1361750910502071" name="Text" value="38" type="" is-date="false" show="N"/> 
+          </col> 
+        </row> 
+      </rows> 
+    </item-value-mapping> 
+  </config>  
+  <last-update-by>jrs</last-update-by>  
+  <properties/> 
+</sheet>

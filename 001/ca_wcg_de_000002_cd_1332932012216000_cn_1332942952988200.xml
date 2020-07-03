@@ -1,0 +1,110 @@
+
+<connection catalyst-version="5.0" id="1332942952988200" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200" access-code="a1" type="cn" title="Send email" version="001" sub-type="" reference="connection"> 
+  <last-update time="1388944245192"/>  
+  <last-update-by>mgb</last-update-by>  
+  <reason-for-change>Suzuki added</reason-for-change>  
+  <config-class>com.wcg.catalyst.ih.config.email.SendEmailConnectorConfigStore</config-class>  
+  <config> 
+    <handler-class>com.wcg.catalyst.ih.connectors.SendEmailConnector</handler-class>  
+    <embedded-items ignore-global-embedded="false"/>  
+    <message-spec> 
+      <server> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="address"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Mail server IP
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="port"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Mail server Port
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="user-name"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Email account user
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="pwd"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>Email account password
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="debug"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="secure"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>false
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="protocol"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>smtp
+        </operand> 
+      </server>  
+      <message> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="subject" pipe-name="dataitem" pipe-item-name="d-email-subject" get-address="" set-address=""> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="from" pipe-name="dataitem" pipe-item-name="d-email-sender" get-address="" set-address=""> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="body" pipe-name="dataitem" pipe-item-name="d-email-msg" get-address="" set-address=""> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand>  
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="content-type"> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/>P
+        </operand> 
+      </message>  
+      <to> 
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_cn_1332942952988200_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="1" pipe-name="dataitem" pipe-item-name="d-email-rec" get-address="" set-address=""> 
+          <last-update time="1388944245192"/>  
+          <last-update-by/>  
+          <reason-for-change/>  
+          <config-class/>  
+          <properties/> 
+        </operand> 
+      </to> 
+    </message-spec> 
+  </config>  
+  <exception-process/>  
+  <skip-in-test>no</skip-in-test>  
+  <skip-in-normal>no</skip-in-normal>  
+  <convergent>false</convergent>  
+  <connector direction="sender" state="on" pool-size="0" continuous="false" listener="false"/>  
+  <last-update-by>mgb</last-update-by>  
+  <properties/> 
+</connection>
