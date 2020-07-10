@@ -172,4 +172,23 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="159439512
+    <last-update time="1594395126979"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <bop-plugin/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
+  </component>
+  <properties/>
+</report>
