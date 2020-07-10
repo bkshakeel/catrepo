@@ -1,148 +1,171 @@
 
-<report catalyst-version="5.0" id="1435076826765024" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024" access-code="" type="ir" title="CRA Report" version="001" sub-type="" reference="ice-report"> 
-  <effective-from/>  
-  <effective-to/>  
-  <champion-challenge-pct/>  
-  <champion-challenge-version/>  
-  <last-update time="1592997254809"/>  
-  <last-update-by>catalyst</last-update-by>  
-  <reason-for-change>hh</reason-for-change>  
-  <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>  
-  <config> 
-    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>  
-    <report-life>-1</report-life>  
-    <embedded-items ignore-global-embedded="false"/> 
-  </config>  
-  <exception-process/>  
-  <skip-in-test>no</skip-in-test>  
-  <skip-in-normal>no</skip-in-normal>  
-  <convergent>false</convergent>  
-  <last-update-by>catalyst</last-update-by>  
-  <component type="is" id="1435076826766025" title="End" version="001" sub-type="end" reference="endicerep" x-coordinate="100" y-coordinate="400" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766025" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1592997254809"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.EndReportReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>endicerep</report-step-type>  
-    <links/> 
-  </component>  
-  <component type="is" id="1435076826766026" title="ICE Get Request" version="001" sub-type="" reference="iceGetRequest" x-coordinate="200" y-coordinate="250" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766026" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1592997254809"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.GetRequestReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/>  
-      <get-request> 
-        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766026_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="request" get-address="" set-address=""> 
-          <effective-from/>  
-          <effective-to/>  
-          <champion-challenge-pct/>  
-          <champion-challenge-version/>  
-          <last-update time="1592997254809"/>  
-          <last-update-by/>  
-          <reason-for-change/>  
-          <config-class/>  
-          <properties/> 
-        </operand>  
-        <request-elements/> 
-      </get-request> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>iceGetRequest</report-step-type>  
-    <next-step target-id="1435076826766025" restart-point="false"> 
-      <bend-points/> 
-    </next-step>  
-    <links> 
-      <link target-id="1435076826766025" restart-point="false"> 
-        <bend-points/> 
-      </link> 
-    </links> 
-  </component>  
-  <component type="is" id="1435076826766027" title="Start" version="001" sub-type="start" reference="starticerep" x-coordinate="100" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766027" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1592997254809"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.StartReportReportStep</handler-class>  
-      <embedded-items ignore-global-embedded="false"/> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type>starticerep</report-step-type>  
-    <next-step target-id="1435076826766025" restart-point="false"> 
-      <bend-points/> 
-    </next-step>  
-    <links> 
-      <link target-id="1435076826766025" restart-point="false"> 
-        <bend-points/> 
-      </link> 
-    </links> 
-  </component>  
-  <component type="is" id="1592997230742000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="612" y-coordinate="262" width="308" height="254" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000" access-code=""> 
-    <effective-from/>  
-    <effective-to/>  
-    <champion-challenge-pct/>  
-    <champion-challenge-version/>  
-    <last-update time="1592997254809"/>  
-    <last-update-by/>  
-    <reason-for-change/>  
-    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>  
-    <properties/>  
-    <config> 
-      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>  
-      <embedded-items ignore-global-embedded="false"/>  
-      <agency/>  
-      <lexisnexis-plugin> 
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="credit-bureau-response"> 
-          <effective-from/>  
-          <effective-to/>  
-          <champion-challenge-pct/>  
-          <champion-challenge-version/>  
-          <last-update time="1592997254809"/>  
-          <last-update-by/>  
-          <reason-for-change/>  
-          <config-class/>  
+<report catalyst-version="5.0" id="1435076826765024" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024" access-code="" type="ir" title="CRA Report" version="001" sub-type="" reference="ice-report">
+  <effective-from/>
+  <effective-to/>
+  <champion-challenge-pct/>
+  <champion-challenge-version/>
+  <last-update time="1594394578721"/>
+  <last-update-by>catalyst</last-update-by>
+  <reason-for-change/>
+  <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
+  <config>
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+    <report-life>-1</report-life>
+    <embedded-items ignore-global-embedded="false"/>
+  </config>
+  <exception-process/>
+  <skip-in-test>no</skip-in-test>
+  <skip-in-normal>no</skip-in-normal>
+  <convergent>false</convergent>
+  <last-update-by>catalyst</last-update-by>
+  <component type="is" id="1435076826766025" title="End" version="001" sub-type="end" reference="endicerep" x-coordinate="100" y-coordinate="400" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766025" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594394578721"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.EndReportReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>endicerep</report-step-type>
+    <links/>
+  </component>
+  <component type="is" id="1435076826766026" title="ICE Get Request" version="001" sub-type="" reference="iceGetRequest" x-coordinate="200" y-coordinate="250" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766026" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594394578721"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.GetRequestReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <get-request>
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766026_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="request" get-address="" set-address="">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594394578721"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+        <request-elements/>
+      </get-request>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>iceGetRequest</report-step-type>
+    <next-step target-id="1435076826766025" restart-point="false">
+      <bend-points/>
+    </next-step>
+    <links>
+      <link target-id="1435076826766025" restart-point="false">
+        <bend-points/>
+      </link>
+    </links>
+  </component>
+  <component type="is" id="1435076826766027" title="Start" version="001" sub-type="start" reference="starticerep" x-coordinate="100" y-coordinate="100" width="100" height="100" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1435076826766027" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594394578721"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.StartReportReportStep</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type>starticerep</report-step-type>
+    <next-step target-id="1435076826766025" restart-point="false">
+      <bend-points/>
+    </next-step>
+    <links>
+      <link target-id="1435076826766025" restart-point="false">
+        <bend-points/>
+      </link>
+    </links>
+  </component>
+  <component type="is" id="1592997230742000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="612" y-coordinate="262" width="308" height="254" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594394578721"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <lexisnexis-plugin>
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="credit-bureau-response">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594394578722"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
           <properties/>kjghg
-        </operand> 
-      </lexisnexis-plugin> 
-    </config>  
-    <exception-process/>  
-    <skip-in-test>no</skip-in-test>  
-    <skip-in-normal>no</skip-in-normal>  
-    <convergent>false</convergent>  
-    <report-step-type/>  
-    <links/> 
-  </component>  
-  <properties/> 
+        </operand>
+      </lexisnexis-plugin>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
+  </component>
+  <component type="is" id="1594394560168000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="445" y-coordinate="122" width="126" height="177" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594394560168000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594394578722"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <decision-bureau-plugin/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
+  </component>
+  <properties/>
 </report>
