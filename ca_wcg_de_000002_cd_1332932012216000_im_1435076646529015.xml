@@ -4,7 +4,7 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1594395138589"/>
+  <last-update time="1594628477099"/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change>sim</reason-for-change>
   <config-class>com.wcg.ice.common.model.ICEModuleConfigStore</config-class>
