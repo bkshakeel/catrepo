@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1594395126977"/>
+  <last-update time="1594628456776"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>sim</reason-for-change>
+  <reason-for-change/>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594395126978"/>
+    <last-update time="1594628456777"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594395126978"/>
+    <last-update time="1594628456777"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1594395126978"/>
+          <last-update time="1594628456777"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594395126978"/>
+    <last-update time="1594628456778"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,79 +109,23 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1592997230742000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="612" y-coordinate="262" width="308" height="254" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000" access-code="">
+  <component type="is" id="1594628448164000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="702" y-coordinate="212" width="143" height="137" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594628448164000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594395126978"/>
+    <last-update time="1594628456778"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <lexisnexis-plugin>
-        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1592997230742000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="credit-bureau-response">
-          <effective-from/>
-          <effective-to/>
-          <champion-challenge-pct/>
-          <champion-challenge-version/>
-          <last-update time="1594395126978"/>
-          <last-update-by/>
-          <reason-for-change/>
-          <config-class/>
-          <properties/>kjghg
-        </operand>
-      </lexisnexis-plugin>
-    </config>
-    <exception-process/>
-    <skip-in-test>no</skip-in-test>
-    <skip-in-normal>no</skip-in-normal>
-    <convergent>false</convergent>
-    <report-step-type/>
-    <links/>
-  </component>
-  <component type="is" id="1594394560168000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="445" y-coordinate="122" width="126" height="177" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594394560168000" access-code="">
-    <effective-from/>
-    <effective-to/>
-    <champion-challenge-pct/>
-    <champion-challenge-version/>
-    <last-update time="1594395126979"/>
-    <last-update-by/>
-    <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
-    <properties/>
-    <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
-      <embedded-items ignore-global-embedded="false"/>
-      <agency/>
-      <decision-bureau-plugin/>
-    </config>
-    <exception-process/>
-    <skip-in-test>no</skip-in-test>
-    <skip-in-normal>no</skip-in-normal>
-    <convergent>false</convergent>
-    <report-step-type/>
-    <links/>
-  </component>
-  <component type="is" id="1594395110591000" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="695" y-coordinate="73" width="176" height="136" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594395110591000" access-code="">
-    <effective-from/>
-    <effective-to/>
-    <champion-challenge-pct/>
-    <champion-challenge-version/>
-    <last-update time="1594395126979"/>
-    <last-update-by/>
-    <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
-    <properties/>
-    <config>
-      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
-      <embedded-items ignore-global-embedded="false"/>
-      <agency/>
-      <bop-plugin/>
+      <equsxml-plugin>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
