@@ -138,4 +138,702 @@
   <component type="dg" id="1332932497640087" title="Temp" version="001" sub-type="" reference="dictionary" x-coordinate="712" y-coordinate="51" width="100" height="100">
     <links/>
   </component>
-  <component type="cn" id="1332942952988200"
+  <component type="cn" id="1332942952988200" title="Send email" version="001" sub-type="" reference="connection" x-coordinate="264" y-coordinate="1482" width="100" height="100">
+    <links/>
+  </component>
+  <component type="tg" id="1332943502421205" title="Emails" version="001" sub-type="" reference="" x-coordinate="156" y-coordinate="1482" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1333584011134005" title="Policy values" version="001" sub-type="" reference="worksheet" x-coordinate="372" y-coordinate="612" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1334764496513000" title="Send email " version="001" sub-type="" reference="process" x-coordinate="372" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1335429958579000" title="PremiumCalculator" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="2118" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1335431943712043" title="PremiumCalc" version="001" sub-type="" reference="worksheet" x-coordinate="156" y-coordinate="2118" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1335457481343117" title="Create Lead" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="2466" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1335457630911122" title="Get Contract" version="001" sub-type="" reference="connection" x-coordinate="588" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1335458779080123" title="Process Leads" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="2466" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1335458796666126" title="Find Leads" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="2466" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1335459135760132" title="Read Lead" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="2586" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1335797662261000" title="Select Agency Oz" version="001" sub-type="" reference="ruleset" x-coordinate="372" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1335799789357019" title="Check docs recvd" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="1362" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1337590760577006" title="Rate for Risk" version="001" sub-type="" reference="process" x-coordinate="588" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1337914396468003" title="CALMS Asset" version="001" sub-type="" reference="dictionary" x-coordinate="480" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1337914416788004" title="CALMS Financial" version="001" sub-type="" reference="dictionary" x-coordinate="372" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1337914428492005" title="CALMS Scoring" version="001" sub-type="" reference="dictionary" x-coordinate="804" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1337914441549006" title="CALMS Credit Decision" version="001" sub-type="" reference="dictionary" x-coordinate="588" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1339590322749000" title="Drive dashboard" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1339590537960004" title="Underwriter" version="001" sub-type="" reference="workqueue" x-coordinate="48" y-coordinate="930" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1339590568877005" title="U/W Manager" version="001" sub-type="" reference="workqueue" x-coordinate="156" y-coordinate="930" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1339590584850006" title="Doc validate" version="001" sub-type="" reference="workqueue" x-coordinate="48" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1339590597865007" title=" Payout Low" version="001" sub-type="" reference="workqueue" x-coordinate="156" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1339591038248016" title="WQ Route" version="001" sub-type="" reference="ruleset" x-coordinate="480" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1339602058123011" title="Working Day Cal" version="001" sub-type="" reference="connection" x-coordinate="372" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1339604741034016" title="Trigger" version="001" sub-type="" reference="connection" x-coordinate="156" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1339663269533184" title="Get Sales Tax" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="2238" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1339663405711190" title="Choose ST provider" version="001" sub-type="" reference="ruleset" x-coordinate="588" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1339663455573193" title="Get ST Vertex" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="2238" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1339663460064196" title="Get ST Carlton" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="2238" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1339667484451202" title="EDMS Create Doc" version="001" sub-type="" reference="connection" x-coordinate="480" y-coordinate="3360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1339683165668000" title="Vendor fees" version="001" sub-type="" reference="worksheet" x-coordinate="264" y-coordinate="2118" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1339961296771167" title="Send Docs" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="1482" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1341699241586001" title="CALMS ICE" version="001" sub-type="" reference="dictionary" x-coordinate="696" y-coordinate="3000" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1345640312728001" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="1752" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345640312728001" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092558"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Dealer Gateway</note>
+    <links/>
+  </component>
+  <component type="nt" id="1345640472111002" title="Note" version="001" sub-type="" reference="note" x-coordinate="36" y-coordinate="192" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345640472111002" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092558"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Processes</note>
+    <links/>
+  </component>
+  <component type="wq" id="1345640570175004" title="Decline Queue" version="001" sub-type="" reference="workqueue" x-coordinate="264" y-coordinate="930" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1345641178126006" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="1296" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345641178126006" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092558"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Payout</note>
+    <links/>
+  </component>
+  <component type="wq" id="1345641349673007" title="Dealer Queue" version="001" sub-type="" reference="workqueue" x-coordinate="480" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1345641428800008" title="Activate" version="001" sub-type="" reference="process" x-coordinate="480" y-coordinate="1362" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1345641497806011" title="Payout" version="001" sub-type="" reference="process" x-coordinate="372" y-coordinate="1362" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1345642211679017" title="Return to Dealer" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="1362" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1345643889124049" title="Supervisor" version="001" sub-type="" reference="workqueue" x-coordinate="588" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1345644879166076" title="PO Q Selection" version="001" sub-type="" reference="worksheet" x-coordinate="372" y-coordinate="1482" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1345645540978103" title="Payout Med" version="001" sub-type="" reference="workqueue" x-coordinate="264" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1345645552871104" title="Payout High" version="001" sub-type="" reference="workqueue" x-coordinate="372" y-coordinate="1614" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1345645644230105" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="2940" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345645644230105" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092558"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Misc</note>
+    <links/>
+  </component>
+  <component type="nt" id="1345645764385106" title="Note" version="001" sub-type="" reference="note" x-coordinate="60" y-coordinate="2400" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345645764385106" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092558"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Lead Management</note>
+    <links/>
+  </component>
+  <component type="nt" id="1345646429996107" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="2052" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1345646429996107" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092559"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>CALMS Services</note>
+    <links/>
+  </component>
+  <component type="pm" id="1345647412821117" title="New proposal" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="1806" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1345647428778120" title="Proposal status" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="1926" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1345647448890121" title="Proposal status" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="1926" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1345647880003128" title="Dealer In" version="001" sub-type="" reference="connection" x-coordinate="48" y-coordinate="1806" width="100" height="100">
+    <links/>
+  </component>
+  <component type="tg" id="1345648982764133" title="XSL Transforms" version="001" sub-type="" reference="" x-coordinate="264" y-coordinate="1806" width="100" height="100">
+    <links/>
+  </component>
+  <component type="tg" id="1352710654227000" title="Email templates" version="001" sub-type="" reference="" x-coordinate="936" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1354643425586001" title="Refer Q" version="001" sub-type="" reference="worksheet" x-coordinate="48" y-coordinate="612" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1360687557154055" title="SC-Bureau Score" version="001" sub-type="" reference="worksheet" x-coordinate="384" y-coordinate="744" width="109" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1360688763978107" title="SC - LTV" version="001" sub-type="" reference="worksheet" x-coordinate="708" y-coordinate="612" width="109" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1360702305251215" title="SC - Enquiries in last 6 months" version="001" sub-type="" reference="worksheet" x-coordinate="504" y-coordinate="744" width="181" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1361799894189062" title="SC-Months Since Recent BK" version="001" sub-type="" reference="worksheet" x-coordinate="828" y-coordinate="612" width="169" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1363005420009006" title="Send Test email" version="001" sub-type="" reference="connection" x-coordinate="170" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1363005526899007" title="Send Test Email" version="001" sub-type="" reference="process" x-coordinate="398" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1363219912355011" title="SC-Worst Adverse last 6 months" version="001" sub-type="" reference="worksheet" x-coordinate="192" y-coordinate="744" width="181" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1367396967975000" title="Supervisor" version="001" sub-type="" reference="workqueue" x-coordinate="372" y-coordinate="930" width="100" height="100">
+    <links/>
+  </component>
+  <component type="wq" id="1367396979137001" title="Admin" version="001" sub-type="" reference="workqueue" x-coordinate="480" y-coordinate="930" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1372076106887032" title="Select Agency D" version="001" sub-type="" reference="ruleset" x-coordinate="264" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1372138929635000" title="Set score" version="001" sub-type="" reference="process" x-coordinate="708" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1372141329361011" title="Scorecard select" version="001" sub-type="" reference="worksheet" x-coordinate="1283" y-coordinate="746" width="109" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1372855840113000" title="Tolerances DIC" version="001" sub-type="" reference="dictionary" x-coordinate="48" y-coordinate="3576" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1372945886824000" title="Tolerance Check 2" version="001" sub-type="" reference="process" x-coordinate="420" y-coordinate="3576" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1372945916324003" title="Tolerance Test" version="001" sub-type="" reference="process" x-coordinate="528" y-coordinate="3576" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1372946053385077" title="Set Worksheet for Country" version="001" sub-type="" reference="ruleset" x-coordinate="816" y-coordinate="3576" width="162" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1372951549277897" title="CALMS UpdateToleranceFlag" version="001" sub-type="" reference="process" x-coordinate="636" y-coordinate="3576" width="174" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1376570639448481" title="Tolerance Check" version="001" sub-type="" reference="process" x-coordinate="312" y-coordinate="3576" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1383737851332007" title="Tolerance Parameters UK" version="001" sub-type="" reference="worksheet" x-coordinate="156" y-coordinate="3576" width="140" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1388940394862030" title="Select Agency US" version="001" sub-type="" reference="ruleset" x-coordinate="156" y-coordinate="3240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1388940504910035" title="Select CB" version="001" sub-type="" reference="worksheet" x-coordinate="156" y-coordinate="612" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1388941598788132" title="Credit Check MT" version="001" sub-type="" reference="process" x-coordinate="480" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1389696048447006" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="876" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1389696048447006" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092559"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Work Queue examples</note>
+    <links/>
+  </component>
+  <component type="pm" id="1389696794325008" title="Simple" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1389697925022028" title="Sign-off (Rules)" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1389698219017062" title="Sign-off (DT)" version="001" sub-type="" reference="process" x-coordinate="264" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1389698343305070" title="Sign off " version="001" sub-type="" reference="worksheet" x-coordinate="48" y-coordinate="1170" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1389699052064082" title="Load balance" version="001" sub-type="" reference="process" x-coordinate="480" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1389702178525091" title="Time based" version="001" sub-type="" reference="process" x-coordinate="588" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1389702681274100" title="Complex" version="001" sub-type="" reference="process" x-coordinate="372" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1389702702698103" title="Complex" version="001" sub-type="" reference="worksheet" x-coordinate="156" y-coordinate="1170" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1389778573859007" title="Test CALMS Adhoc" version="001" sub-type="" reference="ruleset" x-coordinate="480" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1390300281991006" title="Examples" version="001" sub-type="" reference="process" x-coordinate="696" y-coordinate="3120" width="100" height="100">
+    <links/>
+  </component>
+  <component type="dg" id="1395785879306007" title="Email Dic" version="001" sub-type="" reference="dictionary" x-coordinate="50" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1395786534046075" title="Send SMS" version="001" sub-type="" reference="process" x-coordinate="506" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="cn" id="1395786655617080" title="Send SMS" version="001" sub-type="" reference="connection" x-coordinate="278" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1395841707093006" title="Switched Policy rules" version="001" sub-type="" reference="ruleset" x-coordinate="588" y-coordinate="480" width="120" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1396022586743000" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="2736" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1396022586743000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092559"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Email</note>
+    <links/>
+  </component>
+  <component type="pm" id="1396439724832006" title="New Process" version="001" sub-type="" reference="process" x-coordinate="614" y-coordinate="2792" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1396448673042056" title="LTV Example" version="001" sub-type="" reference="process" x-coordinate="1140" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1399031787893000" title="Note" version="001" sub-type="" reference="note" x-coordinate="48" y-coordinate="3516" width="482" height="40" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1399031787893000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092559"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Tolerances</note>
+    <links/>
+  </component>
+  <component type="pm" id="1400673462437000" title="Action Example" version="001" sub-type="" reference="process" x-coordinate="697" y-coordinate="1050" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1404229888897000" title="Settlement Quote" version="001" sub-type="" reference="process" x-coordinate="816" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1404467712819001" title="Stipulations" version="001" sub-type="" reference="process" x-coordinate="696" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1413993128160420" title="Brand" version="001" sub-type="" reference="worksheet" x-coordinate="1007" y-coordinate="611" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1414084107699233" title="Route on Brand" version="001" sub-type="" reference="process" x-coordinate="48" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1414416418217025" title="CALMS Update Notes" version="001" sub-type="" reference="process" x-coordinate="372" y-coordinate="2118" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1414419202455071" title="Document Received" version="001" sub-type="" reference="process" x-coordinate="912" y-coordinate="240" width="121" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1423042752176000" title="Score Card" version="001" sub-type="" reference="process" x-coordinate="1259" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="tg" id="1423066342315006" title="Email Templates" version="001" sub-type="" reference="" x-coordinate="735" y-coordinate="2794" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1424605372287006" title="Activation level" version="001" sub-type="" reference="process" x-coordinate="1152" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1424607845318038" title="Activate Seniority needed" version="001" sub-type="" reference="worksheet" x-coordinate="912" y-coordinate="744" width="148" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1424856929078025" title="Scorecards" version="001" sub-type="" reference="worksheet" x-coordinate="590" y-coordinate="610" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1424955153464008" title="Second Approval" version="001" sub-type="" reference="process" x-coordinate="384" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1427186177374000" title="Activate" version="001" sub-type="" reference="process" x-coordinate="1044" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1430996966556173" title="Internal Black List" version="001" sub-type="" reference="process" x-coordinate="156" y-coordinate="360" width="107" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1431331834682000" title="Blacklist" version="001" sub-type="" reference="worksheet" x-coordinate="804" y-coordinate="744" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1431335643972026" title="Check Exposure" version="001" sub-type="" reference="process" x-coordinate="276" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1431352618947000" title="Exposure" version="001" sub-type="" reference="worksheet" x-coordinate="696" y-coordinate="744" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1431420584571000" title="Accept" version="001" sub-type="" reference="process" x-coordinate="804" y-coordinate="240" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1433173519315000" title="Submit Searches" version="001" sub-type="" reference="process" x-coordinate="600" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1433174222238010" title="CRA Hub Search" version="001" sub-type="" reference="process" x-coordinate="492" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1433175348504093" title="Select CRA CB" version="001" sub-type="" reference="worksheet" x-coordinate="1121" y-coordinate="610" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1433175985147094" title="E_ID" version="001" sub-type="" reference="process" x-coordinate="1032" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1435075417915005" title="GB Group" version="001" sub-type="" reference="process" x-coordinate="924" y-coordinate="360" width="100" height="100">
+    <links/>
+  </component>
+  <component type="im" id="1435076646529015" title="ICE reports" version="001" sub-type="" reference="ice-reports" x-coordinate="816" y-coordinate="480" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1436273043236000" title="Tier Base" version="001" sub-type="" reference="worksheet" x-coordinate="1176" y-coordinate="744" width="100" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1436273816409001" title="Max Term By Bookvalue" version="001" sub-type="" reference="worksheet" x-coordinate="48" y-coordinate="744" width="136" height="100">
+    <links/>
+  </component>
+  <component type="ws" id="1436273876455000" title="Tier Concurrence" version="001" sub-type="" reference="worksheet" x-coordinate="1068" y-coordinate="744" width="100" height="100">
+    <links/>
+  </component>
+  <component type="nt" id="1442414688533000" title="Note" version="001" sub-type="" reference="note" x-coordinate="36" y-coordinate="0" width="460" height="37" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_nt_1442414688533000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1594643092559"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class/>
+    <properties/>
+    <note>Dictionary Groups &lt;BR&gt; &lt;BR&gt;</note>
+    <links/>
+  </component>
+  <component type="ws" id="1470127562919000" title="Manufacturer Q" version="001" sub-type="" reference="worksheet" x-coordinate="1228" y-coordinate="610" width="100" height="100">
+    <links/>
+  </component>
+  <component type="rs" id="1501056193347027" title="Demo Policy Rules" version="001" sub-type="" reference="ruleset" x-coordinate="713" y-coordinate="478" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1508490662007305" title="Submitcc" version="001" sub-type="" reference="process" x-coordinate="1050" y-coordinate="484" width="99" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1508492853423000" title="Credit Line Validation" version="001" sub-type="" reference="process" x-coordinate="1265" y-coordinate="364" width="100" height="100">
+    <links/>
+  </component>
+  <component type="pm" id="1513269402790000" title="Simple Submit" version="001" sub-type="" reference="process" x-coordinate="1162" y-coordinate="481" width="100" height="100">
+    <links/>
+  </component>
+  <properties/>
+  <config>
+    <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
+    <embedded-items ignore-global-embedded="false"/>
+    <escalations/>
+    <user-fields>
+      <user-field id="1" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="1">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="2" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="2">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="3" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="3">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="4" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="4">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="5" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="5">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="6" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="6">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="7" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="7">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="8" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="8">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="9" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="9">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="10" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="10">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092559"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="11" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="11">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092560"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="12" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="12">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092560"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="13" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="13">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092560"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="14" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="14">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092560"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+      <user-field id="15" title="" type="text" format="">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="" ref="15">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1594643092560"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </user-field>
+    </user-fields>
+    <tracking-points/>
+    <working-day-calendar/>
+  </config>
+</deployment>
