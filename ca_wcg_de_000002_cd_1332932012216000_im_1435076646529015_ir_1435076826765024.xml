@@ -4,7 +4,7 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1594641544798"/>
+  <last-update time="1594642239355"/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change/>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594641544798"/>
+    <last-update time="1594642239355"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594641544799"/>
+    <last-update time="1594642239355"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1594641544799"/>
+          <last-update time="1594642239355"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594641544799"/>
+    <last-update time="1594642239355"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,44 +109,23 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1594629123159000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="445" y-coordinate="110" width="102" height="182" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594629123159000" access-code="">
+  <component type="is" id="1594642233711000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="493" y-coordinate="120" width="172" height="179" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594642233711000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594641544799"/>
+    <last-update time="1594642239355"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
-    </config>
-    <exception-process/>
-    <skip-in-test>no</skip-in-test>
-    <skip-in-normal>no</skip-in-normal>
-    <convergent>false</convergent>
-    <report-step-type/>
-    <links/>
-  </component>
-  <component type="is" id="1594641538266000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="703" y-coordinate="127" width="122" height="134" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594641538266000" access-code="">
-    <effective-from/>
-    <effective-to/>
-    <champion-challenge-pct/>
-    <champion-challenge-version/>
-    <last-update time="1594641544799"/>
-    <last-update-by/>
-    <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
-    <properties/>
-    <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
-      <embedded-items ignore-global-embedded="false"/>
-      <agency/>
-      <decision-bureau-plugin/>
+      <equsxml-plugin>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
