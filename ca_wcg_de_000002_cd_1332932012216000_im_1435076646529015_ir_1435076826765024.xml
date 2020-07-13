@@ -4,7 +4,7 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1594628456776"/>
+  <last-update time="1594629132115"/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change/>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594628456777"/>
+    <last-update time="1594629132115"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594628456777"/>
+    <last-update time="1594629132115"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1594628456777"/>
+          <last-update time="1594629132116"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594628456778"/>
+    <last-update time="1594629132116"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,23 +109,21 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1594628448164000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="702" y-coordinate="212" width="143" height="137" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594628448164000" access-code="">
+  <component type="is" id="1594629123159000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="445" y-coordinate="110" width="102" height="182" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1594629123159000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594628456778"/>
+    <last-update time="1594629132116"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <equsxml-plugin>
-        <return-error-text>false</return-error-text>
-      </equsxml-plugin>
+      <decision-bureau-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
