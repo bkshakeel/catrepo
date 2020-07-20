@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595251758215"/>
+  <last-update time="1595252759333"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>19:00</reason-for-change>
+  <reason-for-change/>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595251758216"/>
+    <last-update time="1595252759333"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595251758216"/>
+    <last-update time="1595252759333"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595251758216"/>
+          <last-update time="1595252759333"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595251758216"/>
+    <last-update time="1595252759333"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,12 +109,12 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1595251734180000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="672" y-coordinate="141" width="172" height="166" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595251734180000" access-code="">
+  <component type="is" id="1595251734180000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="672" y-coordinate="141" width="172" height="166" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595251734180000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595251758216"/>
+    <last-update time="1595252759334"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPluginConfig</config-class>
@@ -131,21 +131,21 @@
     <report-step-type/>
     <links/>
   </component>
-  <component type="is" id="1595251744091001" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="428" y-coordinate="113" width="145" height="128" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595251744091001" access-code="">
+  <component type="is" id="1595252753394000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="447" y-coordinate="143" width="180" height="140" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595252753394000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595251758216"/>
+    <last-update time="1595252759334"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
+      <lexisnexis-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
