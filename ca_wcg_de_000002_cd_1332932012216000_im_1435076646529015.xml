@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595253689735"/>
+  <last-update time="1595253949251"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>19:31</reason-for-change>
+  <reason-for-change>19:35</reason-for-change>
   <config-class>com.wcg.ice.common.model.ICEModuleConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
