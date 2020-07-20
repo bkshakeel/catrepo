@@ -4,9 +4,17 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
+<<<<<<< HEAD
   <last-update time="1595252917956"/>
+=======
+  <last-update time="1595252759333"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
   <last-update-by>catalyst</last-update-by>
+<<<<<<< HEAD
   <reason-for-change>19:18</reason-for-change>
+=======
+  <reason-for-change/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +31,11 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
+<<<<<<< HEAD
     <last-update time="1595252917957"/>
+=======
+    <last-update time="1595252759333"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +56,11 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
+<<<<<<< HEAD
     <last-update time="1595252917957"/>
+=======
+    <last-update time="1595252759333"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +74,11 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
+<<<<<<< HEAD
           <last-update time="1595252917957"/>
+=======
+          <last-update time="1595252759333"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +106,11 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
+<<<<<<< HEAD
     <last-update time="1595252917957"/>
+=======
+    <last-update time="1595252759333"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,12 +133,20 @@
       </link>
     </links>
   </component>
+<<<<<<< HEAD
   <component type="is" id="1595252894075000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="420" y-coordinate="104" width="195" height="164" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595252894075000" access-code="">
+=======
+  <component type="is" id="1595251734180000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="672" y-coordinate="141" width="172" height="166" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595251734180000" access-code="">
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
+<<<<<<< HEAD
     <last-update time="1595252917957"/>
+=======
+    <last-update time="1595252759334"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPluginConfig</config-class>
@@ -131,23 +163,43 @@
     <report-step-type/>
     <links/>
   </component>
+<<<<<<< HEAD
   <component type="is" id="1595252899106001" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="763" y-coordinate="120" width="160" height="191" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595252899106001" access-code="">
+=======
+  <component type="is" id="1595252753394000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="447" y-coordinate="143" width="180" height="140" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595252753394000" access-code="">
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
+<<<<<<< HEAD
     <last-update time="1595252917957"/>
+=======
+    <last-update time="1595252759334"/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <last-update-by/>
     <reason-for-change/>
+<<<<<<< HEAD
     <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
+=======
+    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     <properties/>
     <config>
+<<<<<<< HEAD
       <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
+=======
+      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
+<<<<<<< HEAD
       <equsxml-plugin>
         <return-error-text>false</return-error-text>
       </equsxml-plugin>
+=======
+      <lexisnexis-plugin/>
+>>>>>>> 74185f7067a7499e527d88599802107ed5434b09
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
