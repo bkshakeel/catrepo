@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595229660607"/>
+  <last-update time="1595232560375"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>jj</reason-for-change>
+  <reason-for-change>13:39</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595229660608"/>
+    <last-update time="1595232560376"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595229660608"/>
+    <last-update time="1595232560376"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595229660608"/>
+          <last-update time="1595232560377"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595229660608"/>
+    <last-update time="1595232560377"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -114,7 +114,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595229660608"/>
+    <last-update time="1595232560379"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
@@ -132,23 +132,20 @@
     <report-step-type/>
     <links/>
   </component>
-  <component type="is" id="1595229650035000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="519" y-coordinate="136" width="189" height="177" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595229650035000" access-code="">
+  <component type="is" id="1595232532165000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="465" y-coordinate="110" width="185" height="159" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232532165000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595229660609"/>
+    <last-update time="1595232560380"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <equsxml-plugin>
-        <return-error-text>false</return-error-text>
-      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
