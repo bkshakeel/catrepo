@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595236153458"/>
+  <last-update time="1595250501702"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>14:39</reason-for-change>
+  <reason-for-change>j</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595236153459"/>
+    <last-update time="1595250501702"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595236153459"/>
+    <last-update time="1595250501702"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595236153459"/>
+          <last-update time="1595250501702"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595236153460"/>
+    <last-update time="1595250501702"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -114,7 +114,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595236153460"/>
+    <last-update time="1595250501702"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
@@ -124,43 +124,18 @@
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
       <lexisnexis-plugin>
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232933419001_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232933419001_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response" get-address="" set-address="">
           <effective-from/>
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595236153460"/>
+          <last-update time="1595250501703"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
           <properties/>
         </operand>
       </lexisnexis-plugin>
-    </config>
-    <exception-process/>
-    <skip-in-test>no</skip-in-test>
-    <skip-in-normal>no</skip-in-normal>
-    <convergent>false</convergent>
-    <report-step-type/>
-    <links/>
-  </component>
-  <component type="is" id="1595236138735000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="328" y-coordinate="69" width="157" height="145" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595236138735000" access-code="">
-    <effective-from/>
-    <effective-to/>
-    <champion-challenge-pct/>
-    <champion-challenge-version/>
-    <last-update time="1595236153461"/>
-    <last-update-by/>
-    <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
-    <properties/>
-    <config>
-      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
-      <embedded-items ignore-global-embedded="false"/>
-      <agency/>
-      <equsxml-plugin>
-        <return-error-text>false</return-error-text>
-      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
