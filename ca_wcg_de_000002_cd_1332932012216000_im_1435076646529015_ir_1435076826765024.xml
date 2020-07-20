@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595232946684"/>
+  <last-update time="1595235803416"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>13:46</reason-for-change>
+  <reason-for-change>14:33</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595232946685"/>
+    <last-update time="1595235803417"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595232946685"/>
+    <last-update time="1595235803418"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595232946685"/>
+          <last-update time="1595235803418"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595232946685"/>
+    <last-update time="1595235803420"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,12 +109,12 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1595232933419001" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="549" y-coordinate="163" width="280" height="227" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232933419001" access-code="">
+  <component type="is" id="1595232933419001" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="549" y-coordinate="163" width="280" height="227" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232933419001" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595232946686"/>
+    <last-update time="1595235803420"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
@@ -123,7 +123,42 @@
       <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <lexisnexis-plugin/>
+      <lexisnexis-plugin>
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595232933419001_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update time="1595235803420"/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+      </lexisnexis-plugin>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
+  </component>
+  <component type="is" id="1595235791292001" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="344" y-coordinate="63" width="138" height="122" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076826765024_is_1595235791292001" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1595235803421"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+      <bop-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
