@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1594310831660"/>
+  <last-update time="1595253674874"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>ggg</reason-for-change>
+  <reason-for-change>19:31</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594310831661"/>
+    <last-update time="1595253674874"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594310831661"/>
+    <last-update time="1595253674874"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1594310831661"/>
+          <last-update time="1595253674874"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1594310831662"/>
+    <last-update time="1595253674874"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -108,6 +108,28 @@
         <bend-points/>
       </link>
     </links>
+  </component>
+  <component type="is" id="1595253656434000" title="Equifax Canada Consumer" version="001" sub-type="" reference="equifaxCAConsumer" x-coordinate="454" y-coordinate="248" width="200" height="97" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595253656434000" access-code="">
+    <effective-from/>
+    <effective-to/>
+    <champion-challenge-pct/>
+    <champion-challenge-version/>
+    <last-update time="1595253674875"/>
+    <last-update-by/>
+    <reason-for-change/>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPluginConfig</config-class>
+    <properties/>
+    <config>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxcaconsumer.EquifaxCAConsumerPlugin</handler-class>
+      <embedded-items ignore-global-embedded="false"/>
+      <agency/>
+    </config>
+    <exception-process/>
+    <skip-in-test>no</skip-in-test>
+    <skip-in-normal>no</skip-in-normal>
+    <convergent>false</convergent>
+    <report-step-type/>
+    <links/>
   </component>
   <properties/>
 </report>
