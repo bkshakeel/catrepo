@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595347731412"/>
+  <last-update time="1595348874961"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>2138</reason-for-change>
+  <reason-for-change>2157</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595347731414"/>
+    <last-update time="1595348874961"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595347731414"/>
+    <last-update time="1595348874963"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595347731415"/>
+          <last-update time="1595348874963"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595347731416"/>
+    <last-update time="1595348874965"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,34 +109,23 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1595347718424000" title="File Source Plugin" version="001" sub-type="" reference="fileSourcePlugin" x-coordinate="492" y-coordinate="99" width="154" height="202" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595347718424000" access-code="">
+  <component type="is" id="1595348857471000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="525" y-coordinate="161" width="242" height="121" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595348857471000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595347731416"/>
+    <last-update time="1595348874965"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.FileSourcePluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.FileSourcePlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595347718424000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="file-name">
-        <effective-from/>
-        <effective-to/>
-        <champion-challenge-pct/>
-        <champion-challenge-version/>
-        <last-update time="1595347731417"/>
-        <last-update-by/>
-        <reason-for-change/>
-        <config-class/>
-        <properties/>
-      </operand>
-      <operand/>
-      <operand/>
-      <operand/>
+      <equsxml-plugin>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
