@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595335437640"/>
+  <last-update time="1595336408138"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>1813</reason-for-change>
+  <reason-for-change>1830</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595335437640"/>
+    <last-update time="1595336408138"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595335437640"/>
+    <last-update time="1595336408139"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595335437641"/>
+          <last-update time="1595336408139"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595335437641"/>
+    <last-update time="1595336408139"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,21 +109,21 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1595335426439000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="437" y-coordinate="177" width="245" height="139" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595335426439000" access-code="">
+  <component type="is" id="1595336398022000" title="LexisNexis" version="001" sub-type="" reference="lexisnexis" x-coordinate="416" y-coordinate="190" width="166" height="137" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1595336398022000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595335437641"/>
+    <last-update time="1595336408139"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.lexisnexis.LexisNexisPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
+      <lexisnexis-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
