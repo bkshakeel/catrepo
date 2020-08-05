@@ -32,7 +32,7 @@
         <effective-to/>
         <champion-challenge-pct/>
         <champion-challenge-version/>
-        <last-update time="1595869970850"/>
+        <last-update time="1596620043009"/>
         <last-update-by/>
         <reason-for-change/>
         <config-class/>
@@ -44,9 +44,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1595869970850"/>
+  <last-update time="1596620043009"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>2242</reason-for-change>
+  <reason-for-change>1503</reason-for-change>
   <config-class>com.wcg.catalyst.common.config.DeploymentConfigStore</config-class>
   <component type="rs" id="122406572398400" title="Complete ?" version="001" sub-type="" reference="ruleset" x-coordinate="48" y-coordinate="480" width="100" height="100">
     <links/>
@@ -245,7 +245,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043009"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -258,7 +258,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -274,7 +274,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -311,7 +311,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -324,7 +324,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -337,7 +337,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -437,7 +437,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -492,7 +492,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -511,7 +511,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970850"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -608,7 +608,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1595869970851"/>
+    <last-update time="1596620043010"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class/>
@@ -643,7 +643,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043010"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -656,7 +656,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043010"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -669,7 +669,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -682,7 +682,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -695,7 +695,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -708,7 +708,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -721,7 +721,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -734,7 +734,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -747,7 +747,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -760,7 +760,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -773,7 +773,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -786,7 +786,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -799,7 +799,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -812,7 +812,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -825,7 +825,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1595869970851"/>
+          <last-update time="1596620043011"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
