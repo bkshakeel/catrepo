@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1596627265479"/>
+  <last-update time="1596711395605"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>1704</reason-for-change>
+  <reason-for-change>1626</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1596627265479"/>
+    <last-update time="1596711395606"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1596627265479"/>
+    <last-update time="1596711395606"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1596627265480"/>
+          <last-update time="1596711395606"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1596627265480"/>
+    <last-update time="1596711395606"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,21 +109,23 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1596627246280000" title="Credi Informacoes" version="001" sub-type="" reference="crediInformacoes" x-coordinate="732" y-coordinate="238" width="324" height="175" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1596627246280000" access-code="">
+  <component type="is" id="1596711384717000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="513" y-coordinate="216" width="205" height="107" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1596711384717000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1596627265480"/>
+    <last-update time="1596711395606"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.crediinformacoes.CrediInformacoesPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <crediinformacoes-plugin/>
+      <equsxml-plugin>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
