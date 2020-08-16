@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1597578513059"/>
+  <last-update time="000"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>1718</reason-for-change>
+  <reason-for-change>none</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597578513060"/>
+    <last-update time="1597583582153"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597578513060"/>
+    <last-update time="1597583582154"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1597578513060"/>
+          <last-update time="1597583582154"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597578513060"/>
+    <last-update time="1597583582155"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,34 +109,21 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597568825735001" title="File Source Plugin" version="001" sub-type="" reference="fileSourcePlugin" x-coordinate="373" y-coordinate="91" width="181" height="137" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597568825735001" access-code="">
+  <component type="is" id="1597583548149000" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="500" y-coordinate="169" width="146" height="161" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597583548149000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597578513060"/>
+    <last-update time="1597583582155"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.FileSourcePluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.FileSourcePlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597568825735001_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="constant" item-type="text" ref="file-name">
-        <effective-from/>
-        <effective-to/>
-        <champion-challenge-pct/>
-        <champion-challenge-version/>
-        <last-update time="1597578513060"/>
-        <last-update-by/>
-        <reason-for-change/>
-        <config-class/>
-        <properties/>
-      </operand>
-      <operand/>
-      <operand/>
-      <operand/>
+      <bop-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
