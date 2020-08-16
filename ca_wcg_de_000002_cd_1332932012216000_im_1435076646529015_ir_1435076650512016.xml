@@ -4,9 +4,9 @@
   <effective-to/>
   <champion-challenge-pct/>
   <champion-challenge-version/>
-  <last-update time="1597565524167"/>
+  <last-update time="1597565983930"/>
   <last-update-by>catalyst</last-update-by>
-  <reason-for-change>1341</reason-for-change>
+  <reason-for-change>1349</reason-for-change>
   <config-class>com.wcg.ice.common.model.ReportModelConfigStore</config-class>
   <config>
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
@@ -23,7 +23,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597565524168"/>
+    <last-update time="1597565983930"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597565524168"/>
+    <last-update time="1597565983930"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to/>
           <champion-challenge-pct/>
           <champion-challenge-version/>
-          <last-update time="1597565524169"/>
+          <last-update time="1597565983930"/>
           <last-update-by/>
           <reason-for-change/>
           <config-class/>
@@ -86,7 +86,7 @@
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597565524169"/>
+    <last-update time="1597565983931"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,23 +109,21 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597502828382000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="560" y-coordinate="169" width="206" height="131" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597502828382000" access-code="">
+  <component type="is" id="1597565974591001" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="528" y-coordinate="190" width="197" height="141" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597565974591001" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1597565524170"/>
+    <last-update time="1597565983931"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <equsxml-plugin>
-        <return-error-text>false</return-error-text>
-      </equsxml-plugin>
+      <bop-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
