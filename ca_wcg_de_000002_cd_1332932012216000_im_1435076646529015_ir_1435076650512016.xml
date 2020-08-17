@@ -109,7 +109,7 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597673490231000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="515" y-coordinate="201" width="142" height="156" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673490231000" access-code="">
+  <component type="is" id="1597673577481000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="541" y-coordinate="177" width="188" height="146" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
@@ -117,13 +117,48 @@
     <last-update/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
+      <equsxml-plugin>
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="human-readable-document-entity">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="arf-response">
+          <effective-from/>
+          <effective-to/>
+          <champion-challenge-pct/>
+          <champion-challenge-version/>
+          <last-update/>
+          <last-update-by/>
+          <reason-for-change/>
+          <config-class/>
+          <properties/>
+        </operand>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
