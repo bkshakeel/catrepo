@@ -109,7 +109,7 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597673577481000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="541" y-coordinate="177" width="188" height="146" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000" access-code="">
+  <component type="is" id="1597673577481000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="410" y-coordinate="67" width="188" height="146" catalyst-version="5.0" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
@@ -124,7 +124,7 @@
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
       <equsxml-plugin>
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="credit-bureau-response" get-address="" set-address="">
           <effective-from/>
           <effective-to/>
           <champion-challenge-pct/>
@@ -135,7 +135,7 @@
           <config-class/>
           <properties/>
         </operand>
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="human-readable-document-entity">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="human-readable-document-entity" get-address="" set-address="">
           <effective-from/>
           <effective-to/>
           <champion-challenge-pct/>
@@ -146,7 +146,7 @@
           <config-class/>
           <properties/>
         </operand>
-        <operand id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="arf-response">
+        <operand catalyst-version="5.0" id="" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597673577481000_null_" access-code="" title="" version="001" sub-type="" reference="" operand-type="pipe" item-type="text" ref="arf-response" get-address="" set-address="">
           <effective-from/>
           <effective-to/>
           <champion-challenge-pct/>
