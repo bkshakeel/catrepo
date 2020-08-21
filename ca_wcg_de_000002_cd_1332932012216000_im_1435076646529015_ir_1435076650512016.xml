@@ -109,7 +109,7 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597996889797000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="623" y-coordinate="213" width="181" height="168" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597996889797000" access-code="">
+  <component type="is" id="1597996970393000" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="590" y-coordinate="159" width="190" height="159" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597996970393000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
@@ -117,13 +117,15 @@
     <last-update/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
+      <equsxml-plugin>
+        <return-error-text>false</return-error-text>
+      </equsxml-plugin>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
