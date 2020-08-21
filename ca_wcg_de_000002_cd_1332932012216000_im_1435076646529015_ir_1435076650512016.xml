@@ -109,7 +109,7 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1597996403286000" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="625" y-coordinate="185" width="184" height="119" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597996403286000" access-code="">
+  <component type="is" id="1597996889797000" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="623" y-coordinate="213" width="181" height="168" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1597996889797000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
@@ -117,13 +117,13 @@
     <last-update/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <bop-plugin/>
+      <decision-bureau-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
