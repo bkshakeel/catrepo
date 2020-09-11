@@ -1,9 +1,9 @@
 
 <ice catalyst-version="5.0" id="1435076646529015" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015" access-code="" type="im" title="ICE reports" version="001" sub-type="" reference="ice-reports">
-  <effective-from/>
-  <effective-to/>
-  <champion-challenge-pct/>
-  <champion-challenge-version/>
+  <effective-from></effective-from>
+  <effective-to></effective-to>
+  <champion-challenge-pct></champion-challenge-pct>
+  <champion-challenge-version></champion-challenge-version>
   <last-update/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change>none</reason-for-change>
@@ -12,7 +12,7 @@
     <handler-class>com.wcg.catalyst.common.engine.DummyRunnable</handler-class>
     <embedded-items ignore-global-embedded="false"/>
   </config>
-  <exception-process/>
+  <exception-process></exception-process>
   <skip-in-test>no</skip-in-test>
   <skip-in-normal>no</skip-in-normal>
   <convergent>false</convergent>
