@@ -1,13 +1,13 @@
 
 <group catalyst-version="5.0" id="000002" full-id="ca_wcg_de_000002" access-code="" type="de" title="Deployments" version="001" sub-type="" reference="">
-  <effective-from/>
-  <effective-to/>
-  <champion-challenge-pct/>
-  <champion-challenge-version/>
+  <effective-from></effective-from>
+  <effective-to></effective-to>
+  <champion-challenge-pct></champion-challenge-pct>
+  <champion-challenge-version></champion-challenge-version>
   <last-update/>
   <last-update-by>catalyst</last-update-by>
   <reason-for-change>none</reason-for-change>
-  <config-class/>
+  <config-class></config-class>
   <component type="cd" id="1332932012216000" title="FMO" version="001" sub-type="" reference="deployment" x-coordinate="15" y-coordinate="17" width="100" height="100">
     <links/>
   </component>
