@@ -23,7 +23,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1600079448412"/>
+    <last-update time="1600079554121"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1600079448412"/>
+    <last-update time="1600079554121"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to></effective-to>
           <champion-challenge-pct></champion-challenge-pct>
           <champion-challenge-version></champion-challenge-version>
-          <last-update time="1600079448412"/>
+          <last-update time="1600079554121"/>
           <last-update-by></last-update-by>
           <reason-for-change></reason-for-change>
           <config-class></config-class>
@@ -86,7 +86,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1600079448413"/>
+    <last-update time="1600079554121"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,12 +109,12 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1600079411493001" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="386" y-coordinate="190" width="201" height="147" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1600079411493001" access-code="">
+  <component type="is" id="1600079411493001" title="Equifax USA Consumer" version="001" sub-type="" reference="equifaxUSConsumer" x-coordinate="574" y-coordinate="221" width="201" height="147" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1600079411493001" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1600079448413"/>
+    <last-update time="1600079554122"/>
     <last-update-by/>
     <reason-for-change/>
     <config-class>com.wcg.ice.reportstep.agency.equifaxusconsumer.EquifaxUSConsumerPluginConfig</config-class>
