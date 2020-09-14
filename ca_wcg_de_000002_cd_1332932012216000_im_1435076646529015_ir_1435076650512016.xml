@@ -23,7 +23,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1599823348111"/>
+    <last-update time="1600079117314"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.EndReportConfigStore</config-class>
@@ -44,7 +44,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1599823348111"/>
+    <last-update time="1600079117314"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.GetRequestConfigStore</config-class>
@@ -58,7 +58,7 @@
           <effective-to></effective-to>
           <champion-challenge-pct></champion-challenge-pct>
           <champion-challenge-version></champion-challenge-version>
-          <last-update time="1599823348111"/>
+          <last-update time="1600079117315"/>
           <last-update-by></last-update-by>
           <reason-for-change></reason-for-change>
           <config-class></config-class>
@@ -86,7 +86,7 @@
     <effective-to></effective-to>
     <champion-challenge-pct></champion-challenge-pct>
     <champion-challenge-version></champion-challenge-version>
-    <last-update time="1599823348111"/>
+    <last-update time="1600079117315"/>
     <last-update-by></last-update-by>
     <reason-for-change></reason-for-change>
     <config-class>com.wcg.ice.reportstep.config.StartReportConfigStore</config-class>
@@ -109,21 +109,21 @@
       </link>
     </links>
   </component>
-  <component type="is" id="1599823341845001" title="Decision Bureau" version="001" sub-type="" reference="decisionBureau" x-coordinate="483" y-coordinate="169" width="205" height="172" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1599823341845001" access-code="">
+  <component type="is" id="1600079112544000" title="Bank of Portugal" version="001" sub-type="" reference="bankOfPortugal" x-coordinate="488" y-coordinate="239" width="178" height="124" full-id="ca_wcg_de_000002_cd_1332932012216000_im_1435076646529015_ir_1435076650512016_is_1600079112544000" access-code="">
     <effective-from/>
     <effective-to/>
     <champion-challenge-pct/>
     <champion-challenge-version/>
-    <last-update time="1599823348111"/>
+    <last-update time="1600079117315"/>
     <last-update-by/>
     <reason-for-change/>
-    <config-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPluginConfig</config-class>
+    <config-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPluginConfig</config-class>
     <properties/>
     <config>
-      <handler-class>com.wcg.ice.reportstep.agency.decisionbureau.DecisionBureauPlugin</handler-class>
+      <handler-class>com.wcg.ice.reportstep.agency.bop.BankOfPortugalPlugin</handler-class>
       <embedded-items ignore-global-embedded="false"/>
       <agency/>
-      <decision-bureau-plugin/>
+      <bop-plugin/>
     </config>
     <exception-process/>
     <skip-in-test>no</skip-in-test>
